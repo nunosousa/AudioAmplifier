@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "25850e95-ec38-4f44-abc7-84315032ad0c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.3 46.99)
+		(size 52.07 69.85)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "082c031e-4798-490a-9f2a-a34bacae9069")
+		(property "Sheetname" "Crossover"
+			(at 114.3 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "crossover.kicad_sch"
+			(at 114.3 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 38.1)
+		(size 57.15 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "568091d5-704e-4436-8d74-bf53632a7c8d")
+		(property "Sheetname" "Stereo Amplifier"
+			(at 180.34 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stereo_amp.kicad_sch"
+			(at 180.34 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 50.8)
+		(size 58.42 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3a68b06-6108-4351-8cba-e2508a966dd5")
+		(property "Sheetname" "Preamplifier"
+			(at 38.1 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "preamplifier.kicad_sch"
+			(at 38.1 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 93.98)
+		(size 57.15 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8b85927-b297-486a-b890-0f52e0698248")
+		(property "Sheetname" "Mono Amp"
+			(at 180.34 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mono_amp.kicad_sch"
+			(at 180.34 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
