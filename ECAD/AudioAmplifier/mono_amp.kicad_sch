@@ -285,7 +285,7 @@
 				(pin input line
 					(at -19.05 0 0)
 					(length 2.54)
-					(name "SDZ"
+					(name "~{SDZ}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -483,7 +483,7 @@
 				(pin output line
 					(at -19.05 -2.54 0)
 					(length 2.54)
-					(name "FAULTZ"
+					(name "~{FAULTZ}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -673,7 +673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46e4cfe1-572b-45be-b1c0-c6f4a527506a")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 153.3241 130.81 0)
 			(effects
 				(font
@@ -826,7 +826,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/d8b85927-b297-486a-b890-0f52e0698248"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
