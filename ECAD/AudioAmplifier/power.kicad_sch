@@ -5,1174 +5,6 @@
 	(uuid "30c8bac7-8fb6-4cca-acf0-e14468eef514")
 	(paper "A4")
 	(lib_symbols
-		(symbol "4xxx:HEF4093B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HEF4093B"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NAND2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HEF4093B_1_0"
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEF4093B_1_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_1_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_2_0"
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEF4093B_2_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_2_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_3_0"
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEF4093B_3_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_3_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_4_0"
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HEF4093B_4_1"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_4_2"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_5_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "HEF4093B_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
 				(offset 1.016)
@@ -1769,169 +601,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3069,139 +1738,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3558,24 +2094,6 @@
 		(uuid "0de89153-f022-4a29-8f76-4d06bd266984")
 	)
 	(junction
-		(at 41.91 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20ce2d49-4289-49e8-9e39-f69d9b4da492")
-	)
-	(junction
-		(at 64.77 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26214692-753f-4a8b-bc2a-566618f4fb14")
-	)
-	(junction
-		(at 35.56 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "307bfc1d-9bee-4014-a519-3800f20195a7")
-	)
-	(junction
 		(at 180.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3630,22 +2148,10 @@
 		(uuid "91d43527-b97e-46de-ab60-99a852114965")
 	)
 	(junction
-		(at 58.42 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9327a46d-8aa2-4fcd-af50-05b3e6274225")
-	)
-	(junction
 		(at 180.34 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98dc5ae3-3cd9-4585-b37f-8edfe1c765af")
-	)
-	(junction
-		(at 52.07 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b734104a-8896-4bda-bae2-8f0d3e61c0e8")
 	)
 	(junction
 		(at 153.67 40.64)
@@ -3691,16 +2197,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0824414e-d71c-41da-ade0-89b9e8059292")
-	)
-	(wire
-		(pts
 			(xy 257.81 36.83) (xy 256.54 36.83)
 		)
 		(stroke
@@ -3708,16 +2204,6 @@
 			(type default)
 		)
 		(uuid "08b4ae0f-26e8-4bc4-8bc4-b54d8fcbbee9")
-	)
-	(wire
-		(pts
-			(xy 41.91 78.74) (xy 41.91 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc922a7-a9a7-410b-9a15-f7fae55311ec")
 	)
 	(wire
 		(pts
@@ -3751,16 +2237,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "126fce08-f9a7-4e4e-b950-3f88c9ba8056")
-	)
-	(wire
-		(pts
 			(xy 167.64 30.48) (xy 180.34 30.48)
 		)
 		(stroke
@@ -3781,16 +2257,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188f0640-a7d4-400c-9260-2684a5823761")
-	)
-	(wire
-		(pts
 			(xy 55.88 34.29) (xy 54.61 34.29)
 		)
 		(stroke
@@ -3798,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "18ba3dfe-022d-4535-a206-b4d313d242ed")
-	)
-	(wire
-		(pts
-			(xy 58.42 78.74) (xy 64.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a7e7802-d33b-4540-938e-01f57f4df6bb")
 	)
 	(wire
 		(pts
@@ -3838,16 +2294,6 @@
 			(type default)
 		)
 		(uuid "2fdf8e70-dc52-4b78-966e-cfc95c997f3f")
-	)
-	(wire
-		(pts
-			(xy 43.18 76.2) (xy 41.91 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b8ad87-ce47-49c0-93ee-ba97e5252364")
 	)
 	(wire
 		(pts
@@ -3911,16 +2357,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 52.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5845dd33-64c9-4d4a-9244-2f3095ae420b")
-	)
-	(wire
-		(pts
 			(xy 190.5 30.48) (xy 190.5 31.75)
 		)
 		(stroke
@@ -3938,16 +2374,6 @@
 			(type default)
 		)
 		(uuid "5c27d113-b072-4b24-8abc-233da4bcd299")
-	)
-	(wire
-		(pts
-			(xy 35.56 78.74) (xy 35.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c7ebace-b816-4b21-bc69-6777440fad12")
 	)
 	(wire
 		(pts
@@ -3991,16 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 76.2) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7002443c-254a-4c1c-be34-d52ea0633717")
-	)
-	(wire
-		(pts
 			(xy 256.54 36.83) (xy 256.54 38.1)
 		)
 		(stroke
@@ -4041,16 +2457,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 64.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8149f86a-354e-4ebf-ba31-ec8cfb2fc59d")
-	)
-	(wire
-		(pts
 			(xy 129.54 30.48) (xy 129.54 31.75)
 		)
 		(stroke
@@ -4088,26 +2494,6 @@
 			(type default)
 		)
 		(uuid "987fd66d-625c-4be9-b368-899c1c5cdc7d")
-	)
-	(wire
-		(pts
-			(xy 35.56 82.55) (xy 35.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d65c85-4db9-4f27-a766-33a6a54bb2a0")
-	)
-	(wire
-		(pts
-			(xy 52.07 81.28) (xy 52.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d54de68-7c87-4552-a7c8-19a84d569a7a")
 	)
 	(wire
 		(pts
@@ -4201,26 +2587,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 76.2) (xy 64.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02e76b1-781c-4ce7-a6b9-692b5b3ff57a")
-	)
-	(wire
-		(pts
-			(xy 41.91 76.2) (xy 41.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c42559df-8e47-466d-addc-bcb1c7465d55")
-	)
-	(wire
-		(pts
 			(xy 199.39 29.21) (xy 199.39 30.48)
 		)
 		(stroke
@@ -4241,16 +2607,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 78.74) (xy 41.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc18dc9a-51e1-43fa-a63d-b4e2e12c7141")
-	)
-	(wire
-		(pts
 			(xy 100.33 39.37) (xy 100.33 40.64)
 		)
 		(stroke
@@ -4268,16 +2624,6 @@
 			(type default)
 		)
 		(uuid "d780810e-eea4-4c55-bcbc-b2fcc7d41e5b")
-	)
-	(wire
-		(pts
-			(xy 41.91 81.28) (xy 43.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ed3695-d422-4001-9c05-8a8d4a90e962")
 	)
 	(wire
 		(pts
@@ -4311,16 +2657,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 52.07 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d7a0fb-2e79-41b8-8cd6-e9cc6aa0393d")
-	)
-	(wire
-		(pts
 			(xy 199.39 30.48) (xy 190.5 30.48)
 		)
 		(stroke
@@ -4328,16 +2664,6 @@
 			(type default)
 		)
 		(uuid "e5556976-aacf-423d-8f10-3aa6885e72a1")
-	)
-	(wire
-		(pts
-			(xy 64.77 78.74) (xy 64.77 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0bf688-4f35-4a7c-bc5f-257a3844104a")
 	)
 	(wire
 		(pts
@@ -4401,98 +2727,6 @@
 		)
 		(uuid "b41ac394-b81a-4cae-a92c-c08c7f510fcb")
 	)
-	(hierarchical_label "AUDIO_AMP_ON"
-		(shape output)
-		(at 259.08 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0688e95c-a877-4c40-bdcd-9fab6dfdbfde")
-	)
-	(hierarchical_label "AUDIO_AMP_MUTE"
-		(shape output)
-		(at 81.28 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c887764-e8ab-4842-b49e-1ac8c858fddd")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 81.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07791051-fcc0-4ed3-a4c0-843612ffe449")
-		(property "Reference" "R22"
-			(at 46.99 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 46.99 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f667a29-fb1d-49b5-8833-ba8d547ec053")
-		)
-		(pin "1"
-			(uuid "de3aa8ca-6b43-4013-8d93-3e5b565b8a1d")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 190.5 35.56 0)
@@ -4502,7 +2736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "078f290d-71f6-47f1-89ee-1551612fc96d")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 192.278 34.29 0)
 			(effects
 				(font
@@ -4574,7 +2808,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4590,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e812bed-9289-4501-b4c2-711b007872a5")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -4640,7 +2874,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4656,7 +2890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f9a2485-7d79-46b4-801d-0254a9ced9e0")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 218.44 39.6874 90)
 			(effects
 				(font
@@ -4728,7 +2962,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4916,7 +3150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18dbd13a-7570-435c-b934-0a05309bf4c8")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -4966,7 +3200,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4982,7 +3216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1abee7c8-7877-43b4-90ef-c4dab5390805")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 183.896 34.29 0)
 			(effects
 				(font
@@ -5054,77 +3288,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "275f055a-d1c8-472a-bb8f-bbf41025fa5e")
-		(property "Reference" "C41"
-			(at 62.23 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 62.23 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.3852 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad3a312b-f077-45aa-b0f7-d90814a4482d")
-		)
-		(pin "2"
-			(uuid "ecc482e1-15a0-4a5d-b7b8-4c00cc0a4f00")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5140,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b2597e3-cb34-4bcb-b253-91a1de993bc7")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 256.54 44.45 0)
 			(effects
 				(font
@@ -5190,7 +3354,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5206,7 +3370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63806952-52ae-492d-870d-f46d1ef51d66")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 214.63 31.75 0)
 			(effects
 				(font
@@ -5256,7 +3420,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5272,7 +3436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7394f342-54af-46c1-95e0-2ce48b8dcdce")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 157.226 34.29 0)
 			(effects
 				(font
@@ -5344,7 +3508,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5360,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73c1be64-e961-487b-9b7b-b4ed5521001b")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 171.196 34.29 0)
 			(effects
 				(font
@@ -5432,73 +3596,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c7b518-7283-4110-a1c2-401aff9746ba")
-		(property "Reference" "#PWR049"
-			(at 58.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00c94021-1e3e-4f70-b493-bc8fc5ac7af8")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR049")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5584,7 +3682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b69f1ba-da13-4983-9e95-1dcc2b62c787")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 199.39 48.26 0)
 			(effects
 				(font
@@ -5634,112 +3732,8 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:HEF4093B")
-		(at 212.09 119.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "906cd6b3-4995-499d-971b-cca537b7853a")
-		(property "Reference" "U4"
-			(at 212.0817 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HEF4093B"
-			(at 212.0817 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 212.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 212.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "61bbee4d-069a-4076-8cda-a000ffb30398")
-		)
-		(pin "9"
-			(uuid "14108067-fa04-45f1-8cf2-370bc6caf02e")
-		)
-		(pin "4"
-			(uuid "464d17c0-ad71-48a1-8730-74fd1ff10e92")
-		)
-		(pin "2"
-			(uuid "5233f8d1-9fd9-4717-9dca-876bf3b968b3")
-		)
-		(pin "8"
-			(uuid "7a75c16f-2ad1-4e64-9193-da1a4cbb2586")
-		)
-		(pin "11"
-			(uuid "5bbcd01b-3466-4f23-9d34-a5724ac02370")
-		)
-		(pin "1"
-			(uuid "fdea9e1d-b6a8-406b-b93d-909c89a0a830")
-		)
-		(pin "13"
-			(uuid "ed740a85-9e64-46ac-9bb1-556aeb3c40fd")
-		)
-		(pin "7"
-			(uuid "5ec78407-db83-4d74-92d2-57c786046eac")
-		)
-		(pin "6"
-			(uuid "a51cf9ec-80e8-4ad5-99cd-4a28b2fbcac5")
-		)
-		(pin "14"
-			(uuid "2bc98736-f712-43d5-b2ca-6448b46b1694")
-		)
-		(pin "5"
-			(uuid "075daa8a-6dcf-4baf-af79-d2d898985193")
-		)
-		(pin "12"
-			(uuid "30f50b34-2131-48fa-8c6d-48d619f00d16")
-		)
-		(pin "3"
-			(uuid "f987e969-0dd7-47fc-bde7-9872b25580eb")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -5754,7 +3748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "918526d6-4514-46cd-b602-d80e4cafcee4")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 49.53 22.86 0)
 			(effects
 				(font
@@ -5809,73 +3803,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 35.56 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8edd4b8-46a1-465e-b122-338dfc90c33c")
-		(property "Reference" "#PWR047"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48ba482c-a458-4aa8-8dbd-c7eb57b74dab")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR047")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5983,7 +3911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b35d687e-9d3a-456b-94ef-c1b75a23eef5")
-		(property "Reference" "C35"
+		(property "Reference" "C37"
 			(at 119.38 33.401 0)
 			(effects
 				(font
@@ -6055,218 +3983,8 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C35")
+					(reference "C37")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:HEF4093B")
-		(at 212.09 157.48 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b700841c-214e-401e-93a9-80377e2e5df7")
-		(property "Reference" "U4"
-			(at 212.0817 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HEF4093B"
-			(at 212.0817 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "61bbee4d-069a-4076-8cda-a000ffb30398")
-		)
-		(pin "9"
-			(uuid "14108067-fa04-45f1-8cf2-370bc6caf02e")
-		)
-		(pin "4"
-			(uuid "464d17c0-ad71-48a1-8730-74fd1ff10e92")
-		)
-		(pin "2"
-			(uuid "5233f8d1-9fd9-4717-9dca-876bf3b968b3")
-		)
-		(pin "8"
-			(uuid "7a75c16f-2ad1-4e64-9193-da1a4cbb2586")
-		)
-		(pin "11"
-			(uuid "5bbcd01b-3466-4f23-9d34-a5724ac02370")
-		)
-		(pin "1"
-			(uuid "fdea9e1d-b6a8-406b-b93d-909c89a0a830")
-		)
-		(pin "13"
-			(uuid "ed740a85-9e64-46ac-9bb1-556aeb3c40fd")
-		)
-		(pin "7"
-			(uuid "5ec78407-db83-4d74-92d2-57c786046eac")
-		)
-		(pin "6"
-			(uuid "a51cf9ec-80e8-4ad5-99cd-4a28b2fbcac5")
-		)
-		(pin "14"
-			(uuid "2bc98736-f712-43d5-b2ca-6448b46b1694")
-		)
-		(pin "5"
-			(uuid "075daa8a-6dcf-4baf-af79-d2d898985193")
-		)
-		(pin "12"
-			(uuid "30f50b34-2131-48fa-8c6d-48d619f00d16")
-		)
-		(pin "3"
-			(uuid "f987e969-0dd7-47fc-bde7-9872b25580eb")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "U4")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:HEF4093B")
-		(at 264.16 146.05 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba975328-27a7-471a-889a-5ebfc7024a7a")
-		(property "Reference" "U4"
-			(at 270.51 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HEF4093B"
-			(at 270.51 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 264.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 264.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "61bbee4d-069a-4076-8cda-a000ffb30398")
-		)
-		(pin "9"
-			(uuid "14108067-fa04-45f1-8cf2-370bc6caf02e")
-		)
-		(pin "4"
-			(uuid "464d17c0-ad71-48a1-8730-74fd1ff10e92")
-		)
-		(pin "2"
-			(uuid "5233f8d1-9fd9-4717-9dca-876bf3b968b3")
-		)
-		(pin "8"
-			(uuid "7a75c16f-2ad1-4e64-9193-da1a4cbb2586")
-		)
-		(pin "11"
-			(uuid "5bbcd01b-3466-4f23-9d34-a5724ac02370")
-		)
-		(pin "1"
-			(uuid "fdea9e1d-b6a8-406b-b93d-909c89a0a830")
-		)
-		(pin "13"
-			(uuid "ed740a85-9e64-46ac-9bb1-556aeb3c40fd")
-		)
-		(pin "7"
-			(uuid "5ec78407-db83-4d74-92d2-57c786046eac")
-		)
-		(pin "6"
-			(uuid "a51cf9ec-80e8-4ad5-99cd-4a28b2fbcac5")
-		)
-		(pin "14"
-			(uuid "2bc98736-f712-43d5-b2ca-6448b46b1694")
-		)
-		(pin "5"
-			(uuid "075daa8a-6dcf-4baf-af79-d2d898985193")
-		)
-		(pin "12"
-			(uuid "30f50b34-2131-48fa-8c6d-48d619f00d16")
-		)
-		(pin "3"
-			(uuid "f987e969-0dd7-47fc-bde7-9872b25580eb")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "U4")
-					(unit 5)
 				)
 			)
 		)
@@ -6349,7 +4067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0bd01d6-4a69-4a05-996f-829435e9d8af")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 104.14 33.401 0)
 			(effects
 				(font
@@ -6421,285 +4139,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d815270d-a9a3-4237-9b16-774002caddf1")
-		(property "Reference" "R21"
-			(at 33.02 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 33.02 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 37.338 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c793f22a-f437-4eef-bcdf-58d5ac4ffb74")
-		)
-		(pin "1"
-			(uuid "33a506d5-0984-434b-b7c8-7cd3cc1d4096")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:HEF4093B")
-		(at 212.09 135.89 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de0b915f-619f-4ac2-a642-b07f1d26081b")
-		(property "Reference" "U4"
-			(at 212.0817 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HEF4093B"
-			(at 212.0817 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 212.09 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "61bbee4d-069a-4076-8cda-a000ffb30398")
-		)
-		(pin "9"
-			(uuid "14108067-fa04-45f1-8cf2-370bc6caf02e")
-		)
-		(pin "4"
-			(uuid "464d17c0-ad71-48a1-8730-74fd1ff10e92")
-		)
-		(pin "2"
-			(uuid "5233f8d1-9fd9-4717-9dca-876bf3b968b3")
-		)
-		(pin "8"
-			(uuid "7a75c16f-2ad1-4e64-9193-da1a4cbb2586")
-		)
-		(pin "11"
-			(uuid "5bbcd01b-3466-4f23-9d34-a5724ac02370")
-		)
-		(pin "1"
-			(uuid "fdea9e1d-b6a8-406b-b93d-909c89a0a830")
-		)
-		(pin "13"
-			(uuid "ed740a85-9e64-46ac-9bb1-556aeb3c40fd")
-		)
-		(pin "7"
-			(uuid "5ec78407-db83-4d74-92d2-57c786046eac")
-		)
-		(pin "6"
-			(uuid "a51cf9ec-80e8-4ad5-99cd-4a28b2fbcac5")
-		)
-		(pin "14"
-			(uuid "2bc98736-f712-43d5-b2ca-6448b46b1694")
-		)
-		(pin "5"
-			(uuid "075daa8a-6dcf-4baf-af79-d2d898985193")
-		)
-		(pin "12"
-			(uuid "30f50b34-2131-48fa-8c6d-48d619f00d16")
-		)
-		(pin "3"
-			(uuid "f987e969-0dd7-47fc-bde7-9872b25580eb")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:HEF4093B")
-		(at 73.66 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eab0ac02-ce99-4e6c-8c67-d0a7969e82af")
-		(property "Reference" "U4"
-			(at 73.6517 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HEF4093B"
-			(at 73.6517 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 73.66 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "61bbee4d-069a-4076-8cda-a000ffb30398")
-		)
-		(pin "9"
-			(uuid "14108067-fa04-45f1-8cf2-370bc6caf02e")
-		)
-		(pin "4"
-			(uuid "464d17c0-ad71-48a1-8730-74fd1ff10e92")
-		)
-		(pin "2"
-			(uuid "5233f8d1-9fd9-4717-9dca-876bf3b968b3")
-		)
-		(pin "8"
-			(uuid "7a75c16f-2ad1-4e64-9193-da1a4cbb2586")
-		)
-		(pin "11"
-			(uuid "5bbcd01b-3466-4f23-9d34-a5724ac02370")
-		)
-		(pin "1"
-			(uuid "fdea9e1d-b6a8-406b-b93d-909c89a0a830")
-		)
-		(pin "13"
-			(uuid "ed740a85-9e64-46ac-9bb1-556aeb3c40fd")
-		)
-		(pin "7"
-			(uuid "5ec78407-db83-4d74-92d2-57c786046eac")
-		)
-		(pin "6"
-			(uuid "a51cf9ec-80e8-4ad5-99cd-4a28b2fbcac5")
-		)
-		(pin "14"
-			(uuid "2bc98736-f712-43d5-b2ca-6448b46b1694")
-		)
-		(pin "5"
-			(uuid "075daa8a-6dcf-4baf-af79-d2d898985193")
-		)
-		(pin "12"
-			(uuid "30f50b34-2131-48fa-8c6d-48d619f00d16")
-		)
-		(pin "3"
-			(uuid "f987e969-0dd7-47fc-bde7-9872b25580eb")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "U4")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6715,7 +4155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee2e6739-f1a6-4df1-be0c-53be42afaa94")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 145.796 34.29 0)
 			(effects
 				(font
@@ -6787,7 +4227,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6803,7 +4243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee85234-0181-4bef-8f3d-70eae30a1535")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 133.096 34.29 0)
 			(effects
 				(font
@@ -6875,159 +4315,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 46.99 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f294fe18-6c4e-4a58-bab9-876496a61729")
-		(property "Reference" "D2"
-			(at 46.99 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 46.99 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "16c08acb-1a9a-4556-abdb-6e31a1517482")
-		)
-		(pin "1"
-			(uuid "2d3346a2-f241-4d83-8b5f-ab7f3bc1cd09")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f37a9ed5-48e9-40c7-9ba7-f6bcc90e4886")
-		(property "Reference" "#PWR048"
-			(at 35.56 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ddb538c-086d-4e32-89bc-564529d28c8b")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR048")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -7043,7 +4331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a0a4b9-7ded-467c-b06c-679008b2147b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 199.39 33.02 0)
 			(effects
 				(font
@@ -7093,7 +4381,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7109,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60c9da2-9486-4b3c-9db4-15a6aaed1492")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 217.17 30.4799 0)
 			(effects
 				(font
@@ -7181,77 +4469,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 35.56 87.63 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7108b4a-4833-42ce-b767-3a428264032c")
-		(property "Reference" "SW2"
-			(at 34.29 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 34.29 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 35.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "026e172d-527d-4fdb-b54f-e32814365034")
-		)
-		(pin "2"
-			(uuid "dff31cc0-d85e-49ee-b494-4992bacd9404")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "SW2")
+					(reference "R22")
 					(unit 1)
 				)
 			)
