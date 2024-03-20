@@ -44,8 +44,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 38.1)
-		(size 57.15 46.99)
+		(at 194.31 46.99)
+		(size 35.56 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +56,7 @@
 		)
 		(uuid "568091d5-704e-4436-8d74-bf53632a7c8d")
 		(property "Sheetname" "Stereo Amplifier"
-			(at 180.34 37.3884 0)
+			(at 194.31 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "stereo_amp.kicad_sch"
-			(at 180.34 85.6746 0)
+			(at 194.31 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,10 +73,178 @@
 				(justify left top)
 			)
 		)
+		(pin "SYNC" output
+			(at 194.31 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce0f4131-80ac-4608-9f24-95004255de35")
+		)
+		(pin "IN_N_LEFT" input
+			(at 194.31 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "537c170d-c0a0-4e77-a5ef-65bf582a962a")
+		)
+		(pin "IN_P_LEFT" input
+			(at 194.31 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ee2affe-9597-4e99-898f-1fe76ea65a32")
+		)
+		(pin "MUTE" input
+			(at 194.31 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a50c1da-1bb8-4fbe-84fc-49319cd8350b")
+		)
+		(pin "IN_P_RIGHT" input
+			(at 194.31 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d35b3d0-11c7-43cc-95f8-df64d5456cac")
+		)
+		(pin "IN_N_RIGHT" input
+			(at 194.31 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecc774d7-28e0-47ca-a0db-172f4bdc86d8")
+		)
+		(pin "OUT_N_LEFT" output
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c3b5c69-b5b6-46b9-9bb4-91fc73a82715")
+		)
+		(pin "OUT_P_LEFT" output
+			(at 229.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7cee4fd-32e5-4081-a03c-4bfec0b94d58")
+		)
+		(pin "OUT_N_RIGHT" output
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c07ff284-86d6-4797-b366-49d472617484")
+		)
+		(pin "OUT_P_RIGHT" output
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f89b1d55-d602-4144-9c86-9174ed3d66a6")
+		)
+		(pin "PWR_ON" input
+			(at 194.31 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac259eba-b27a-4ae0-b785-708b00026ced")
+		)
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 142.24)
+		(size 30.48 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92b68cf7-1ffe-45cf-8d31-d594c9dda40d")
+		(property "Sheetname" "Power"
+			(at 63.5 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AUDIO_AMP_ON" output
+			(at 93.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd5c97ca-db51-4eb4-bd10-d8c69cff4003")
+		)
+		(pin "AUDIO_AMP_MUTE" output
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfee2cb3-a8f2-4a40-87cf-6b825d208ce3")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c"
+					(page "6")
 				)
 			)
 		)

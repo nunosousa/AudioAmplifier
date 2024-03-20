@@ -352,6 +352,24 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -419,6 +437,10 @@
     [
       "a3a68b06-6108-4351-8cba-e2508a966dd5",
       "Preamplifier"
+    ],
+    [
+      "92b68cf7-1ffe-45cf-8d31-d594c9dda40d",
+      "Power"
     ]
   ],
   "text_variables": {}
