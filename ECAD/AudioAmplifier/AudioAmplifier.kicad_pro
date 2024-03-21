@@ -428,7 +428,7 @@
     ],
     [
       "d8b85927-b297-486a-b890-0f52e0698248",
-      "Mono Amp"
+      "Mono Amplifier"
     ],
     [
       "082c031e-4798-490a-9f2a-a34bacae9069",
@@ -441,6 +441,10 @@
     [
       "92b68cf7-1ffe-45cf-8d31-d594c9dda40d",
       "Power"
+    ],
+    [
+      "fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0",
+      "Control"
     ]
   ],
   "text_variables": {}
