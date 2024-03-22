@@ -5,4 +5,100 @@
 	(uuid "6165b1f0-ef7b-47c0-8064-1b80a883068a")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "OUT_LOW_P"
+		(shape output)
+		(at 218.44 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00bd9884-ff77-44ef-8864-318e6eb9a5e5")
+	)
+	(hierarchical_label "IN_LEFT"
+		(shape input)
+		(at 54.61 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "261e9dc5-7037-4ecc-8194-8806f72665af")
+	)
+	(hierarchical_label "OUT_LOW_N"
+		(shape output)
+		(at 246.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49d40916-fe54-4143-bf16-6adfa0ba27f2")
+	)
+	(hierarchical_label "OUT_HIGH_N_LEFT"
+		(shape output)
+		(at 246.38 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5316e8e8-9eea-43e0-9a55-e4b9f3f53fdb")
+	)
+	(hierarchical_label "OUT_HIGH_P_LEFT"
+		(shape output)
+		(at 218.44 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "704edd36-24e1-42e1-80d4-691ed51dc744")
+	)
+	(hierarchical_label "IN_RIGHT"
+		(shape input)
+		(at 54.61 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e4bc724-bf02-4801-81d1-810204af185e")
+	)
+	(hierarchical_label "OUT_HIGH_P_RIGHT"
+		(shape output)
+		(at 218.44 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8184cc17-f3e7-4aba-971e-113d97963227")
+	)
+	(hierarchical_label "OUT_HIGH_N_RIGHT"
+		(shape output)
+		(at 246.38 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b86f044-0a14-4681-907e-f3443e2dabd0")
+	)
 )
