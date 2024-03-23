@@ -1651,6 +1651,16 @@
 		)
 		(uuid "25257d0b-6ed3-4074-b247-2f0d3506902f")
 	)
+	(polyline
+		(pts
+			(xy 137.16 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28198845-3413-400e-a092-17124256c6a0")
+	)
 	(wire
 		(pts
 			(xy 59.69 124.46) (xy 62.23 124.46)
@@ -1981,6 +1991,16 @@
 		)
 		(uuid "521c46a9-4f5e-4606-a57c-0344271022c8")
 	)
+	(polyline
+		(pts
+			(xy 137.16 69.85) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525f47f4-ac49-4cfc-8ce2-bf954c3fe6ec")
+	)
 	(wire
 		(pts
 			(xy 231.14 67.31) (xy 232.41 67.31)
@@ -2001,6 +2021,16 @@
 		)
 		(uuid "598e8a46-43e4-4338-aee3-3d8a3bdef300")
 	)
+	(polyline
+		(pts
+			(xy 120.65 68.58) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599f0eb8-9bc0-4ed0-9dc9-646be1defcf3")
+	)
 	(wire
 		(pts
 			(xy 107.95 36.83) (xy 119.38 36.83)
@@ -2013,7 +2043,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 69.85) (xy 138.43 78.74)
+			(xy 138.43 68.58) (xy 138.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2060,6 +2090,16 @@
 			(type default)
 		)
 		(uuid "6164d92e-8f92-4712-8a1b-2e5dd143a2cd")
+	)
+	(polyline
+		(pts
+			(xy 119.38 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61df25e0-7a25-40c1-844e-3ffafc305d37")
 	)
 	(wire
 		(pts
@@ -2213,7 +2253,7 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 69.85) (xy 120.65 78.74)
+			(xy 120.65 68.58) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2261,6 +2301,16 @@
 		)
 		(uuid "8cbf5ddf-08db-46eb-9fdd-f9e133f99006")
 	)
+	(polyline
+		(pts
+			(xy 119.38 69.85) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d738bab-af12-45cf-ab05-96ffd01c9c82")
+	)
 	(wire
 		(pts
 			(xy 214.63 111.76) (xy 214.63 123.19)
@@ -2280,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "96cab579-0f0c-4fbe-a56c-39ccf1904586")
+	)
+	(polyline
+		(pts
+			(xy 138.43 68.58) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cda0de-4607-457d-a96b-3120a2e479a9")
 	)
 	(wire
 		(pts
@@ -2923,7 +2983,7 @@
 	)
 	(text "Bass"
 		(exclude_from_sim no)
-		(at 116.84 73.406 0)
+		(at 116.84 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2943,7 +3003,7 @@
 	)
 	(text "Treble"
 		(exclude_from_sim no)
-		(at 134.366 73.66 0)
+		(at 133.858 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +3054,7 @@
 	)
 	(text "CW"
 		(exclude_from_sim no)
-		(at 116.84 75.946 0)
+		(at 116.84 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3004,7 +3064,7 @@
 	)
 	(text "CW"
 		(exclude_from_sim no)
-		(at 134.366 75.946 0)
+		(at 134.112 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
