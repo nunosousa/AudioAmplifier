@@ -1541,6 +1541,16 @@
 		)
 		(uuid "14aa3935-fdf4-465d-a004-a92d9adb1843")
 	)
+	(polyline
+		(pts
+			(xy 179.07 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1568891f-ea80-452c-bc0f-17975ee5cd30")
+	)
 	(wire
 		(pts
 			(xy 232.41 46.99) (xy 227.33 46.99)
@@ -1670,6 +1680,16 @@
 			(type default)
 		)
 		(uuid "2a424086-9730-444a-8f3a-7ce289290f10")
+	)
+	(polyline
+		(pts
+			(xy 242.57 147.32) (xy 270.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b126209-ae3d-4b84-8e5a-e88d1ba48053")
 	)
 	(wire
 		(pts
@@ -2691,6 +2711,16 @@
 		)
 		(uuid "d9e55f2b-49be-4b5d-86c3-8ca9de913c6a")
 	)
+	(polyline
+		(pts
+			(xy 242.57 55.88) (xy 270.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3341b6-dd30-40f3-911d-786366e9dc9d")
+	)
 	(wire
 		(pts
 			(xy 214.63 134.62) (xy 215.9 134.62)
@@ -2922,7 +2952,7 @@
 		(uuid "ff248dda-4205-43cf-b329-d2339c66bc0f")
 	)
 	(rectangle
-		(start 43.18 48.26)
+		(start 41.91 48.26)
 		(end 93.98 147.32)
 		(stroke
 			(width 0)
@@ -3031,6 +3061,16 @@
 		)
 		(uuid "70b05f20-1527-4bd6-8cfe-bcd2828390bf")
 	)
+	(text "Linear\npotentiometers"
+		(exclude_from_sim no)
+		(at 105.664 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c474c58-b965-4ec7-a6eb-449dcee6157e")
+	)
 	(text "I=10mA"
 		(exclude_from_sim no)
 		(at 12.7 165.1 0)
@@ -3071,6 +3111,16 @@
 			)
 		)
 		(uuid "e4b4a548-5ec7-4d39-91d1-b9b71d492864")
+	)
+	(text "Logarithmic \npotentiometers"
+		(exclude_from_sim no)
+		(at 187.452 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8d769de-e7b9-4d5a-8d22-24ce5187bd7f")
 	)
 	(hierarchical_label "OUT_LEFT"
 		(shape output)

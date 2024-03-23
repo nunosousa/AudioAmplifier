@@ -261,7 +261,7 @@
 	)
 	(hierarchical_label "OUT_LOW_P"
 		(shape output)
-		(at 218.44 96.52 0)
+		(at 257.81 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -285,7 +285,7 @@
 	)
 	(hierarchical_label "OUT_LOW_N"
 		(shape output)
-		(at 246.38 96.52 0)
+		(at 257.81 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -297,7 +297,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_N_LEFT"
 		(shape output)
-		(at 246.38 81.28 0)
+		(at 242.57 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -309,7 +309,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_P_LEFT"
 		(shape output)
-		(at 218.44 81.28 0)
+		(at 242.57 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -333,7 +333,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_P_RIGHT"
 		(shape output)
-		(at 218.44 87.63 0)
+		(at 245.11 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -345,7 +345,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_N_RIGHT"
 		(shape output)
-		(at 246.38 87.63 0)
+		(at 245.11 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -357,7 +357,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 148.59 41.91 0)
+		(at 120.65 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -365,7 +365,7 @@
 		(dnp no)
 		(uuid "18229d6a-982c-41e7-94a2-ef85c613362a")
 		(property "Reference" "U8"
-			(at 148.59 31.75 0)
+			(at 120.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +373,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 148.59 34.29 0)
+			(at 120.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +381,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +408,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +417,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +426,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,7 +435,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +444,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 148.59 41.91 0)
+			(at 120.65 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,34 +487,31 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 90.17 158.75 0)
-		(unit 3)
+		(at 187.96 158.75 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6932ac64-775e-4f81-bd1d-b930a0abb862")
-		(property "Reference" "U8"
-			(at 88.9 157.48 0)
+		(uuid "626692a6-a2e6-49be-a84a-9df89a86eb0a")
+		(property "Reference" "U10"
+			(at 187.96 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 88.9 160.02 0)
+			(at 187.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +520,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +538,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +547,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +556,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +565,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +574,140 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 90.17 158.75 0)
+			(at 187.96 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f10d14-a963-40df-85c9-2e43bcfdc777")
+		)
+		(pin "2"
+			(uuid "9cf4af81-5b29-4cde-8cad-860391df9897")
+		)
+		(pin "3"
+			(uuid "84ee21c9-06b5-4d50-b1da-fe990dae2069")
+		)
+		(pin "5"
+			(uuid "cac34641-e2c4-4b43-b1bb-bf8898dda735")
+		)
+		(pin "6"
+			(uuid "45d43e1e-807f-43fd-8cf0-3bb6e0891efd")
+		)
+		(pin "7"
+			(uuid "62b99a6e-095c-44bc-b29c-6471ec94d934")
+		)
+		(pin "4"
+			(uuid "302d78df-21d0-457b-8c2e-7ca592b342cf")
+		)
+		(pin "8"
+			(uuid "9a089693-05b2-4726-b8e0-e93a9f5ee198")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 120.65 24.13 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6932ac64-775e-4f81-bd1d-b930a0abb862")
+		(property "Reference" "U8"
+			(at 119.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 120.65 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,15 +750,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 148.59 106.68 0)
-		(unit 2)
+		(at 176.53 53.34 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd743569-ca67-4c61-ae2b-a2803819bb62")
-		(property "Reference" "U8"
-			(at 148.59 96.52 0)
+		(uuid "836965a8-b094-4c91-8cbc-1f65af868f52")
+		(property "Reference" "U9"
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +766,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 148.59 99.06 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +774,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +783,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +801,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +810,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +819,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,7 +828,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +837,137 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 148.59 106.68 0)
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f8f2e68-4f54-4856-b538-011f23922951")
+		)
+		(pin "2"
+			(uuid "f921eaf8-f1bb-4cf9-87ee-72eaefa657a8")
+		)
+		(pin "3"
+			(uuid "b46c98ba-d8e6-4546-88fb-632c26428b3b")
+		)
+		(pin "5"
+			(uuid "cac34641-e2c4-4b43-b1bb-bf8898dda735")
+		)
+		(pin "6"
+			(uuid "45d43e1e-807f-43fd-8cf0-3bb6e0891efd")
+		)
+		(pin "7"
+			(uuid "62b99a6e-095c-44bc-b29c-6471ec94d934")
+		)
+		(pin "4"
+			(uuid "302d78df-21d0-457b-8c2e-7ca592b342cf")
+		)
+		(pin "8"
+			(uuid "9a089693-05b2-4726-b8e0-e93a9f5ee198")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 120.65 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd743569-ca67-4c61-ae2b-a2803819bb62")
+		(property "Reference" "U8"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,6 +1004,532 @@
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "U8")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 116.84 161.29 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c462951b-5d3b-4816-be1a-5ae67607bab8")
+		(property "Reference" "U10"
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 116.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37be6b4c-6860-4ae3-b8e8-7e8378f186b1")
+		)
+		(pin "2"
+			(uuid "783260c4-74f3-495b-9e5f-d0ef7bd2036d")
+		)
+		(pin "3"
+			(uuid "79528745-42eb-43f4-92c1-2f3d0f03cefb")
+		)
+		(pin "5"
+			(uuid "24453c00-a19b-4f5d-b2eb-1d75c392f2fd")
+		)
+		(pin "6"
+			(uuid "8113d939-0ac6-4426-95bc-0a5fb0be9621")
+		)
+		(pin "7"
+			(uuid "e8bf29c2-4b82-4b62-8b21-c9b989719344")
+		)
+		(pin "4"
+			(uuid "2c651e50-e7f4-4479-ae12-ae562d601939")
+		)
+		(pin "8"
+			(uuid "2f475cde-7248-4036-a9b7-7ae82fef4a80")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 176.53 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6474c1b-a003-4a3a-913b-f62d1655a2a2")
+		(property "Reference" "U9"
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37be6b4c-6860-4ae3-b8e8-7e8378f186b1")
+		)
+		(pin "2"
+			(uuid "783260c4-74f3-495b-9e5f-d0ef7bd2036d")
+		)
+		(pin "3"
+			(uuid "79528745-42eb-43f4-92c1-2f3d0f03cefb")
+		)
+		(pin "5"
+			(uuid "6360fc91-dabb-474d-8b4a-09553f0d1deb")
+		)
+		(pin "6"
+			(uuid "a705a26e-017b-4ee2-bcbf-2c0bd922b6a8")
+		)
+		(pin "7"
+			(uuid "c5ba8c47-8e6b-4884-9930-2e3dc487d358")
+		)
+		(pin "4"
+			(uuid "2c651e50-e7f4-4479-ae12-ae562d601939")
+		)
+		(pin "8"
+			(uuid "2f475cde-7248-4036-a9b7-7ae82fef4a80")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 45.72 177.8 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca295864-ffa5-44e1-8842-d45951060032")
+		(property "Reference" "U10"
+			(at 44.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daaa9e-426d-4c06-8a11-b26c61801459")
+		)
+		(pin "2"
+			(uuid "3b094a42-f37c-46f6-9ff7-62967eb7d26b")
+		)
+		(pin "3"
+			(uuid "73eaf545-3a02-45ca-9d49-f268a7fa3166")
+		)
+		(pin "5"
+			(uuid "222ba3ec-f738-4fa2-8b9f-93108d2c1fb8")
+		)
+		(pin "6"
+			(uuid "aed14082-570d-4f26-9351-adfb29acbc51")
+		)
+		(pin "7"
+			(uuid "114fe940-5f4b-4f54-9205-95b8c49ae6ad")
+		)
+		(pin "4"
+			(uuid "6e2d6e93-bbb0-4180-84f5-87355a518e2f")
+		)
+		(pin "8"
+			(uuid "3b7f7b42-a06d-4d3c-9ccb-47b3e23f6b1c")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 176.53 21.59 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6168e0a-3c50-4658-a1da-cbabf681c057")
+		(property "Reference" "U9"
+			(at 175.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 175.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daaa9e-426d-4c06-8a11-b26c61801459")
+		)
+		(pin "2"
+			(uuid "3b094a42-f37c-46f6-9ff7-62967eb7d26b")
+		)
+		(pin "3"
+			(uuid "73eaf545-3a02-45ca-9d49-f268a7fa3166")
+		)
+		(pin "5"
+			(uuid "222ba3ec-f738-4fa2-8b9f-93108d2c1fb8")
+		)
+		(pin "6"
+			(uuid "aed14082-570d-4f26-9351-adfb29acbc51")
+		)
+		(pin "7"
+			(uuid "114fe940-5f4b-4f54-9205-95b8c49ae6ad")
+		)
+		(pin "4"
+			(uuid "67cc4911-b62c-4d74-b921-eae27410c402")
+		)
+		(pin "8"
+			(uuid "1dbdfec7-b264-4153-8607-767fa611a323")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U9")
+					(unit 3)
 				)
 			)
 		)

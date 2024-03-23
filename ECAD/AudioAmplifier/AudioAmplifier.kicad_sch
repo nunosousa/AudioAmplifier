@@ -765,23 +765,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 156.21 92.71)
+			(xy 142.24 113.03) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16a03458-a8a5-48ac-bd40-6c6261b24bb5")
-	)
-	(wire
-		(pts
-			(xy 156.21 113.03) (xy 184.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d0fa2e-77fb-4333-b74e-da89b5e1323b")
 	)
 	(wire
 		(pts
@@ -795,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 142.24 90.17)
+			(xy 142.24 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1005,16 +995,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 110.49) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b630931-8a96-49c9-b793-4f498ca1aa54")
-	)
-	(wire
-		(pts
 			(xy 226.06 69.85) (xy 219.71 69.85)
 		)
 		(stroke
@@ -1022,16 +1002,6 @@
 			(type default)
 		)
 		(uuid "90488df3-eec6-4b09-8b6b-057f81cf5c4e")
-	)
-	(wire
-		(pts
-			(xy 156.21 92.71) (xy 156.21 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955c45a9-cb50-44d2-bc10-ca87c27ef733")
 	)
 	(wire
 		(pts
@@ -1102,16 +1072,6 @@
 			(type default)
 		)
 		(uuid "c731de5f-c2d3-4764-8b0f-7b6ca872d8e1")
-	)
-	(wire
-		(pts
-			(xy 184.15 110.49) (xy 158.75 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f846df-a52c-4849-94e1-ecb6be701b73")
 	)
 	(wire
 		(pts
@@ -1666,7 +1626,7 @@
 	)
 	(sheet
 		(at 102.87 72.39)
-		(size 39.37 22.86)
+		(size 39.37 43.18)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1686,7 +1646,7 @@
 			)
 		)
 		(property "Sheetfile" "crossover.kicad_sch"
-			(at 102.87 95.8346 0)
+			(at 102.87 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1715,7 @@
 			(uuid "5ca97b3e-ccb2-4d09-a626-0fff1dffc3e6")
 		)
 		(pin "OUT_LOW_P" output
-			(at 142.24 90.17 0)
+			(at 142.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1725,7 @@
 			(uuid "30b485f7-7788-4a55-98b6-2e9eb3935775")
 		)
 		(pin "OUT_LOW_N" output
-			(at 142.24 92.71 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
