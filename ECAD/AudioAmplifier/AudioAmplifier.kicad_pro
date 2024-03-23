@@ -370,6 +370,24 @@
           "label": "Status",
           "name": "Status",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R % tol",
+          "name": "R % tol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "R pwr",
+          "name": "R pwr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_MOUSER",
+          "name": "MPN_MOUSER",
+          "show": false
         }
       ],
       "filter_string": "",
