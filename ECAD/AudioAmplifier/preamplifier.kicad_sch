@@ -3013,7 +3013,7 @@
 	)
 	(text "Bass"
 		(exclude_from_sim no)
-		(at 116.84 73.66 0)
+		(at 116.84 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,7 +3033,7 @@
 	)
 	(text "Treble"
 		(exclude_from_sim no)
-		(at 133.858 73.66 0)
+		(at 133.858 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3084,7 @@
 	)
 	(text "CW"
 		(exclude_from_sim no)
-		(at 175.26 89.916 0)
+		(at 177.038 91.694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
