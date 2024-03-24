@@ -798,56 +798,126 @@
 		)
 	)
 	(junction
-		(at 73.66 158.75)
+		(at 256.54 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f364745-f6fe-4fed-af0a-72770bdbfcce")
+	)
+	(junction
+		(at 140.97 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c0379e-44bd-464b-b363-cfe0fa301b0f")
+	)
+	(junction
+		(at 158.75 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24018339-ea5c-4052-a69e-14e75630f309")
+	)
+	(junction
+		(at 226.06 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cda0bb5-b478-43d3-8cd8-e4db6d4da008")
+	)
+	(junction
+		(at 52.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ee753d5-2897-4b35-a357-ebfef3c3c5b1")
 	)
 	(junction
-		(at 91.44 161.29)
+		(at 69.85 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a57f67e-75de-458a-b7a7-39b037a91388")
 	)
 	(junction
-		(at 130.81 156.21)
+		(at 33.02 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40deee9a-9fc6-4b99-90dd-fd53cd88d481")
+	)
+	(junction
+		(at 200.66 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0f7b0a-05e2-4a93-a417-9332cc6e4ed3")
+	)
+	(junction
+		(at 109.22 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "926886c4-81fa-4499-8418-6c10dff69a13")
 	)
 	(junction
-		(at 140.97 149.86)
+		(at 119.38 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6a1c7ff-737a-4c58-8d6b-7d1ed2f58e44")
 	)
 	(junction
-		(at 158.75 158.75)
+		(at 137.16 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a86f4cbb-95b1-4839-a3b1-2a039ddb28f1")
 	)
 	(junction
-		(at 158.75 149.86)
+		(at 137.16 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6377228-282d-4f8a-80c2-99d9ecdf69f7")
 	)
 	(junction
-		(at 69.85 158.75)
+		(at 171.45 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7e7590c-fdb1-4236-8355-2a14ef303bfc")
+	)
+	(junction
+		(at 254 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c981c617-f0dd-45fa-b552-6a1fe6520a69")
+	)
+	(junction
+		(at 48.26 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f07c2754-82eb-4037-92be-dd6a9d6fe7d6")
 	)
 	(junction
-		(at 140.97 156.21)
+		(at 119.38 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f71bdce9-a998-4258-a9bf-e538a11990d3")
 	)
+	(junction
+		(at 213.36 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f0aad7-fac4-45b5-97e3-dccdc080bbfb")
+	)
+	(junction
+		(at 199.39 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8e3089-7744-4639-8a49-5ca545e58ce5")
+	)
 	(wire
 		(pts
-			(xy 105.41 149.86) (xy 105.41 127)
+			(xy 199.39 149.86) (xy 199.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095d2e6d-0b0c-4e7b-acd0-d20bbe01c630")
+	)
+	(wire
+		(pts
+			(xy 83.82 130.81) (xy 83.82 107.95)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +927,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 138.43) (xy 140.97 149.86)
+			(xy 158.75 160.02) (xy 200.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b060df7-06db-4887-84fb-564e0b74beac")
+	)
+	(wire
+		(pts
+			(xy 171.45 139.7) (xy 182.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c93c450-15f1-48d5-a9e8-4445cd96004f")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 140.97 138.43)
+			(xy 124.46 119.38) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +967,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 127) (xy 162.56 127)
+			(xy 223.52 142.24) (xy 226.06 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199a7a2c-476a-46e3-88a5-69963e93eea8")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 140.97 107.95)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +987,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 149.86) (xy 158.75 149.86)
+			(xy 200.66 160.02) (xy 200.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21324941-0576-46b9-98a6-ce234eecc9c5")
+	)
+	(wire
+		(pts
+			(xy 213.36 162.56) (xy 256.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221d4732-7306-4b6b-9eae-637ef072e8f1")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 137.16 130.81)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 127) (xy 162.56 158.75)
+			(xy 140.97 107.95) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 162.56) (xy 140.97 161.29)
+			(xy 119.38 143.51) (xy 119.38 142.24)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +1037,27 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 73.66 152.4)
+			(xy 181.61 144.78) (xy 181.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a095ee3-68ec-49cb-8c57-0856180baf75")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d884b53-f5c2-4a56-a30a-e4146f79a94b")
+	)
+	(wire
+		(pts
+			(xy 57.15 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +1067,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 152.4) (xy 73.66 158.75)
+			(xy 21.59 38.1) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd2d08d-86f5-4dc8-8855-d0a6e424e838")
+	)
+	(wire
+		(pts
+			(xy 52.07 133.35) (xy 52.07 139.7)
 		)
 		(stroke
 			(width 0)
@@ -937,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 149.86) (xy 140.97 149.86)
+			(xy 124.46 130.81) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 95.25) (xy 50.8 95.25)
+			(xy 22.86 95.25) (xy 27.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 138.43) (xy 153.67 138.43)
+			(xy 137.16 119.38) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 163.83) (xy 73.66 165.1)
+			(xy 52.07 144.78) (xy 52.07 146.05)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +1127,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 156.21) (xy 69.85 156.21)
+			(xy 33.02 38.1) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44917837-bec5-414a-8b7c-fe71232ebd36")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 48.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -987,7 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 163.83) (xy 130.81 163.83)
+			(xy 91.44 144.78) (xy 109.22 144.78)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 156.21) (xy 69.85 158.75)
+			(xy 48.26 137.16) (xy 48.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1167,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 163.83) (xy 130.81 156.21)
+			(xy 254 144.78) (xy 252.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51eb299d-70dd-4f31-a57e-892e24641f7a")
+	)
+	(wire
+		(pts
+			(xy 254 152.4) (xy 254 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f4f745-1ec7-4b86-8a12-0f6662068b6a")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 109.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 158.75) (xy 158.75 158.75)
+			(xy 140.97 139.7) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1207,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 161.29) (xy 91.44 152.4)
+			(xy 213.36 142.24) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62718d53-dfdc-4b00-8ac6-62f5e138c7cb")
+	)
+	(wire
+		(pts
+			(xy 69.85 142.24) (xy 69.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1037,17 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 36.83) (xy 55.88 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f912b1-85cd-475a-a258-54bcf7344059")
-	)
-	(wire
-		(pts
-			(xy 105.41 161.29) (xy 91.44 161.29)
+			(xy 83.82 142.24) (xy 69.85 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 158.75) (xy 69.85 161.29)
+			(xy 48.26 139.7) (xy 48.26 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1247,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.284 178.054) (xy 114.554 179.324)
+			(xy 91.694 159.004) (xy 92.964 160.274)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1257,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 156.21) (xy 140.97 156.21)
+			(xy 158.75 139.7) (xy 158.75 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f62f80e-e580-4121-8ca1-3b5f0b4e3c0b")
+	)
+	(wire
+		(pts
+			(xy 118.11 137.16) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1277,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 161.29) (xy 142.24 161.29)
+			(xy 182.88 144.78) (xy 181.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7134a5d5-06c1-44a6-b0f2-a69aa43e675b")
+	)
+	(wire
+		(pts
+			(xy 213.36 142.24) (xy 213.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821fc2b0-43e3-4dd2-b316-03b69d59eba1")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 120.65 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1307,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 158.75) (xy 158.75 149.86)
+			(xy 213.36 152.4) (xy 213.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da5b2fe-e55b-4a22-a3ce-cabe933f09e7")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 137.16 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 132.08 156.21)
+			(xy 109.22 137.16) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1337,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 156.21) (xy 55.88 156.21)
+			(xy 200.66 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93aac04b-cf24-451d-b2e6-018bbdc60677")
+	)
+	(wire
+		(pts
+			(xy 39.37 137.16) (xy 33.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1357,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 140.97 156.21)
+			(xy 119.38 130.81) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1137,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 158.75) (xy 113.03 158.75)
+			(xy 92.71 139.7) (xy 91.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 161.29) (xy 68.58 161.29)
+			(xy 48.26 142.24) (xy 46.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1387,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 161.29) (xy 91.44 161.29)
+			(xy 68.58 142.24) (xy 69.85 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 158.75) (xy 158.75 158.75)
+			(xy 135.89 139.7) (xy 137.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1407,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 158.75) (xy 74.93 158.75)
+			(xy 158.75 149.86) (xy 158.75 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a051b49f-13a0-476a-9841-e072ba98a56c")
+	)
+	(wire
+		(pts
+			(xy 237.49 147.32) (xy 236.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1d57d5-3748-4c54-887f-8e9c81550b40")
+	)
+	(wire
+		(pts
+			(xy 52.07 139.7) (xy 53.34 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 163.83) (xy 73.66 163.83)
+			(xy 53.34 144.78) (xy 52.07 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1447,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 158.75) (xy 73.66 158.75)
+			(xy 168.91 139.7) (xy 171.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e15dd2-e7e7-4dc4-a29d-d8dc157b9f76")
+	)
+	(wire
+		(pts
+			(xy 48.26 139.7) (xy 52.07 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1467,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 158.75) (xy 113.03 163.83)
+			(xy 236.22 147.32) (xy 236.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc585aa7-0ab7-4e58-855b-1ae355a3bcc2")
+	)
+	(wire
+		(pts
+			(xy 91.44 139.7) (xy 91.44 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1487,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.284 170.434) (xy 115.824 170.434)
+			(xy 91.694 151.384) (xy 94.234 151.384)
 		)
 		(stroke
 			(width 0)
@@ -1227,17 +1497,27 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 55.88 36.83)
+			(xy 199.39 142.24) (xy 198.12 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4d56689-87fd-47e8-92c7-41b0028ef09f")
+		(uuid "c1046e97-470a-4d63-a5fe-d78f7b40b5d7")
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 50.8 161.29)
+			(xy 140.97 139.7) (xy 148.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e72899-a85f-45a2-b6b3-a367f1756924")
+	)
+	(wire
+		(pts
+			(xy 27.94 95.25) (xy 27.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1527,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 149.86) (xy 158.75 138.43)
+			(xy 181.61 149.86) (xy 199.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac47c8a-1860-449b-8c7f-90d788345082")
+	)
+	(wire
+		(pts
+			(xy 256.54 144.78) (xy 261.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8f81fd-0cdb-4de2-9abc-03537284bf17")
+	)
+	(wire
+		(pts
+			(xy 137.16 130.81) (xy 137.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1255,9 +1555,49 @@
 		)
 		(uuid "d5ba5926-99f3-499d-b774-27f6e58bfd24")
 	)
+	(wire
+		(pts
+			(xy 171.45 139.7) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6682d82-7b9c-4b8b-a224-b68f4a64fac8")
+	)
+	(wire
+		(pts
+			(xy 256.54 162.56) (xy 256.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db638ac7-cf06-47e7-9a0a-849c673567f0")
+	)
+	(wire
+		(pts
+			(xy 158.75 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db83b5fc-b128-4fc8-944d-b28ac99b0648")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de18de43-2c1e-4a41-8fde-996c82d9dc82")
+	)
 	(polyline
 		(pts
-			(xy 114.554 170.434) (xy 114.554 179.324)
+			(xy 92.964 151.384) (xy 92.964 160.274)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 153.67) (xy 114.3 153.67)
+			(xy 87.63 134.62) (xy 92.71 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1617,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 50.8 161.29)
+			(xy 200.66 142.24) (xy 199.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0eec1ea-3350-405f-854f-c6267980d28e")
+	)
+	(wire
+		(pts
+			(xy 39.37 142.24) (xy 27.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 129.54 156.21)
+			(xy 109.22 137.16) (xy 107.95 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1647,47 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 157.48) (xy 105.41 161.29)
+			(xy 156.21 139.7) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a0fb43-7196-4a95-962d-6eb6c8612227")
+	)
+	(wire
+		(pts
+			(xy 254 144.78) (xy 256.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e881e37f-8cd0-434f-af8b-7ea0068e5d7b")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f7b236-b074-42e0-aa3e-62f29193a278")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc0bb03-7e1d-4397-b474-65fdc0d7d79b")
+	)
+	(wire
+		(pts
+			(xy 83.82 138.43) (xy 83.82 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1307,7 +1697,7 @@
 	)
 	(polyline
 		(pts
-			(xy 114.554 179.324) (xy 115.824 178.054)
+			(xy 92.964 160.274) (xy 94.234 159.004)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 156.21) (xy 142.24 156.21)
+			(xy 119.38 137.16) (xy 120.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1717,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 152.4) (xy 86.36 152.4)
+			(xy 236.22 152.4) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaf30fd-044a-45aa-93be-e286ad9f2862")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 237.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0c6c92-8a6e-46c5-8ca0-ad494e018b39")
+	)
+	(wire
+		(pts
+			(xy 69.85 133.35) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1336,8 +1746,20 @@
 		(uuid "fe44daab-d14f-4a2d-b8c0-356c98845c15")
 	)
 	(rectangle
-		(start 59.69 142.24)
-		(end 93.98 181.61)
+		(start 146.05 104.14)
+		(end 259.08 163.83)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2dac4e22-7d01-41de-a297-678851bd1f73)
+	)
+	(rectangle
+		(start 38.1 123.19)
+		(end 72.39 163.83)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1348,8 +1770,8 @@
 		(uuid 337242ee-901e-4706-a2a8-34da1069cb67)
 	)
 	(rectangle
-		(start 96.52 123.19)
-		(end 165.1 181.61)
+		(start 74.93 104.14)
+		(end 143.51 163.83)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1359,9 +1781,19 @@
 		)
 		(uuid cd852152-7d84-42a6-a8db-c9e878fb39c5)
 	)
+	(text "Fourth-order Sallen & Key Butterworth 120 Hz lowpass\nfilter implemented in two stages.\nType: Linkwitz-Riley"
+		(exclude_from_sim no)
+		(at 196.342 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52e436b8-e357-4333-9350-7ca5cb2d7937")
+	)
 	(text "Summing stereo to mono"
 		(exclude_from_sim no)
-		(at 77.216 176.784 0)
+		(at 55.626 157.734 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,7 +1803,7 @@
 	)
 	(text "Bass Volume"
 		(exclude_from_sim no)
-		(at 107.696 173.482 0)
+		(at 86.106 154.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1379,9 +1811,19 @@
 		)
 		(uuid "74c0abc7-362a-414a-9263-7691455bf4e5")
 	)
+	(text "Logarithmic \npotentiometer"
+		(exclude_from_sim no)
+		(at 102.108 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b799eb91-96ea-4806-b64d-bcaac1438fb0")
+	)
 	(text "Baxandall active volume control"
 		(exclude_from_sim no)
-		(at 140.97 173.99 0)
+		(at 119.38 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1391,7 +1833,7 @@
 	)
 	(text "120Hz Crossover"
 		(exclude_from_sim no)
-		(at 190.246 121.666 0)
+		(at 227.076 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1401,7 +1843,7 @@
 	)
 	(text "CW"
 		(exclude_from_sim no)
-		(at 111.252 178.308 0)
+		(at 89.662 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1411,7 +1853,7 @@
 	)
 	(hierarchical_label "OUT_LOW_P"
 		(shape output)
-		(at 232.41 137.16 0)
+		(at 261.62 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1423,7 +1865,7 @@
 	)
 	(hierarchical_label "IN_LEFT"
 		(shape input)
-		(at 29.21 36.83 180)
+		(at 21.59 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1435,7 +1877,7 @@
 	)
 	(hierarchical_label "OUT_LOW_N"
 		(shape output)
-		(at 232.41 139.7 0)
+		(at 262.89 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1447,7 +1889,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_N_LEFT"
 		(shape output)
-		(at 217.17 40.64 0)
+		(at 173.99 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1459,7 +1901,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_P_LEFT"
 		(shape output)
-		(at 217.17 38.1 0)
+		(at 172.72 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1471,7 +1913,7 @@
 	)
 	(hierarchical_label "IN_RIGHT"
 		(shape input)
-		(at 29.21 95.25 180)
+		(at 22.86 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1483,7 +1925,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_P_RIGHT"
 		(shape output)
-		(at 219.71 86.36 0)
+		(at 236.22 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1495,7 +1937,7 @@
 	)
 	(hierarchical_label "OUT_HIGH_N_RIGHT"
 		(shape output)
-		(at 219.71 88.9 0)
+		(at 236.22 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1507,7 +1949,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 156.21 90)
+		(at 114.3 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1516,7 +1958,7 @@
 		(fields_autoplaced yes)
 		(uuid "06ac8324-e986-4395-9fa1-11b2e3799c66")
 		(property "Reference" "R70"
-			(at 135.89 149.86 90)
+			(at 114.3 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1966,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 135.89 152.4 90)
+			(at 114.3 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 157.988 90)
+			(at 114.3 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 156.21 0)
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 156.21 0)
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,8 +2016,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 226.06 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe644ee-2275-4808-8c77-ffba31219c7c")
+		(property "Reference" "C99"
+			(at 229.87 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 229.87 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.0252 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a5a884-1163-4713-996e-b18f3e5669bb")
+		)
+		(pin "2"
+			(uuid "6af5178d-7e46-4fe0-9155-19c6b34d0829")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 95.25 53.34 0)
+		(at 104.14 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1583,7 +2095,7 @@
 		(dnp no)
 		(uuid "18229d6a-982c-41e7-94a2-ef85c613362a")
 		(property "Reference" "U8"
-			(at 95.25 43.18 0)
+			(at 104.14 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +2103,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 95.25 45.72 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +2111,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +2120,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +2129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +2138,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +2147,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +2156,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +2165,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +2174,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 95.25 53.34 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,8 +2216,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 190.5 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34b74cdd-aa47-4b83-8d6b-e70b34df526d")
+		(property "Reference" "U11"
+			(at 190.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c522f743-7eed-4581-9ad5-903919139f92")
+		)
+		(pin "2"
+			(uuid "daf28a0a-2ccb-41d2-8a38-496be33764fc")
+		)
+		(pin "3"
+			(uuid "378ac52b-0af5-415e-bdfe-3934b2d6cee4")
+		)
+		(pin "5"
+			(uuid "cac34641-e2c4-4b43-b1bb-bf8898dda735")
+		)
+		(pin "6"
+			(uuid "45d43e1e-807f-43fd-8cf0-3bb6e0891efd")
+		)
+		(pin "7"
+			(uuid "62b99a6e-095c-44bc-b29c-6471ec94d934")
+		)
+		(pin "4"
+			(uuid "302d78df-21d0-457b-8c2e-7ca592b342cf")
+		)
+		(pin "8"
+			(uuid "9a089693-05b2-4726-b8e0-e93a9f5ee198")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 64.77 161.29 270)
+		(at 43.18 142.24 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1714,7 +2356,7 @@
 		(dnp no)
 		(uuid "41c40866-0ba5-4db1-abdb-2c3d9ad69759")
 		(property "Reference" "R68"
-			(at 64.77 167.64 90)
+			(at 43.18 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +2364,7 @@
 			)
 		)
 		(property "Value" "4k7R"
-			(at 64.77 165.1 90)
+			(at 43.18 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 163.068 90)
+			(at 43.18 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +2381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 161.29 0)
+			(at 43.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +2390,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 161.29 0)
+			(at 43.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +2415,7 @@
 	)
 	(symbol
 		(lib_id "power_custom:+4V5")
-		(at 73.66 165.1 0)
+		(at 52.07 146.05 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1783,7 +2425,7 @@
 		(fields_autoplaced yes)
 		(uuid "46bc8150-fa3a-466c-a940-4977683d6c20")
 		(property "Reference" "#PWR0126"
-			(at 73.66 161.29 0)
+			(at 52.07 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +2434,7 @@
 			)
 		)
 		(property "Value" "+4V5"
-			(at 73.66 170.18 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 165.1 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 165.1 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 165.1 0)
+			(at 52.07 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,8 +2481,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 158.75 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c18b77-8441-4616-ab77-23c465d1ab8a")
+		(property "Reference" "C96"
+			(at 162.56 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 162.56 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.7152 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c7894c7-8a53-4a9d-8a26-448b25652c88")
+		)
+		(pin "2"
+			(uuid "348d2c36-ffcc-49d6-afb8-632628877b71")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595848b8-5fa4-44ca-bd52-cbb4b52c58a0")
+		(property "Reference" "R72"
+			(at 152.4 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 152.4 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76a4364c-4ca7-40c3-b73e-01d6ffe092e4")
+		)
+		(pin "1"
+			(uuid "aa511ac9-c897-457c-9c96-644a05961592")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 121.92 156.21 0)
+		(at 100.33 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1848,7 +2628,7 @@
 		(dnp no)
 		(uuid "626692a6-a2e6-49be-a84a-9df89a86eb0a")
 		(property "Reference" "U10"
-			(at 121.92 146.05 0)
+			(at 100.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +2636,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 121.92 148.59 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +2644,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +2653,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +2662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2671,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +2680,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +2689,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +2698,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +2707,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 121.92 156.21 0)
+			(at 100.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2750,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 149.86 90)
+		(at 128.27 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1979,7 +2759,7 @@
 		(fields_autoplaced yes)
 		(uuid "645a2e62-917f-47cf-bbf7-6d8742a44a08")
 		(property "Reference" "R71"
-			(at 149.86 143.51 90)
+			(at 128.27 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2767,7 @@
 			)
 		)
 		(property "Value" "4k7R"
-			(at 149.86 146.05 90)
+			(at 128.27 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 151.638 90)
+			(at 128.27 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 149.86 0)
+			(at 128.27 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2793,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 149.86 0)
+			(at 128.27 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2818,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 95.25 24.13 0)
+		(at 95.25 -7.62 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2047,7 +2827,7 @@
 		(fields_autoplaced yes)
 		(uuid "6932ac64-775e-4f81-bd1d-b930a0abb862")
 		(property "Reference" "U8"
-			(at 93.98 22.86 0)
+			(at 93.98 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2836,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 93.98 25.4 0)
+			(at 93.98 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2845,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2872,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2881,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2890,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2899,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2908,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 95.25 24.13 0)
+			(at 95.25 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,32 +2950,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 151.13 53.34 0)
+		(lib_id "power_custom:+4V5")
+		(at 226.06 152.4 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "836965a8-b094-4c91-8cbc-1f65af868f52")
-		(property "Reference" "U9"
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1656"
-			(at 151.13 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 151.13 53.34 0)
+		(fields_autoplaced yes)
+		(uuid "8089d942-c3ed-471e-af1b-cbdb7967de79")
+		(property "Reference" "#PWR0129"
+			(at 226.06 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,8 +2969,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 151.13 53.34 0)
+		(property "Value" "+4V5"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2996,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 53.34 0)
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b2650d5-7dd3-4411-bb76-7739ed4f81c4")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 158.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "836965a8-b094-4c91-8cbc-1f65af868f52")
+		(property "Reference" "U9"
+			(at 158.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +3069,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 151.13 53.34 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +3078,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 151.13 53.34 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +3087,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 151.13 53.34 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +3096,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 151.13 53.34 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +3105,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 151.13 53.34 0)
+			(at 158.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,33 +3147,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 152.4 270)
+		(lib_id "Device:C")
+		(at 213.36 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c27c415-7e41-4fd3-a2a0-e663db22388a")
-		(property "Reference" "R69"
-			(at 82.55 146.05 90)
+		(uuid "86568ff3-39d1-4ea4-8d85-58d30845a120")
+		(property "Reference" "C98"
+			(at 217.17 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "4k7R"
-			(at 82.55 148.59 90)
+		(property "Value" "C"
+			(at 217.17 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 150.622 90)
+			(at 214.3252 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +3184,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 152.4 0)
+			(at 213.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8cb959f-cae4-4c54-b7b2-905dedd61278")
+		)
+		(pin "2"
+			(uuid "7af4e5be-5380-47af-b568-6c2ff9c47ac2")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c27c415-7e41-4fd3-a2a0-e663db22388a")
+		(property "Reference" "R69"
+			(at 60.96 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7R"
+			(at 60.96 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +3261,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 152.4 0)
+			(at 60.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,16 +3285,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 171.45 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "938510e3-3611-4dc3-aa8c-065757e3526c")
+		(property "Reference" "C97"
+			(at 175.26 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 175.26 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.4152 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e037d26-e308-47e2-b2ce-4def3f6e10c5")
+		)
+		(pin "2"
+			(uuid "3841787d-d8d0-4392-81bf-6964079f0715")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 95.25 82.55 0)
+		(at 245.11 144.78 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd743569-ca67-4c61-ae2b-a2803819bb62")
-		(property "Reference" "U8"
-			(at 95.25 72.39 0)
+		(uuid "9ff33cbd-4f58-4d7f-8bb6-9591dbec281b")
+		(property "Reference" "U11"
+			(at 245.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +3372,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 95.25 74.93 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +3380,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +3389,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +3398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +3407,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +3416,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +3425,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +3434,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +3443,268 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 95.25 82.55 0)
+			(at 245.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37be6b4c-6860-4ae3-b8e8-7e8378f186b1")
+		)
+		(pin "2"
+			(uuid "783260c4-74f3-495b-9e5f-d0ef7bd2036d")
+		)
+		(pin "3"
+			(uuid "79528745-42eb-43f4-92c1-2f3d0f03cefb")
+		)
+		(pin "5"
+			(uuid "a96d9878-8600-483b-9974-13cdd533781d")
+		)
+		(pin "6"
+			(uuid "fa17ac9b-52fe-45c5-b5be-af90b70a2640")
+		)
+		(pin "7"
+			(uuid "2fec257d-c82f-4b6d-9a41-43dbe6bedf38")
+		)
+		(pin "4"
+			(uuid "2c651e50-e7f4-4479-ae12-ae562d601939")
+		)
+		(pin "8"
+			(uuid "2f475cde-7248-4036-a9b7-7ae82fef4a80")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 128.27 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d097ee-129c-4219-8447-ee18e96d35eb")
+		(property "Reference" "U12"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 128.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad3277fb-0541-4482-9ddd-891923f19339")
+		)
+		(pin "2"
+			(uuid "d5944561-163d-4392-8607-c0c87c2eb511")
+		)
+		(pin "3"
+			(uuid "0e2c4856-d941-4983-81ec-c16a363f4e55")
+		)
+		(pin "5"
+			(uuid "cac34641-e2c4-4b43-b1bb-bf8898dda736")
+		)
+		(pin "6"
+			(uuid "45d43e1e-807f-43fd-8cf0-3bb6e0891efe")
+		)
+		(pin "7"
+			(uuid "62b99a6e-095c-44bc-b29c-6471ec94d935")
+		)
+		(pin "4"
+			(uuid "302d78df-21d0-457b-8c2e-7ca592b342d0")
+		)
+		(pin "8"
+			(uuid "9a089693-05b2-4726-b8e0-e93a9f5ee199")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 100.33 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd743569-ca67-4c61-ae2b-a2803819bb62")
+		(property "Reference" "U8"
+			(at 100.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,33 +3746,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 82.55 161.29 0)
+		(lib_id "power_custom:+4V5")
+		(at 171.45 149.86 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c462951b-5d3b-4816-be1a-5ae67607bab8")
-		(property "Reference" "U10"
-			(at 82.55 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1656"
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 82.55 161.29 0)
+		(fields_autoplaced yes)
+		(uuid "c00328b9-f994-4c36-9c1d-98ea050d1ef7")
+		(property "Reference" "#PWR0128"
+			(at 171.45 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,8 +3765,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 82.55 161.29 0)
+		(property "Value" "+4V5"
+			(at 171.45 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +3792,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 161.29 0)
+			(at 171.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ffe1a6-4c06-4ce7-8afe-6d157340ed55")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 60.96 142.24 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c462951b-5d3b-4816-be1a-5ae67607bab8")
+		(property "Reference" "U10"
+			(at 60.96 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +3866,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 82.55 161.29 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +3875,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 82.55 161.29 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +3884,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 82.55 161.29 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +3893,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 82.55 161.29 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +3902,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 82.55 161.29 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +3945,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 151.13 82.55 0)
+		(at 156.21 78.74 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2638,7 +3953,7 @@
 		(dnp no)
 		(uuid "c6474c1b-a003-4a3a-913b-f62d1655a2a2")
 		(property "Reference" "U9"
-			(at 151.13 72.39 0)
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3961,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 151.13 74.93 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +3969,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +3996,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +4005,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +4014,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +4023,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +4032,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 151.13 82.55 0)
+			(at 156.21 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,8 +4207,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 219.71 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb772120-f1a4-44f8-8734-8252b513423f")
+		(property "Reference" "R75"
+			(at 219.71 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 219.71 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f7d4ab8-a57b-4954-b436-847262034ba8")
+		)
+		(pin "1"
+			(uuid "d1a7efa5-6f59-472e-8211-0c8ce95df958")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 151.13 21.59 0)
+		(at 151.13 -10.16 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2902,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6168e0a-3c50-4658-a1da-cbabf681c057")
 		(property "Reference" "U9"
-			(at 149.86 20.32 0)
+			(at 149.86 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +4294,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 149.86 22.86 0)
+			(at 149.86 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +4303,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +4312,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +4321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +4330,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +4339,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +4348,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +4357,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +4366,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 151.13 21.59 0)
+			(at 151.13 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,8 +4408,342 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 207.01 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d95b3e61-cb48-4613-8b7f-12bb9ab5a6fb")
+		(property "Reference" "R74"
+			(at 207.01 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 207.01 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19930110-a894-4082-9a25-f47504c840d0")
+		)
+		(pin "1"
+			(uuid "6b46ef9a-b150-4dea-83d0-da690940429e")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 49.53 182.88 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd48e1cb-2e1d-49fd-b2f5-54a41b97671c")
+		(property "Reference" "U12"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daaa9e-426d-4c06-8a11-b26c6180145a")
+		)
+		(pin "2"
+			(uuid "3b094a42-f37c-46f6-9ff7-62967eb7d26c")
+		)
+		(pin "3"
+			(uuid "73eaf545-3a02-45ca-9d49-f268a7fa3167")
+		)
+		(pin "5"
+			(uuid "222ba3ec-f738-4fa2-8b9f-93108d2c1fb9")
+		)
+		(pin "6"
+			(uuid "aed14082-570d-4f26-9351-adfb29acbc52")
+		)
+		(pin "7"
+			(uuid "114fe940-5f4b-4f54-9205-95b8c49ae6ae")
+		)
+		(pin "4"
+			(uuid "439bc73b-7081-4134-86bf-762ea89bec45")
+		)
+		(pin "8"
+			(uuid "6fee9636-0934-4185-8c96-9b7af78b512e")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U12")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 278.13 147.32 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37c7599-c1b6-4230-a851-2bbd734ef1b4")
+		(property "Reference" "U11"
+			(at 276.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 276.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daaa9e-426d-4c06-8a11-b26c61801459")
+		)
+		(pin "2"
+			(uuid "3b094a42-f37c-46f6-9ff7-62967eb7d26b")
+		)
+		(pin "3"
+			(uuid "73eaf545-3a02-45ca-9d49-f268a7fa3166")
+		)
+		(pin "5"
+			(uuid "222ba3ec-f738-4fa2-8b9f-93108d2c1fb8")
+		)
+		(pin "6"
+			(uuid "aed14082-570d-4f26-9351-adfb29acbc51")
+		)
+		(pin "7"
+			(uuid "114fe940-5f4b-4f54-9205-95b8c49ae6ad")
+		)
+		(pin "4"
+			(uuid "c629126f-adc5-44b4-82c7-65463c234f1e")
+		)
+		(pin "8"
+			(uuid "a04756c8-f4fa-4939-97e3-b79cdc4cd2c6")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_custom:+4V5")
-		(at 140.97 162.56 0)
+		(at 119.38 143.51 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3036,7 +4753,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5f9ab90-9bc8-4be8-b8b3-a494426da41d")
 		(property "Reference" "#PWR0127"
-			(at 140.97 158.75 0)
+			(at 119.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +4762,7 @@
 			)
 		)
 		(property "Value" "+4V5"
-			(at 140.97 167.64 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +4770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 162.56 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 162.56 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +4788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 162.56 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +4810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 105.41 153.67 0)
+		(at 83.82 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3102,7 +4819,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeeeacdc-5bba-4d6f-9c40-4d863a0d1535")
 		(property "Reference" "RV4"
-			(at 102.87 152.3999 0)
+			(at 81.28 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +4828,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 102.87 154.9399 0)
+			(at 81.28 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +4837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 153.67 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 153.67 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +4855,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 105.41 153.67 0)
+			(at 83.82 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +4883,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 156.21 270)
+		(at 43.18 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3175,7 +4892,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef6735ac-2f05-4ee1-87d9-305f16ff06d8")
 		(property "Reference" "R67"
-			(at 64.77 149.86 90)
+			(at 43.18 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +4900,7 @@
 			)
 		)
 		(property "Value" "4k7R"
-			(at 64.77 152.4 90)
+			(at 43.18 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +4908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 154.432 90)
+			(at 43.18 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 156.21 0)
+			(at 43.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4926,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 156.21 0)
+			(at 43.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,8 +4950,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 113.03 176.53 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4fcd3cf-d116-48e9-8119-ad20351c625a")
+		(property "Reference" "U12"
+			(at 113.03 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656"
+			(at 113.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA1656IDR"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" "OPA1656IDR"
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 113.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37be6b4c-6860-4ae3-b8e8-7e8378f186b2")
+		)
+		(pin "2"
+			(uuid "783260c4-74f3-495b-9e5f-d0ef7bd2036e")
+		)
+		(pin "3"
+			(uuid "79528745-42eb-43f4-92c1-2f3d0f03cefc")
+		)
+		(pin "5"
+			(uuid "bb9fcf10-6817-4108-829b-9f49685854aa")
+		)
+		(pin "6"
+			(uuid "891a962b-49f5-4e99-9b64-e701b330a268")
+		)
+		(pin "7"
+			(uuid "43baca3c-5c95-4648-bd34-b2336907598d")
+		)
+		(pin "4"
+			(uuid "2c651e50-e7f4-4479-ae12-ae562d60193a")
+		)
+		(pin "8"
+			(uuid "2f475cde-7248-4036-a9b7-7ae82fef4a81")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "U12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 149.86 138.43 90)
+		(at 128.27 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3243,7 +5091,7 @@
 		(fields_autoplaced yes)
 		(uuid "f600138b-09f5-4c77-80ac-0a53c3ea6585")
 		(property "Reference" "C95"
-			(at 149.86 130.81 90)
+			(at 128.27 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +5099,7 @@
 			)
 		)
 		(property "Value" "100pC"
-			(at 149.86 133.35 90)
+			(at 128.27 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +5107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 137.4648 0)
+			(at 132.08 118.4148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +5116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 138.43 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +5125,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 149.86 138.43 0)
+			(at 128.27 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,6 +5143,74 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f703c0ba-4c12-4ca9-8ddc-fda7bd782dd0")
+		(property "Reference" "R73"
+			(at 165.1 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 165.1 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab060586-afe0-4f68-97b9-4b69e3f6f4fa")
+		)
+		(pin "1"
+			(uuid "4a66f4a3-5810-4ba4-9f55-6a897584457f")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "R73")
 					(unit 1)
 				)
 			)
