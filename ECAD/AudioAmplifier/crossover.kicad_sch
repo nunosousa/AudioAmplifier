@@ -3306,7 +3306,7 @@
 		(uuid "fea4580f-40b4-41e8-82b1-a174fd621b24")
 	)
 	(rectangle
-		(start 240.03 104.14)
+		(start 240.03 111.76)
 		(end 270.51 163.83)
 		(stroke
 			(width 0)
@@ -3318,7 +3318,7 @@
 		(uuid 06215565-f43e-47f3-814d-cd82c093f209)
 	)
 	(rectangle
-		(start 125.73 104.14)
+		(start 125.73 119.38)
 		(end 237.49 163.83)
 		(stroke
 			(width 0)
@@ -3389,7 +3389,7 @@
 	)
 	(text "Fourth-order Sallen & Key Butterworth 120 Hz lowpass\nfilter implemented in two stages.\nType: Linkwitz-Riley"
 		(exclude_from_sim no)
-		(at 174.752 118.618 0)
+		(at 177.546 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3419,7 +3419,7 @@
 	)
 	(text "Single-Ended to\nDifferential Output"
 		(exclude_from_sim no)
-		(at 255.524 108.712 0)
+		(at 255.016 115.316 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3446,6 +3446,16 @@
 			)
 		)
 		(uuid "be3c41af-bb0d-4fe7-b1f2-eaf371884f6f")
+	)
+	(text "Stereo to 2.1 crossover."
+		(exclude_from_sim no)
+		(at 177.038 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ced02496-001f-46c6-9b53-e23a24aa5234")
 	)
 	(text "Single-Ended to\nDifferential Output"
 		(exclude_from_sim no)
