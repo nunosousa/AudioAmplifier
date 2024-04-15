@@ -2207,6 +2207,12 @@
 		(uuid "37957b72-9f29-4396-bd65-9806c7b49f3b")
 	)
 	(junction
+		(at 173.99 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bba1d33-efac-449a-a583-2977d593be18")
+	)
+	(junction
 		(at 226.06 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2255,22 +2261,10 @@
 		(uuid "723f2c0a-829f-4f42-acfd-70c1990e31f7")
 	)
 	(junction
-		(at 173.99 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72c4af6a-369e-47bb-b592-5705d4742848")
-	)
-	(junction
 		(at 95.25 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f846b8-949d-42ff-bbfd-fcfd034cca74")
-	)
-	(junction
-		(at 158.75 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81f8c1b2-d8a1-4c9d-82d9-3701b6947382")
 	)
 	(junction
 		(at 40.64 186.69)
@@ -2309,6 +2303,12 @@
 		(uuid "b2013bbf-7b3c-4b9e-bd84-f8f216af79f4")
 	)
 	(junction
+		(at 173.99 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9fd5883-66d9-4912-b613-ef4adc22bd2b")
+	)
+	(junction
 		(at 231.14 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2339,22 +2339,10 @@
 		(uuid "e5cbc262-2c66-482c-98eb-e7c6ec1f8be2")
 	)
 	(junction
-		(at 173.99 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7e60e8c-44cf-47c3-9e1d-a9323279a6ff")
-	)
-	(junction
 		(at 67.31 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2c8e326-207e-4312-a73a-c6307f961a69")
-	)
-	(junction
-		(at 158.75 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f71a22ff-8103-4650-ba9d-ce6b46ba54ed")
 	)
 	(junction
 		(at 220.98 91.44)
@@ -2380,6 +2368,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 116.84) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e6e533-f604-47e3-90ae-447b50e4a015")
+	)
+	(wire
+		(pts
 			(xy 104.14 130.81) (xy 104.14 125.73)
 		)
 		(stroke
@@ -2397,16 +2395,6 @@
 			(type default)
 		)
 		(uuid "03ef306f-ff50-4ad1-8b6e-f7490056f338")
-	)
-	(wire
-		(pts
-			(xy 158.75 113.03) (xy 173.99 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "047d8030-e4b8-476e-a020-36ef40728369")
 	)
 	(wire
 		(pts
@@ -2610,6 +2598,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 113.03) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a4304b-8a9b-4a53-a1f3-a1b3205c4eaf")
+	)
+	(wire
+		(pts
 			(xy 242.57 27.94) (xy 252.73 27.94)
 		)
 		(stroke
@@ -2637,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "3ebf5176-87b0-4909-8963-c93baf4dd231")
-	)
-	(wire
-		(pts
-			(xy 158.75 49.53) (xy 158.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423af7d0-b7c9-4f29-b5b6-679f776c1275")
 	)
 	(wire
 		(pts
@@ -2767,16 +2755,6 @@
 			(type default)
 		)
 		(uuid "5eb39d31-15ef-4f9b-9c7d-421786037e4d")
-	)
-	(wire
-		(pts
-			(xy 157.48 49.53) (xy 158.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fd2989-22a5-4d2f-8333-057aefc4ab8b")
 	)
 	(wire
 		(pts
@@ -2910,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 49.53) (xy 175.26 49.53)
+			(xy 170.18 49.53) (xy 173.99 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2937,16 +2915,6 @@
 			(type default)
 		)
 		(uuid "8dd3702b-2207-4e7e-b1ca-dc315239142f")
-	)
-	(wire
-		(pts
-			(xy 158.75 113.03) (xy 158.75 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8c4051-02e0-4211-9ddc-39c826e91efe")
 	)
 	(wire
 		(pts
@@ -3050,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 175.26 113.03)
+			(xy 170.18 113.03) (xy 173.99 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3090,6 +3058,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 53.34) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad31680b-31af-4d16-b5b5-45bd94d61441")
+	)
+	(wire
+		(pts
 			(xy 77.47 172.72) (xy 77.47 181.61)
 		)
 		(stroke
@@ -3117,16 +3095,6 @@
 			(type default)
 		)
 		(uuid "b2c79c05-b72a-4027-b05f-e742b6dc1ac8")
-	)
-	(wire
-		(pts
-			(xy 157.48 113.03) (xy 158.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c6f663-d947-42a8-822a-111ee7f63c03")
 	)
 	(wire
 		(pts
@@ -3167,6 +3135,16 @@
 			(type default)
 		)
 		(uuid "bacc49cc-035e-4825-971b-d7d6f2212303")
+	)
+	(wire
+		(pts
+			(xy 173.99 49.53) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb7c44d-cc29-4b2b-a503-782c197202cc")
 	)
 	(wire
 		(pts
@@ -3300,16 +3278,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 49.53) (xy 173.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c5addd-39bb-4676-a4e9-28322f3a44de")
-	)
-	(wire
-		(pts
 			(xy 231.14 91.44) (xy 220.98 91.44)
 		)
 		(stroke
@@ -3327,26 +3295,6 @@
 			(type default)
 		)
 		(uuid "e070c4b4-c859-43bb-90dc-fcbc2abf9efc")
-	)
-	(wire
-		(pts
-			(xy 173.99 53.34) (xy 173.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5345500-10c4-4b99-b41b-ce614fe82827")
-	)
-	(wire
-		(pts
-			(xy 173.99 116.84) (xy 173.99 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf2599b-aaad-410e-825e-b7586f2f3341")
 	)
 	(wire
 		(pts
@@ -3452,7 +3400,7 @@
 	)
 	(hierarchical_label "IN_RIGHT"
 		(shape input)
-		(at 149.86 113.03 180)
+		(at 170.18 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3464,7 +3412,7 @@
 	)
 	(hierarchical_label "IN_LEFT"
 		(shape input)
-		(at 149.86 49.53 180)
+		(at 170.18 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3509,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1150f6fa-6a0e-4a32-adb2-fe9b287d3617")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0185"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -3559,7 +3507,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0187")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e8247a-36e9-4486-b883-7cb13bd73060")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0186"
 			(at 68.58 87.63 0)
 			(effects
 				(font
@@ -3625,7 +3573,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0188")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13f07249-1965-4e31-b1cf-a420d2cc26bf")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0189"
 			(at 82.55 97.79 0)
 			(effects
 				(font
@@ -3691,122 +3639,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 57.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "180d4107-c484-4719-a23a-fd9b7434df22")
-		(property "Reference" "C127"
-			(at 155.448 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nC"
-			(at 155.448 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.7848 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0805JRNPO9BN102_C62774.pdf"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0805JRNPO9BN102"
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_MOUSER" ""
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R % tol" ""
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R pwr" ""
-			(at 158.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d243f778-d435-4a92-a585-efa99b5b265d")
-		)
-		(pin "2"
-			(uuid "048d87b3-09b0-424f-81ea-2d4bcfa8b176")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C127")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c736f4c-320e-4894-9bff-6cfc516758a1")
-		(property "Reference" "C134"
+		(property "Reference" "C130"
 			(at 233.68 93.9862 0)
 			(effects
 				(font
@@ -3876,7 +3709,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C134")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -3892,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d9e408-b029-4718-a233-df53377b1613")
-		(property "Reference" "C132"
+		(property "Reference" "C128"
 			(at 223.52 93.9862 0)
 			(effects
 				(font
@@ -3946,7 +3779,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C132")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -3962,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b160394-c0fb-46d7-ab3a-4da2830fa01a")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0194"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -4012,7 +3845,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0198")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -4028,7 +3861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c9847e4-ef86-44f5-9647-7b3287741c17")
-		(property "Reference" "R104"
+		(property "Reference" "R98"
 			(at 200.66 78.74 90)
 			(effects
 				(font
@@ -4125,7 +3958,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R104")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -4141,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e14eee3-54c6-4bde-988d-1fb6655b9b8a")
-		(property "Reference" "R97"
+		(property "Reference" "R93"
 			(at 100.33 163.83 90)
 			(effects
 				(font
@@ -4193,7 +4026,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R97")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -4209,7 +4042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4405d56c-cfda-4c0a-98aa-7aa1aea29432")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0190"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4259,74 +4092,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0192")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 158.75 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44a0f282-0ea6-49fb-ad8d-0c8a2a7f180c")
-		(property "Reference" "#PWR0195"
-			(at 158.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97a79403-0295-4976-b63f-424047636a6c")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0195")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -4342,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a8cba6-7c1e-4d92-8394-1c62980fd765")
-		(property "Reference" "R109"
+		(property "Reference" "R103"
 			(at 240.03 110.49 90)
 			(effects
 				(font
@@ -4439,7 +4205,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R109")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad58f41-8a68-45f6-8f92-856d01c26ec5")
-		(property "Reference" "R96"
+		(property "Reference" "R92"
 			(at 65.532 171.45 0)
 			(effects
 				(font
@@ -4554,7 +4320,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R96")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8172b7-7765-4cb9-ad8b-09ce99b91805")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0191"
 			(at 130.81 177.8 0)
 			(effects
 				(font
@@ -4620,7 +4386,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0193")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cc8dd38-b21b-4a41-8e52-fba8ef4a786b")
-		(property "Reference" "R105"
+		(property "Reference" "R99"
 			(at 200.66 142.24 90)
 			(effects
 				(font
@@ -4733,7 +4499,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R105")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -4749,7 +4515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dd0a7f3-926a-4dc2-9588-27efa8700192")
-		(property "Reference" "C129"
+		(property "Reference" "C125"
 			(at 179.959 41.91 90)
 			(effects
 				(font
@@ -4846,7 +4612,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C129")
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f375e88-b325-419a-a4f7-85a87ce453b6")
-		(property "Reference" "R100"
+		(property "Reference" "R94"
 			(at 172.212 55.88 0)
 			(effects
 				(font
@@ -4961,7 +4727,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R100")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -4977,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50370296-c8f8-4681-8009-870d324abb96")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0184"
 			(at 53.34 83.82 0)
 			(effects
 				(font
@@ -5027,7 +4793,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0186")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -5043,7 +4809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "525bc21b-5208-4dcd-920e-9ab00ff90de9")
-		(property "Reference" "C125"
+		(property "Reference" "C123"
 			(at 86.36 85.471 0)
 			(effects
 				(font
@@ -5142,7 +4908,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C125")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -5159,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af6e240-5cd1-4c99-9193-f3a33c23f61b")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0198"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -5209,7 +4975,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0202")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -5225,7 +4991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb77f70-ab39-4f5e-83b4-4171d61a4e56")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0201"
 			(at 220.98 104.14 0)
 			(effects
 				(font
@@ -5275,7 +5041,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0205")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62471b2a-c631-481c-8705-49aef74f0aec")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0193"
 			(at 173.99 130.81 0)
 			(effects
 				(font
@@ -5342,7 +5108,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0197")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67bf3973-96fd-4854-b875-e905b18c1ff4")
-		(property "Reference" "C124"
+		(property "Reference" "C122"
 			(at 72.136 86.36 0)
 			(effects
 				(font
@@ -5588,7 +5354,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C124")
+					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -5737,7 +5503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0efcc7-3fc5-4c01-b81a-65155a05b964")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0187"
 			(at 68.58 97.79 0)
 			(effects
 				(font
@@ -5787,235 +5553,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7177dfc3-d454-4ac2-a975-58e5d9b1179e")
-		(property "Reference" "C128"
-			(at 155.448 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nC"
-			(at 155.448 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.7848 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC0805JRNPO9BN102_C62774.pdf"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0805JRNPO9BN102"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_MOUSER" ""
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R % tol" ""
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R pwr" ""
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53fd7413-f788-44a6-a3f9-5903ee110370")
-		)
-		(pin "2"
-			(uuid "1d78c1c4-62bc-46eb-b3d5-ebadf1f0601c")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72f03b1c-6be5-42a3-9d77-b4e3376b77fc")
-		(property "Reference" "R98"
-			(at 153.67 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 153.67 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 153.67 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RT0805FRD07100RL_C143843.pdf"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0805FRD07100RL"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_MOUSER" ""
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R % tol" "1%"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R pwr" "125mW"
-			(at 153.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f65097b-2854-4901-9cb1-2abbfb577241")
-		)
-		(pin "2"
-			(uuid "127e636c-e5e4-4591-a47f-70e2204c5d40")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R98")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -6031,7 +5569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7625e040-bf8b-431e-b0b7-f67bbd8154d6")
-		(property "Reference" "R106"
+		(property "Reference" "R100"
 			(at 215.9 78.74 90)
 			(effects
 				(font
@@ -6128,7 +5666,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R106")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -6144,7 +5682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7702ba85-1825-4bdf-ae49-a96d50cd2358")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0204"
 			(at 242.57 40.64 0)
 			(effects
 				(font
@@ -6194,7 +5732,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0208")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -6210,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79f79c81-0715-4cca-80fe-e3c34df4510e")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0203"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -6260,7 +5798,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0207")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -6277,7 +5815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d1dd19c-5d6f-4d1c-9408-71bf9681f39f")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0192"
 			(at 173.99 67.31 0)
 			(effects
 				(font
@@ -6327,7 +5865,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0196")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -6343,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8416ca0a-d75c-4263-aee9-0fad376fb74e")
-		(property "Reference" "C136"
+		(property "Reference" "C132"
 			(at 245.11 93.4338 0)
 			(effects
 				(font
@@ -6397,7 +5935,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C136")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -6413,7 +5951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84980fae-a8e9-419e-81d7-1859ef0fb8a5")
-		(property "Reference" "R103"
+		(property "Reference" "R97"
 			(at 183.642 119.38 0)
 			(effects
 				(font
@@ -6512,7 +6050,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R103")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -6528,7 +6066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860e7fa7-1db5-49be-9723-94a75fc18f41")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0200"
 			(at 220.98 40.64 0)
 			(effects
 				(font
@@ -6578,7 +6116,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0204")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884bc712-14ef-4064-8f18-1f0f01e66530")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0202"
 			(at 231.14 40.64 0)
 			(effects
 				(font
@@ -6644,7 +6182,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0206")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a2ff6bc-7b97-49dd-8b5a-8160cae8e8ef")
-		(property "Reference" "C126"
+		(property "Reference" "C124"
 			(at 100.33 175.2599 0)
 			(effects
 				(font
@@ -6713,7 +6251,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C126")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -6729,7 +6267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2b0290-be37-4db9-9262-0d734d8952d2")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0205"
 			(at 242.57 104.14 0)
 			(effects
 				(font
@@ -6779,7 +6317,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0209")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6795,7 +6333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9b60f8-2289-4ff8-95a1-26c68d41b9c5")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0188"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -6845,7 +6383,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0190")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -6861,7 +6399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9162be8b-a9fa-4c58-bc95-f32a0b52365d")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0197"
 			(at 194.31 135.89 0)
 			(effects
 				(font
@@ -6911,7 +6449,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0201")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91656694-13ee-419f-90cb-bdef7156a923")
-		(property "Reference" "C131"
+		(property "Reference" "C127"
 			(at 223.52 30.4862 0)
 			(effects
 				(font
@@ -6981,7 +6519,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C131")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93231e5d-51f0-4a09-9767-13a4b8d23717")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0183"
 			(at 25.4 194.31 0)
 			(effects
 				(font
@@ -7048,7 +6586,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0185")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -7064,7 +6602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "970562bb-7f08-4212-9dca-ad6c9c7cf8ad")
-		(property "Reference" "C135"
+		(property "Reference" "C131"
 			(at 245.11 29.9338 0)
 			(effects
 				(font
@@ -7118,187 +6656,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a5ff1b1-0360-44d3-be5c-9c105cff504d")
-		(property "Reference" "R99"
-			(at 153.67 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 153.67 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 153.67 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RT0805FRD07100RL_C143843.pdf"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0805FRD07100RL"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN_MOUSER" ""
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R % tol" "1%"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "R pwr" "125mW"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a21744c-68ef-4a24-87f7-888227fa187f")
-		)
-		(pin "2"
-			(uuid "56122fb4-c2b2-4f4c-9a25-fe1ce349c4f7")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 158.75 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a66a46f-2361-4e98-8cd3-7e9b1ad857f5")
-		(property "Reference" "#PWR0194"
-			(at 158.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abb8fce0-aaa3-4d1f-ade9-9fdff6fc53c4")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0194")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -7314,7 +6672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ac9e0af-a4b8-45a7-a7e6-f5f073f87a28")
-		(property "Reference" "R107"
+		(property "Reference" "R101"
 			(at 215.9 142.24 90)
 			(effects
 				(font
@@ -7411,7 +6769,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R107")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -7427,7 +6785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fbff369-6fe4-4bb4-8e09-ff11d4ef4601")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0208"
 			(at 252.73 93.98 0)
 			(effects
 				(font
@@ -7477,7 +6835,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0212")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -7493,7 +6851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47bbb71-4fb5-4bbf-a905-c62470df24fe")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0196"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -7543,7 +6901,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0200")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -7559,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a83d89e2-0e07-4454-825e-634231d043bf")
-		(property "Reference" "C130"
+		(property "Reference" "C126"
 			(at 179.959 105.41 90)
 			(effects
 				(font
@@ -7656,7 +7014,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C130")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -7672,7 +7030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6e8558-b9e8-434a-a3d1-15afa5017385")
-		(property "Reference" "R108"
+		(property "Reference" "R102"
 			(at 240.03 46.99 90)
 			(effects
 				(font
@@ -7769,7 +7127,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R108")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -7785,7 +7143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4b60ba9-21f3-4fd8-be0c-e0ec724adfbf")
-		(property "Reference" "C122"
+		(property "Reference" "C120"
 			(at 35.56 166.3699 0)
 			(effects
 				(font
@@ -7839,7 +7197,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C122")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -8071,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c83ccf76-8bdb-454d-8b6b-6db88fb57018")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0195"
 			(at 185.42 120.65 0)
 			(effects
 				(font
@@ -8121,7 +7479,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0199")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -8268,7 +7626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0f285a-d32d-4913-b900-2863fd882cb7")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0199"
 			(at 215.9 130.81 0)
 			(effects
 				(font
@@ -8318,7 +7676,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0203")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -8334,7 +7692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd701ed-53e3-4907-99fd-b22fea4eaf41")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0206"
 			(at 242.57 161.29 0)
 			(effects
 				(font
@@ -8384,7 +7742,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0210")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -8400,7 +7758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dce52499-ea3a-4281-8dd8-2db320176b96")
-		(property "Reference" "C123"
+		(property "Reference" "C121"
 			(at 49.53 166.3699 0)
 			(effects
 				(font
@@ -8454,7 +7812,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C123")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -8470,7 +7828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0176284-1f54-454f-bd2b-c088b650b5c2")
-		(property "Reference" "R95"
+		(property "Reference" "R91"
 			(at 65.532 161.29 0)
 			(effects
 				(font
@@ -8569,7 +7927,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R95")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -8585,7 +7943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e38d43ac-8bee-428f-b73b-c5213646cc2a")
-		(property "Reference" "R102"
+		(property "Reference" "R96"
 			(at 183.642 55.88 0)
 			(effects
 				(font
@@ -8684,7 +8042,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R102")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -8700,7 +8058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5741ded-6f30-49e6-a486-062867f5b038")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0182"
 			(at 25.4 152.4 0)
 			(effects
 				(font
@@ -8750,7 +8108,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0184")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e68ac48f-3f1b-485b-be00-7b52df1bfbff")
-		(property "Reference" "R101"
+		(property "Reference" "R95"
 			(at 172.212 119.38 0)
 			(effects
 				(font
@@ -8865,7 +8223,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "R101")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -8881,7 +8239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eddecf11-696d-42b0-9d58-a832491f6d35")
-		(property "Reference" "C121"
+		(property "Reference" "C119"
 			(at 21.59 165.4809 0)
 			(effects
 				(font
@@ -8935,7 +8293,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C121")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -8951,7 +8309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f424a8fa-3e6f-46e8-b51e-96e73189feba")
-		(property "Reference" "C133"
+		(property "Reference" "C129"
 			(at 233.68 30.4862 0)
 			(effects
 				(font
@@ -9005,7 +8363,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "C133")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -9152,7 +8510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff237bdb-6b7e-4566-8e3f-98417f41892f")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0207"
 			(at 252.73 30.48 0)
 			(effects
 				(font
@@ -9202,7 +8560,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/14fb5da1-1c16-4fa2-b4fa-fd984f0da191"
-					(reference "#PWR0211")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
