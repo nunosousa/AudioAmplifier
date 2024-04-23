@@ -3467,7 +3467,7 @@
 		)
 		(uuid "dc43497f-dcdb-413c-a59a-8a19f55735b4")
 	)
-	(text "80Hz Crossover"
+	(text "112Hz Crossover"
 		(exclude_from_sim no)
 		(at 139.954 100.838 0)
 		(effects

@@ -2998,6 +2998,17 @@
 		)
 		(uuid "e8d769de-e7b9-4d5a-8d22-24ce5187bd7f")
 	)
+	(text "Audio inputs:\n	nominal 0,5 Vrms\n	minimum 0,2 Vrms\n	maximum 5,65 Vpp\nSuperimposed d.c. component\nwithin 0 V and + 1 V"
+		(exclude_from_sim no)
+		(at 16.764 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f89c4088-67b3-4a48-a97e-95044ed9a1fd")
+	)
 	(hierarchical_label "OUT_LEFT"
 		(shape output)
 		(at 255.27 67.31 0)
