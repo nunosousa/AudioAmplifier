@@ -3377,7 +3377,7 @@
 		)
 		(uuid fe4eeb0b-ab2b-47a0-8eaa-3620f90be066)
 	)
-	(text "Fourth-order Sallen & Key Butterworth highpass filter, implemented\nin two stages. Cutoff frequency 120 Hz.\nType: Linkwitz-Riley"
+	(text "Fourth-order Sallen & Key Butterworth highpass filter, implemented\nin two stages. Cutoff frequency 80 Hz.\nType: Linkwitz-Riley"
 		(exclude_from_sim no)
 		(at 97.536 91.44 0)
 		(effects
@@ -3387,7 +3387,7 @@
 		)
 		(uuid "36e67415-7075-4797-9fca-27b22edcb0fc")
 	)
-	(text "Fourth-order Sallen & Key Butterworth 120 Hz lowpass\nfilter implemented in two stages.\nType: Linkwitz-Riley"
+	(text "Fourth-order Sallen & Key Butterworth 80 Hz lowpass\nfilter implemented in two stages.\nType: Linkwitz-Riley"
 		(exclude_from_sim no)
 		(at 177.546 125.476 0)
 		(effects
@@ -3467,7 +3467,7 @@
 		)
 		(uuid "dc43497f-dcdb-413c-a59a-8a19f55735b4")
 	)
-	(text "120Hz Crossover"
+	(text "80Hz Crossover"
 		(exclude_from_sim no)
 		(at 139.954 100.838 0)
 		(effects
