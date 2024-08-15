@@ -8640,7 +8640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7958f45-e6ca-4450-a304-abf14d640695")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 68.58 29.21 0)
 			(effects
 				(font
@@ -8692,7 +8692,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/92b68cf7-1ffe-45cf-8d31-d594c9dda40d"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
