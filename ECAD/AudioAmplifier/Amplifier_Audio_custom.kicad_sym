@@ -707,7 +707,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at -19.05 -2.54 0)
 				(length 2.54)
 				(name "~{FAULTZ}"
