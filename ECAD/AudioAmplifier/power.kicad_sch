@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10kR"
 			(at 213.36 144.78 90)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.36 139.192 90)
 			(effects
 				(font
@@ -9305,7 +9305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10kR"
 			(at 212.09 128.2699 0)
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 216.408 127 90)
 			(effects
 				(font

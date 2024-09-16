@@ -3802,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 176.53 24.13 90)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 246.38 140.97 90)
 			(effects
 				(font
@@ -5585,7 +5585,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 162.56 63.5 90)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 176.53 58.42 90)
 			(effects
 				(font
@@ -6392,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 260.35 135.89 90)
 			(effects
 				(font
@@ -7241,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7R"
 			(at 162.56 29.21 90)
 			(effects
 				(font
@@ -12025,7 +12025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Horizontal"
 			(at 68.58 134.62 0)
 			(effects
 				(font
