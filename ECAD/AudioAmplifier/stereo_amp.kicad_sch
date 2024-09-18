@@ -3371,6 +3371,16 @@
 		)
 		(uuid "3d707022-2bac-4f7f-9562-d183ad46880f")
 	)
+	(text "*1"
+		(exclude_from_sim no)
+		(at 171.958 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72234872-9a06-43db-9126-bf3e3b7e3d7b")
+	)
 	(text "?"
 		(exclude_from_sim no)
 		(at 67.31 97.028 0)
@@ -3380,6 +3390,16 @@
 			)
 		)
 		(uuid "9082e2bf-9adf-47aa-8179-1967d3df12b2")
+	)
+	(text "*1 - 25-V, X5R or better"
+		(exclude_from_sim no)
+		(at 236.474 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ff72a0b-cd7a-4003-9919-07b570c51287")
 	)
 	(text "?"
 		(exclude_from_sim no)
@@ -3724,7 +3744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -3733,7 +3753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171439_TAI-TECH-TMPC1265HP-100MG-D_C305223.pdf"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -3743,6 +3763,24 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -4341,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -4350,7 +4388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171439_TAI-TECH-TMPC1265HP-100MG-D_C305223.pdf"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -4360,6 +4398,24 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 179.07 120.65 0)
 			(effects
 				(font
@@ -4608,7 +4664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -4617,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171439_TAI-TECH-TMPC1265HP-100MG-D_C305223.pdf"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -4627,6 +4683,24 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -4678,7 +4752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4687,7 +4761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-ECQE1684JF_C242101.pdf"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -4697,6 +4771,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECQE1684JF"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 184.15 72.39 0)
 			(effects
 				(font
@@ -5023,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 184.15 118.11 0)
 			(effects
 				(font
@@ -5032,7 +5124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-ECQE1684JF_C242101.pdf"
 			(at 184.15 118.11 0)
 			(effects
 				(font
@@ -5042,6 +5134,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECQE1684JF"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 184.15 118.11 0)
 			(effects
 				(font
@@ -7635,7 +7745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -7644,7 +7754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-ECQE1684JF_C242101.pdf"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -7654,6 +7764,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECQE1684JF"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 184.15 113.03 0)
 			(effects
 				(font
@@ -7843,7 +7971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -7852,7 +7980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009171439_TAI-TECH-TMPC1265HP-100MG-D_C305223.pdf"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -7862,6 +7990,24 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMPC1265HP-100MG-D"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -8395,7 +8541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT"
 			(at 184.15 77.47 0)
 			(effects
 				(font
@@ -8404,7 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PANASONIC-ECQE1684JF_C242101.pdf"
 			(at 184.15 77.47 0)
 			(effects
 				(font
@@ -8414,6 +8560,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECQE1684JF"
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 184.15 77.47 0)
 			(effects
 				(font
