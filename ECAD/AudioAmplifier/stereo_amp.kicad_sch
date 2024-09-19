@@ -3351,26 +3351,6 @@
 		)
 		(uuid "1d8fdf67-1ab1-4c87-84fd-f404a9d3acc5")
 	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 67.31 93.218 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2cd2918f-761d-469d-8db9-b24024f66ed0")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 67.31 71.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3d707022-2bac-4f7f-9562-d183ad46880f")
-	)
 	(text "*1"
 		(exclude_from_sim no)
 		(at 171.958 67.564 0)
@@ -3380,16 +3360,6 @@
 			)
 		)
 		(uuid "72234872-9a06-43db-9126-bf3e3b7e3d7b")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 67.31 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9082e2bf-9adf-47aa-8179-1967d3df12b2")
 	)
 	(text "*1 - 25-V, X5R or better"
 		(exclude_from_sim no)
@@ -3430,16 +3400,6 @@
 			)
 		)
 		(uuid "dd805c44-4a3a-44e3-9df0-6d71b2863b75")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 67.31 75.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea16b082-5296-4a0d-bb83-9ee7fbc8477d")
 	)
 	(label "AM1"
 		(at 121.92 109.22 0)
@@ -4164,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 67.3163 100.33 90)
 			(effects
 				(font
@@ -5462,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 67.3163 88.9 90)
 			(effects
 				(font
@@ -6270,7 +6230,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 67.3163 78.74 90)
 			(effects
 				(font
@@ -8618,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 67.3163 67.31 90)
 			(effects
 				(font

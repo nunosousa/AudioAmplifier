@@ -3091,26 +3091,6 @@
 	)
 	(text "?"
 		(exclude_from_sim no)
-		(at 58.42 83.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9efaf0a-dfb1-45a0-b962-159ec6be8a23")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 58.42 77.978 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d42fbdca-46fa-42ca-b85d-9bb94cc82cdd")
-	)
-	(text "?"
-		(exclude_from_sim no)
 		(at 88.9 63.754 0)
 		(effects
 			(font
@@ -5609,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 58.4263 73.66 90)
 			(effects
 				(font
@@ -8500,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Value" "1uC"
+		(property "Value" "1u5C"
 			(at 58.4263 86.36 90)
 			(effects
 				(font
