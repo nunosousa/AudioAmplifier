@@ -7673,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 115.57 58.42 0)
 			(effects
 				(font
