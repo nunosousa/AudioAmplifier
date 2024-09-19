@@ -3361,6 +3361,16 @@
 		)
 		(uuid "72234872-9a06-43db-9126-bf3e3b7e3d7b")
 	)
+	(text "20 dB gain,\nmaster"
+		(exclude_from_sim no)
+		(at 111.506 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84dc1497-df0f-4095-a471-83fdf1900d77")
+	)
 	(text "*1 - 25-V, X5R or better"
 		(exclude_from_sim no)
 		(at 236.474 44.45 0)
@@ -3380,26 +3390,6 @@
 			)
 		)
 		(uuid "b7216356-f44f-4d42-aa30-ea1ed638a296")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 111.76 63.754 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ccb29b6f-044b-467e-a2e0-b6258bb7c477")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 111.76 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd805c44-4a3a-44e3-9df0-6d71b2863b75")
 	)
 	(label "AM1"
 		(at 121.92 109.22 0)
@@ -3770,11 +3760,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ef3862f-0a0b-4d4f-9a67-afd9fdc7cd75")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 109.22 57.1499 0)
 			(effects
 				(font
@@ -3783,7 +3773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3R3"
+		(property "Value" "R"
 			(at 109.22 59.6899 0)
 			(effects
 				(font
@@ -3828,7 +3818,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3910,7 +3900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f2c5cfa-d5ce-4136-83af-d43fd53467c1")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 95.25 62.2299 0)
 			(effects
 				(font
@@ -3964,7 +3954,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3980,7 +3970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f7d5162-b3f2-4494-b98f-7e221278e8c1")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 109.22 62.2299 0)
 			(effects
 				(font
@@ -3989,7 +3979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3R3"
+		(property "Value" "5k6R"
 			(at 109.22 64.7699 0)
 			(effects
 				(font
@@ -4034,7 +4024,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10d48806-de2b-42be-96bf-7df95913a247")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -4100,7 +4090,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -4141,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005151105_TDK-B32529C0155K189_C531128.pdf"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -4151,6 +4141,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32529C0155K189"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -5215,7 +5223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c2349b6-cc5b-4c37-8c84-d4da4120db1b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 74.93 166.37 0)
 			(effects
 				(font
@@ -5265,7 +5273,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
 			(at 67.31 92.71 0)
 			(effects
 				(font
@@ -5439,7 +5447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005151105_TDK-B32529C0155K189_C531128.pdf"
 			(at 67.31 92.71 0)
 			(effects
 				(font
@@ -5449,6 +5457,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32529C0155K189"
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 67.31 92.71 0)
 			(effects
 				(font
@@ -5618,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "582fc188-561d-4c49-a5d1-6f3c601326da")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 63.5 191.77 0)
 			(effects
 				(font
@@ -5668,7 +5694,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5888,7 +5914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616041a4-99ac-43f3-b4a8-28ab26da9462")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 97.79 72.39 0)
 			(effects
 				(font
@@ -5938,7 +5964,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -6247,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005151105_TDK-B32529C0155K189_C531128.pdf"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -6257,6 +6283,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32529C0155K189"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -6496,7 +6540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cf76941-fece-44ad-9b61-daffaba8b0d6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -6546,7 +6590,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6800,7 +6844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877b26a7-4bc6-44ea-911e-f4a564a02965")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 74.93 191.77 0)
 			(effects
 				(font
@@ -6850,7 +6894,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7004,7 +7048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d52e492-77bb-4f10-83d5-b960e4badaa1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 63.5 166.37 0)
 			(effects
 				(font
@@ -7054,7 +7098,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7070,7 +7114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e077ff6-d8e3-4586-9936-bc681229ce26")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 95.25 55.8799 0)
 			(effects
 				(font
@@ -7124,7 +7168,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -8029,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC1206KKX7R0BB105_C70463.pdf"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -8039,6 +8083,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC1206KKX7R0BB105"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -8142,7 +8204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc27ae0-25a9-4c54-b548-2aa6f9c020ae")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 52.07 191.77 0)
 			(effects
 				(font
@@ -8192,7 +8254,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8586,7 +8648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -8595,7 +8657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005151105_TDK-B32529C0155K189_C531128.pdf"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -8605,6 +8667,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32529C0155K189"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -8775,7 +8855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccb599c1-eea6-4d2f-9383-7dc36b888063")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 60.96 163.8299 0)
 			(effects
 				(font
@@ -8829,7 +8909,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8913,7 +8993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d35d7c98-ceb5-4604-ab69-f4ac1a99f710")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 49.53 163.8299 0)
 			(effects
 				(font
@@ -8967,7 +9047,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9459,7 +9539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f004715f-8a5c-4944-80d6-b244a7a92fab")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 72.39 163.8299 0)
 			(effects
 				(font
@@ -9513,7 +9593,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9596,7 +9676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4044ca8-5bdc-4e83-bddb-611ecc71b6f1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -9646,7 +9726,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/568091d5-704e-4436-8d74-bf53632a7c8d"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
