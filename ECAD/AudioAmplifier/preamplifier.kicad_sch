@@ -3226,7 +3226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 191.77 62.23 0)
 			(effects
 				(font
@@ -3236,6 +3236,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK09712200HA"
 			(at 191.77 62.23 0)
 			(effects
 				(font
@@ -3945,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -3955,6 +3964,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK0971210Z2M"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -6617,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -6627,6 +6645,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK0971210Z2M"
 			(at 132.08 41.91 0)
 			(effects
 				(font
@@ -7168,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -7178,6 +7205,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK0971210Z2M"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -9416,7 +9452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 191.77 127 0)
 			(effects
 				(font
@@ -9426,6 +9462,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK09712200HA"
 			(at 191.77 127 0)
 			(effects
 				(font
@@ -10490,7 +10535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/RK097-1274130.pdf"
 			(at 154.94 106.68 0)
 			(effects
 				(font
@@ -10500,6 +10545,15 @@
 			)
 		)
 		(property "Description" "Dual potentiometer, separate units"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK0971210Z2M"
 			(at 154.94 106.68 0)
 			(effects
 				(font
