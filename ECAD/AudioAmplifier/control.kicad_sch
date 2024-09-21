@@ -2815,7 +2815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f66b22c-0af8-4358-8a46-499cecd5e447")
-		(property "Reference" "R86"
+		(property "Reference" "R84"
 			(at 87.63 71.1199 0)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "R86")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -2951,7 +2951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1654cdcf-0ca2-49b2-adc8-47a7cbd145ca")
-		(property "Reference" "R87"
+		(property "Reference" "R85"
 			(at 87.63 115.5699 0)
 			(effects
 				(font
@@ -3005,7 +3005,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "R87")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d0961e1-3392-4ad4-bc65-4a274a0349df")
-		(property "Reference" "R89"
+		(property "Reference" "R87"
 			(at 104.14 133.35 90)
 			(effects
 				(font
@@ -3186,7 +3186,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "R89")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed563bcc-93e7-48f0-898f-77cac62d676a")
-		(property "Reference" "R88"
+		(property "Reference" "R86"
 			(at 104.14 88.9 90)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "R88")
+					(reference "R86")
 					(unit 1)
 				)
 			)
