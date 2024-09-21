@@ -3281,7 +3281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08667d7b-9d2a-4dfd-90fd-b0c652dfc349")
-		(property "Reference" "C82"
+		(property "Reference" "C92"
 			(at 34.036 177.8 0)
 			(effects
 				(font
@@ -3335,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 30.48 179.07 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C82")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -4000,7 +4000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271367b3-534f-44bb-9a60-aadd3aa05d7a")
-		(property "Reference" "C86"
+		(property "Reference" "C96"
 			(at 69.469 52.07 90)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C86")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cee7adf-fcd9-45cf-a52b-205a2ef346cc")
-		(property "Reference" "C99"
+		(property "Reference" "C109"
 			(at 171.45 176.911 0)
 			(effects
 				(font
@@ -4676,7 +4676,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C99")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -5140,7 +5140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d921b88-af3b-468f-8c88-0eabc981682d")
-		(property "Reference" "C83"
+		(property "Reference" "C93"
 			(at 48.26 176.911 0)
 			(effects
 				(font
@@ -5239,7 +5239,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C83")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -5455,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5754259d-f3ac-4f12-a05c-6a8ad0b32d0c")
-		(property "Reference" "C100"
+		(property "Reference" "C110"
 			(at 236.22 39.37 90)
 			(effects
 				(font
@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 240.03 46.0248 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201249_Murata-Electronics-GRM31A5C3A101JW01D_C162451.pdf"
 			(at 236.22 46.99 0)
 			(effects
 				(font
@@ -5498,6 +5498,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31A5C3A101JW01D"
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67963445-da84-478f-a352-11bdfd645622")
 		)
@@ -5507,7 +5525,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C100")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -5588,7 +5606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5919369d-c03b-45f6-8d0b-74918aa60953")
-		(property "Reference" "C96"
+		(property "Reference" "C106"
 			(at 158.75 48.2599 0)
 			(effects
 				(font
@@ -5606,7 +5624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 155.9052 53.34 0)
 			(effects
 				(font
@@ -5615,7 +5633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-GRM3195C1H153JA01D_C440199.pdf"
 			(at 154.94 49.53 0)
 			(effects
 				(font
@@ -5633,6 +5651,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM3195C1H153JA01D"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33282fb3-72dd-4110-ab58-9ee42b95fd1c")
 		)
@@ -5642,7 +5678,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C96")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -6040,7 +6076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63af9cc1-d64f-4d70-a4d7-7221a808c15b")
-		(property "Reference" "C93"
+		(property "Reference" "C103"
 			(at 130.81 176.911 0)
 			(effects
 				(font
@@ -6139,7 +6175,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C93")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -6703,7 +6739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7285f7a5-7ba7-45c2-84bc-a6fad32e43d9")
-		(property "Reference" "C88"
+		(property "Reference" "C98"
 			(at 75.946 177.8 0)
 			(effects
 				(font
@@ -6757,7 +6793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 72.39 179.07 0)
 			(effects
 				(font
@@ -6802,7 +6838,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C88")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7289ba6b-805c-4873-80d7-60392e43373f")
-		(property "Reference" "C91"
+		(property "Reference" "C101"
 			(at 116.84 40.6399 0)
 			(effects
 				(font
@@ -6845,7 +6881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -6863,6 +6899,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "faa5f06e-68c9-48b9-8ed9-f4a81baa91a2")
 		)
@@ -6872,7 +6926,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C91")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88fb2cdf-cc32-4960-9c2b-3feb53120e3e")
-		(property "Reference" "C101"
+		(property "Reference" "C111"
 			(at 236.22 104.14 90)
 			(effects
 				(font
@@ -7255,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 240.03 110.7948 0)
 			(effects
 				(font
@@ -7264,7 +7318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201249_Murata-Electronics-GRM31A5C3A101JW01D_C162451.pdf"
 			(at 236.22 111.76 0)
 			(effects
 				(font
@@ -7282,6 +7336,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31A5C3A101JW01D"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f532b343-2ce7-46e9-8974-1c42b56e6662")
 		)
@@ -7291,7 +7363,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C101")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97048e48-e840-4d26-ae2e-215ef0957254")
-		(property "Reference" "C94"
+		(property "Reference" "C104"
 			(at 157.226 177.8 0)
 			(effects
 				(font
@@ -7691,7 +7763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 153.67 179.07 0)
 			(effects
 				(font
@@ -7736,7 +7808,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C94")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a587afd6-5128-4508-bf55-70820c294545")
-		(property "Reference" "C95"
+		(property "Reference" "C105"
 			(at 158.75 33.0199 0)
 			(effects
 				(font
@@ -8174,7 +8246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 155.9052 38.1 0)
 			(effects
 				(font
@@ -8183,7 +8255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-GRM3195C1H153JA01D_C440199.pdf"
 			(at 154.94 34.29 0)
 			(effects
 				(font
@@ -8201,6 +8273,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM3195C1H153JA01D"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfa72a58-4f32-43b8-83ed-a3e67f29e7c0")
 		)
@@ -8210,7 +8300,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C95")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -8495,7 +8585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae98c0a9-2ed2-4d23-a216-9631db44a353")
-		(property "Reference" "C89"
+		(property "Reference" "C99"
 			(at 90.17 176.911 0)
 			(effects
 				(font
@@ -8594,7 +8684,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C89")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "affa79a9-92c2-4f7a-ae7e-cf4b8740e7c2")
-		(property "Reference" "C98"
+		(property "Reference" "C108"
 			(at 158.75 113.0299 0)
 			(effects
 				(font
@@ -8758,7 +8848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 155.9052 118.11 0)
 			(effects
 				(font
@@ -8767,7 +8857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-GRM3195C1H153JA01D_C440199.pdf"
 			(at 154.94 114.3 0)
 			(effects
 				(font
@@ -8785,6 +8875,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM3195C1H153JA01D"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12ef188e-6662-4d2e-a70c-45def6ee5fea")
 		)
@@ -8794,7 +8902,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C98")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -8876,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4b4d352-5ebc-435a-a0d6-c65f10b5c5ea")
-		(property "Reference" "C90"
+		(property "Reference" "C100"
 			(at 116.586 177.8 0)
 			(effects
 				(font
@@ -8930,7 +9038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 113.03 179.07 0)
 			(effects
 				(font
@@ -8975,7 +9083,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C90")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1c0a468-9f18-48d5-af60-01d132ab22b7")
-		(property "Reference" "C92"
+		(property "Reference" "C102"
 			(at 116.84 105.4099 0)
 			(effects
 				(font
@@ -9154,7 +9262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
 			(at 120.65 106.68 0)
 			(effects
 				(font
@@ -9172,6 +9280,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a6d7a51-ad97-494b-978c-bae91157d1a9")
 		)
@@ -9181,7 +9307,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C92")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -9411,7 +9537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb29fe78-7350-47e6-9b6e-2e78b1d38846")
-		(property "Reference" "C84"
+		(property "Reference" "C94"
 			(at 44.958 66.04 0)
 			(effects
 				(font
@@ -9510,7 +9636,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C84")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d070397e-1067-47f1-84e4-5dea99799dfa")
-		(property "Reference" "C85"
+		(property "Reference" "C95"
 			(at 44.958 130.81 0)
 			(effects
 				(font
@@ -9625,7 +9751,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C85")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -10418,7 +10544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4aa547c-a6d1-469b-af17-042a60a19259")
-		(property "Reference" "C97"
+		(property "Reference" "C107"
 			(at 158.75 97.7899 0)
 			(effects
 				(font
@@ -10436,7 +10562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 155.9052 102.87 0)
 			(effects
 				(font
@@ -10445,7 +10571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-GRM3195C1H153JA01D_C440199.pdf"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -10463,6 +10589,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM3195C1H153JA01D"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ce3bf8f-d765-4a3b-b422-a565255c1247")
 		)
@@ -10472,7 +10616,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C97")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -10929,7 +11073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe3042df-a7bb-4de7-810d-5fbba401b4cd")
-		(property "Reference" "C87"
+		(property "Reference" "C97"
 			(at 69.469 116.84 90)
 			(effects
 				(font
@@ -11026,7 +11170,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/a3a68b06-6108-4351-8cba-e2508a966dd5"
-					(reference "C87")
+					(reference "C97")
 					(unit 1)
 				)
 			)

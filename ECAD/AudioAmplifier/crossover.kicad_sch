@@ -552,6 +552,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1184,16 +1319,34 @@
 		(uuid "09768d10-aa7f-412e-83e5-a36fad532dfc")
 	)
 	(junction
+		(at 109.22 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa07f8e-58a4-4a77-8657-8feb1a1ce3a5")
+	)
+	(junction
 		(at 157.48 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fc170f7-6d2e-4dfb-9f70-0fcf82bedcd8")
 	)
 	(junction
+		(at 48.26 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1400ec61-7a0c-4ed6-abac-276535f7025c")
+	)
+	(junction
 		(at 185.42 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16e7c903-8065-49fe-9909-6a2d132c60cf")
+	)
+	(junction
+		(at 60.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bee6bdc-6fe0-44e6-9580-683882fc2e84")
 	)
 	(junction
 		(at 24.13 62.23)
@@ -1250,10 +1403,28 @@
 		(uuid "3a57f67e-75de-458a-b7a7-39b037a91388")
 	)
 	(junction
+		(at 104.14 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ef70cb-a4a7-433e-a090-ff570e781860")
+	)
+	(junction
 		(at 119.38 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "508c5fea-f9c2-4033-8d08-7599132e2311")
+	)
+	(junction
+		(at 96.52 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62ad676d-c58a-4bfb-9a2f-acfc5fbc6051")
+	)
+	(junction
+		(at 48.26 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a1d595-126a-48cb-870c-db97fad0671e")
 	)
 	(junction
 		(at 241.3 144.78)
@@ -1262,16 +1433,58 @@
 		(uuid "640c3ccb-eee9-4aeb-a305-831706a286f9")
 	)
 	(junction
+		(at 60.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a5fe43-febc-4d6a-943f-43d2cb2d68e5")
+	)
+	(junction
+		(at 53.34 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b01b09b-ed25-4bd7-86b9-9898c280b671")
+	)
+	(junction
+		(at 104.14 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b15672a-bce9-47b7-aea3-7f9d506e2627")
+	)
+	(junction
 		(at 106.68 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8150dfae-a2a9-4206-acb3-a8902058d31c")
 	)
 	(junction
+		(at 53.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835ceb26-f9fa-42bf-8a7a-136b0a1ed004")
+	)
+	(junction
 		(at 251.46 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a2db988-1f5a-4b10-ac95-5628b6833d8e")
+	)
+	(junction
+		(at 109.22 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d3b7a23-5afd-4313-9144-6a6f673a58fb")
+	)
+	(junction
+		(at 40.64 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dffd44e-397c-4c15-86ca-d4d6ac95dc38")
+	)
+	(junction
+		(at 137.16 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e71d8fc-fe91-410b-a06a-510b495ea371")
 	)
 	(junction
 		(at 91.44 137.16)
@@ -1292,6 +1505,18 @@
 		(uuid "979b6372-a189-4f26-8cdd-d208b0eaa94b")
 	)
 	(junction
+		(at 96.52 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "993166c6-6e62-4b08-9fa5-fc97213ce71d")
+	)
+	(junction
+		(at 193.04 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa39621-cde2-4980-95a0-36b04033cd4f")
+	)
+	(junction
 		(at 101.6 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1302,6 +1527,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a86f4cbb-95b1-4839-a3b1-2a039ddb28f1")
+	)
+	(junction
+		(at 137.16 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf87811-e307-4aea-88b6-4e4bc3f5c23a")
 	)
 	(junction
 		(at 167.64 67.31)
@@ -1340,6 +1571,12 @@
 		(uuid "b8535409-f8ad-441f-bc4a-467caed0c091")
 	)
 	(junction
+		(at 193.04 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9831036-d277-4b5d-a4e2-6294aae1c0ca")
+	)
+	(junction
 		(at 106.68 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1350,6 +1587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1208544-90fd-43c5-b382-fd8f030a02cf")
+	)
+	(junction
+		(at 40.64 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c92c9986-4c33-4497-bc72-698ffb0da8ed")
 	)
 	(junction
 		(at 233.68 144.78)
@@ -1374,6 +1617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8911d78-4f55-4b6b-bdeb-edd2e5c84323")
+	)
+	(junction
+		(at 116.84 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db66759f-6c4e-41b7-8472-f210964ddb28")
 	)
 	(junction
 		(at 50.8 27.94)
@@ -1406,6 +1655,12 @@
 		(uuid "f07c2754-82eb-4037-92be-dd6a9d6fe7d6")
 	)
 	(junction
+		(at 116.84 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4137c29-5fe7-4227-88b4-a74783766453")
+	)
+	(junction
 		(at 167.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1434,6 +1689,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff8e3089-7744-4639-8a49-5ca545e58ce5")
+	)
+	(wire
+		(pts
+			(xy 53.34 62.23) (xy 53.34 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e48e61-addf-40c1-b872-8ce0959e916e")
+	)
+	(wire
+		(pts
+			(xy 193.04 142.24) (xy 193.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b17691-1d7a-438d-90ac-a9d4033d61a3")
 	)
 	(wire
 		(pts
@@ -1497,6 +1772,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 62.23) (xy 48.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4333c3-2a98-40f2-8749-80f1913335f1")
+	)
+	(wire
+		(pts
 			(xy 147.32 67.31) (xy 146.05 67.31)
 		)
 		(stroke
@@ -1517,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 33.02) (xy 97.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2ae134-8a1a-4398-aff7-e243de088406")
+	)
+	(wire
+		(pts
 			(xy 180.34 142.24) (xy 182.88 142.24)
 		)
 		(stroke
@@ -1524,6 +1819,16 @@
 			(type default)
 		)
 		(uuid "0fa743cb-0ee7-4e7e-a5c6-3adc06373e3f")
+	)
+	(wire
+		(pts
+			(xy 97.79 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1059a016-baac-4de3-8fe3-2eef94885c1f")
 	)
 	(wire
 		(pts
@@ -1564,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "13ae6703-f1f0-432b-9988-291937eac237")
+	)
+	(wire
+		(pts
+			(xy 40.64 62.23) (xy 40.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156b64ed-f18b-46b8-8bd3-25165b0ccfd2")
 	)
 	(wire
 		(pts
@@ -1617,6 +1932,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 147.32) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4168c9-7b97-4c3a-bc97-3ad17dd4b322")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 50.8 48.26)
 		)
 		(stroke
@@ -1657,6 +1982,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 156.21) (xy 193.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205b4e89-6054-4318-9622-b20af2ed0aed")
+	)
+	(wire
+		(pts
 			(xy 180.34 160.02) (xy 180.34 142.24)
 		)
 		(stroke
@@ -1687,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 30.48) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24379683-b999-4ca1-82f0-a6f1c9db98ce")
+	)
+	(wire
+		(pts
 			(xy 73.66 72.39) (xy 91.44 72.39)
 		)
 		(stroke
@@ -1704,6 +2049,16 @@
 			(type default)
 		)
 		(uuid "25eb633c-b5cb-4b7f-a017-fa943bf23abe")
+	)
+	(wire
+		(pts
+			(xy 97.79 27.94) (xy 96.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26479354-fc02-4c14-932d-3430c56e7de2")
 	)
 	(wire
 		(pts
@@ -1787,6 +2142,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 146.05) (xy 134.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e610a77-30a9-4170-9885-538f87844a75")
+	)
+	(wire
+		(pts
 			(xy 44.45 133.35) (xy 39.37 133.35)
 		)
 		(stroke
@@ -1794,6 +2159,26 @@
 			(type default)
 		)
 		(uuid "2e873d56-5870-476d-92af-f2aa4e2557e6")
+	)
+	(wire
+		(pts
+			(xy 195.58 148.59) (xy 193.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecc0f18-8773-4d23-8b0a-93c4cf74e17e")
+	)
+	(wire
+		(pts
+			(xy 104.14 27.94) (xy 102.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f11c42f-71f4-4d52-a414-67856953a834")
 	)
 	(wire
 		(pts
@@ -1867,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 156.21) (xy 193.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398b0f11-4f22-40bd-bf27-f38b43431950")
+	)
+	(wire
+		(pts
 			(xy 50.8 48.26) (xy 93.98 48.26)
 		)
 		(stroke
@@ -1884,6 +2279,26 @@
 			(type default)
 		)
 		(uuid "3a7d2edb-d6f9-4233-9449-354561a40558")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 59.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba796f3-fa63-4ee7-b865-1a2418c89e7d")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd8f044-75cd-4914-a680-d3e9c7508361")
 	)
 	(wire
 		(pts
@@ -1907,6 +2322,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 148.59) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb0c74c-e289-45ee-9a7f-41642e11b045")
+	)
+	(wire
+		(pts
 			(xy 185.42 35.56) (xy 189.23 35.56)
 		)
 		(stroke
@@ -1917,6 +2342,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 156.21) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5e6df1-9dab-4d78-afd1-d2a67c14883d")
+	)
+	(wire
+		(pts
 			(xy 26.67 27.94) (xy 26.67 137.16)
 		)
 		(stroke
@@ -1924,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "3e4bb343-831a-44e5-a03d-fef10c190c89")
+	)
+	(wire
+		(pts
+			(xy 193.04 156.21) (xy 195.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eba8e64-5448-480d-909c-cd2fe14bfb28")
 	)
 	(wire
 		(pts
@@ -1957,6 +2402,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 33.02) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e18a17-7a2a-4be2-b52f-294abcfdbae9")
+	)
+	(wire
+		(pts
 			(xy 36.83 137.16) (xy 38.1 137.16)
 		)
 		(stroke
@@ -1964,6 +2419,16 @@
 			(type default)
 		)
 		(uuid "46ec63ff-0444-4260-942a-2b8050053844")
+	)
+	(wire
+		(pts
+			(xy 54.61 64.77) (xy 53.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479f6e1b-a5d8-40bd-9513-7b5b8ee4d246")
 	)
 	(wire
 		(pts
@@ -1997,6 +2462,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 148.59) (xy 190.5 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d449295-ba7f-4e77-a259-ce70c245b894")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 110.49 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea63943-cae9-47ea-aceb-6f9fdaf21e98")
+	)
+	(wire
+		(pts
 			(xy 167.64 73.66) (xy 167.64 72.39)
 		)
 		(stroke
@@ -2017,6 +2502,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 67.31) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50632e55-effd-4413-bb0e-63c34857d1d3")
+	)
+	(wire
+		(pts
 			(xy 233.68 144.78) (xy 232.41 144.78)
 		)
 		(stroke
@@ -2027,6 +2522,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 30.48) (xy 53.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53db2b05-e844-4978-8929-c3a77110a009")
+	)
+	(wire
+		(pts
 			(xy 251.46 144.78) (xy 251.46 139.7)
 		)
 		(stroke
@@ -2034,6 +2539,16 @@
 			(type default)
 		)
 		(uuid "5727d5a2-5e3e-4b42-aafe-5ea884a12c7b")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a73ddc-4b25-4a68-92c8-8fcc5429f13f")
 	)
 	(wire
 		(pts
@@ -2054,6 +2569,16 @@
 			(type default)
 		)
 		(uuid "5946ec1f-22ad-4358-8e31-b7cbbc7ebfbf")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e0de67-95ab-4d68-b9d8-6624253e07c1")
 	)
 	(wire
 		(pts
@@ -2087,6 +2612,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 64.77) (xy 46.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ced58a7-4475-4186-a11c-9f8f76a51fed")
+	)
+	(wire
+		(pts
 			(xy 91.44 144.78) (xy 91.44 137.16)
 		)
 		(stroke
@@ -2117,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 30.48) (xy 48.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619aa8d0-41bc-4320-901a-0ea26c785df6")
+	)
+	(wire
+		(pts
 			(xy 193.04 142.24) (xy 195.58 142.24)
 		)
 		(stroke
@@ -2134,6 +2679,16 @@
 			(type default)
 		)
 		(uuid "62b210e3-56f8-4674-9a2b-2fc372c5f063")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638243b5-d26f-4f54-8530-2a0377b2170b")
 	)
 	(wire
 		(pts
@@ -2167,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 59.69) (xy 41.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f9567b-5db1-4bb6-8a14-0e1499cb9c7e")
+	)
+	(wire
+		(pts
 			(xy 57.15 142.24) (xy 57.15 133.35)
 		)
 		(stroke
@@ -2184,6 +2749,26 @@
 			(type default)
 		)
 		(uuid "69385e2a-428d-4540-b85d-37b4bb6d747c")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 60.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69843d5b-e7b4-4d27-95b5-206a5ccedbe7")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 40.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d0de58-1b86-4d11-8b90-607c7171ff40")
 	)
 	(wire
 		(pts
@@ -2247,16 +2832,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 139.7) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f62f80e-e580-4121-8ca1-3b5f0b4e3c0b")
-	)
-	(wire
-		(pts
 			(xy 116.84 64.77) (xy 119.38 64.77)
 		)
 		(stroke
@@ -2284,6 +2859,26 @@
 			(type default)
 		)
 		(uuid "7134a5d5-06c1-44a6-b0f2-a69aa43e675b")
+	)
+	(wire
+		(pts
+			(xy 40.64 25.4) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7202ab0f-a374-491e-b289-2b69a32d994b")
+	)
+	(wire
+		(pts
+			(xy 139.7 146.05) (xy 137.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7560e121-62fc-4fda-9a43-49bbf713b6d7")
 	)
 	(wire
 		(pts
@@ -2337,6 +2932,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a779903-8b39-4b04-a745-9310d913a906")
+	)
+	(wire
+		(pts
+			(xy 53.34 64.77) (xy 53.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d93488c-e1e6-4373-99f1-746c327acd3a")
+	)
+	(wire
+		(pts
 			(xy 129.54 74.93) (xy 147.32 74.93)
 		)
 		(stroke
@@ -2347,13 +2962,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 142.24) (xy 193.04 144.78)
+			(xy 60.96 62.23) (xy 60.96 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "821fc2b0-43e3-4dd2-b316-03b69d59eba1")
+		(uuid "80ff6a42-3ebf-442c-906d-c392e42a4fa7")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8134c9c7-b4d3-4494-8df9-be050924b428")
 	)
 	(wire
 		(pts
@@ -2387,6 +3012,36 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 27.94) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8445a52e-2f2b-4aa0-97c6-f3e8e6e41a8e")
+	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845fead1-947f-45fd-b010-a7b418692915")
+	)
+	(wire
+		(pts
+			(xy 109.22 62.23) (xy 109.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c2a3b6-e047-4741-87d2-4c9c4c51b940")
+	)
+	(wire
+		(pts
 			(xy 106.68 74.93) (xy 106.68 85.09)
 		)
 		(stroke
@@ -2404,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "884ea66c-88fd-464a-982d-9085c00f464b")
+	)
+	(wire
+		(pts
+			(xy 195.58 149.86) (xy 195.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ae23dc-9d80-4a3d-b07c-cc7901011d93")
 	)
 	(wire
 		(pts
@@ -2447,16 +3112,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 152.4) (xy 193.04 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da5b2fe-e55b-4a22-a3ce-cabe933f09e7")
-	)
-	(wire
-		(pts
 			(xy 119.38 139.7) (xy 119.38 130.81)
 		)
 		(stroke
@@ -2497,6 +3152,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 33.02) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9062b373-acf2-4709-802f-35468a817d2b")
+	)
+	(wire
+		(pts
+			(xy 104.14 67.31) (xy 104.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907552cc-097c-4e82-9393-4dd575c4de8a")
+	)
+	(wire
+		(pts
 			(xy 166.37 67.31) (xy 167.64 67.31)
 		)
 		(stroke
@@ -2504,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "908185fb-236c-4d37-98d3-d422b2afa20c")
+	)
+	(wire
+		(pts
+			(xy 110.49 33.02) (xy 109.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9087734c-a3f4-4abf-90bf-87384fdac5fe")
 	)
 	(wire
 		(pts
@@ -2527,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 139.7) (xy 137.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959be482-cbe4-4e2b-9a97-ee0e32070e32")
+	)
+	(wire
+		(pts
 			(xy 29.21 137.16) (xy 26.67 137.16)
 		)
 		(stroke
@@ -2534,6 +3229,16 @@
 			(type default)
 		)
 		(uuid "95e348a0-23b4-410d-a4b6-771cfadf6b0f")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9620a694-4a27-4712-ac29-81263a0b18d0")
 	)
 	(wire
 		(pts
@@ -2547,6 +3252,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 33.02) (xy 104.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ce1a7e-0eba-4fb6-a869-87bb13b1a594")
+	)
+	(wire
+		(pts
+			(xy 41.91 64.77) (xy 40.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a744622-2768-40a2-ae54-6725e6fac77e")
+	)
+	(wire
+		(pts
 			(xy 101.6 130.81) (xy 101.6 137.16)
 		)
 		(stroke
@@ -2554,6 +3279,16 @@
 			(type default)
 		)
 		(uuid "9b7199ac-d2df-49af-a5e2-b32415e01359")
+	)
+	(wire
+		(pts
+			(xy 115.57 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd8b20e-5cc2-458c-a610-ea9aa3270cd0")
 	)
 	(wire
 		(pts
@@ -2607,6 +3342,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 154.94) (xy 190.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f053319-8e38-4a1e-bcfc-d5e37d067139")
+	)
+	(wire
+		(pts
+			(xy 109.22 33.02) (xy 109.22 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f302909-10a1-43f6-8b91-a58aea9eb8e8")
+	)
+	(wire
+		(pts
 			(xy 167.64 27.94) (xy 172.72 27.94)
 		)
 		(stroke
@@ -2617,16 +3372,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 149.86) (xy 137.16 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a051b49f-13a0-476a-9841-e072ba98a56c")
-	)
-	(wire
-		(pts
 			(xy 22.86 62.23) (xy 24.13 62.23)
 		)
 		(stroke
@@ -2634,6 +3379,26 @@
 			(type default)
 		)
 		(uuid "a2357c03-858e-4475-90ac-4a51898d8d9f")
+	)
+	(wire
+		(pts
+			(xy 96.52 30.48) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2769bf2-932e-4959-843e-39a5e098d075")
+	)
+	(wire
+		(pts
+			(xy 116.84 64.77) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a293f599-2793-4ffa-bed5-8448ac0d0cc6")
 	)
 	(wire
 		(pts
@@ -2654,6 +3419,16 @@
 			(type default)
 		)
 		(uuid "a4f96349-f0df-4439-9272-fcb964b20882")
+	)
+	(wire
+		(pts
+			(xy 53.34 59.69) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66a413a-39da-479e-bdef-b700981bfd1c")
 	)
 	(wire
 		(pts
@@ -2687,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 59.69) (xy 60.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9f8961-6914-4778-99c0-53291abc4dbb")
+	)
+	(wire
+		(pts
 			(xy 217.17 147.32) (xy 215.9 147.32)
 		)
 		(stroke
@@ -2704,6 +3489,26 @@
 			(type default)
 		)
 		(uuid "ab5cddf1-436b-49b9-b363-937fccfa3745")
+	)
+	(wire
+		(pts
+			(xy 116.84 30.48) (xy 116.84 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdaed31-a313-4d4a-aa56-58c5d4302c11")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.94) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb6d738-e246-4877-a581-941d7ddaca6b")
 	)
 	(wire
 		(pts
@@ -2797,6 +3602,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 153.67) (xy 137.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3709bc4-df56-477f-bc42-b4c0aebb6d12")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 102.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40ea359-110a-456c-b914-b19524b0daaf")
+	)
+	(wire
+		(pts
 			(xy 60.96 62.23) (xy 63.5 62.23)
 		)
 		(stroke
@@ -2837,6 +3662,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 146.05) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba32d09a-89be-4e9a-a534-12a4a9387d5b")
+	)
+	(wire
+		(pts
 			(xy 236.22 144.78) (xy 241.3 144.78)
 		)
 		(stroke
@@ -2847,6 +3682,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 64.77) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb531103-2676-4566-87f1-f655a525ac26")
+	)
+	(wire
+		(pts
 			(xy 215.9 147.32) (xy 215.9 152.4)
 		)
 		(stroke
@@ -2854,6 +3699,16 @@
 			(type default)
 		)
 		(uuid "bc585aa7-0ab7-4e58-855b-1ae355a3bcc2")
+	)
+	(wire
+		(pts
+			(xy 137.16 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2c0fff-8d87-47a5-ae82-d7b047337e52")
 	)
 	(wire
 		(pts
@@ -2874,6 +3729,26 @@
 			(type default)
 		)
 		(uuid "bf025cfb-17d8-404f-a7f6-6ecd17ef280d")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf15004e-1609-4e92-a494-abdb9e9731c2")
+	)
+	(wire
+		(pts
+			(xy 53.34 27.94) (xy 53.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf622045-14bd-42e1-8fcc-7bd304ee3a83")
 	)
 	(wire
 		(pts
@@ -2914,6 +3789,26 @@
 			(type default)
 		)
 		(uuid "c3d7f057-a6bd-47c9-ac74-0a8109e650cd")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56cdddb-a106-419f-97df-5cbb645fd418")
+	)
+	(wire
+		(pts
+			(xy 96.52 27.94) (xy 96.52 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bd2d48-5fc2-4c00-8ad9-04420b6da115")
 	)
 	(wire
 		(pts
@@ -2977,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 153.67) (xy 137.16 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce83f1e0-6b2b-45d1-aafb-be2ee150226c")
+	)
+	(wire
+		(pts
 			(xy 50.8 62.23) (xy 53.34 62.23)
 		)
 		(stroke
@@ -2997,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 67.31) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3565c15-f3a7-43b5-a090-0fa38e00619f")
+	)
+	(wire
+		(pts
 			(xy 119.38 130.81) (xy 119.38 119.38)
 		)
 		(stroke
@@ -3007,6 +3922,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 62.23) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ca4ce6-fb6c-423e-90db-45aa8f37f40b")
+	)
+	(wire
+		(pts
 			(xy 149.86 139.7) (xy 149.86 142.24)
 		)
 		(stroke
@@ -3014,6 +3939,16 @@
 			(type default)
 		)
 		(uuid "d6682d82-7b9c-4b8b-a224-b68f4a64fac8")
+	)
+	(wire
+		(pts
+			(xy 40.64 30.48) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70c9352-25e0-48c6-a5f9-d161e69b2412")
 	)
 	(wire
 		(pts
@@ -3067,6 +4002,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 25.4) (xy 46.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc120835-0b28-4fb3-a88b-286f8e2d40b3")
+	)
+	(wire
+		(pts
+			(xy 109.22 30.48) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1017c8-92f3-4b3b-8025-8483cd892004")
+	)
+	(wire
+		(pts
 			(xy 190.5 142.24) (xy 193.04 142.24)
 		)
 		(stroke
@@ -3107,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 27.94) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fff25a-8471-4b6e-a086-32cfceada5c3")
+	)
+	(wire
+		(pts
 			(xy 73.66 38.1) (xy 91.44 38.1)
 		)
 		(stroke
@@ -3124,6 +4089,16 @@
 			(type default)
 		)
 		(uuid "e4fa155a-3fa2-4005-87d7-ca62bd0a3cd4")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 109.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fc5f39-3f39-4420-a4fb-abd74816368b")
 	)
 	(wire
 		(pts
@@ -3157,6 +4132,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb24a8c9-c62a-4aa0-8180-4162e6be3608")
+	)
+	(wire
+		(pts
 			(xy 167.64 67.31) (xy 167.64 62.23)
 		)
 		(stroke
@@ -3164,6 +4149,16 @@
 			(type default)
 		)
 		(uuid "eb500979-73c5-436c-8d9a-00853cbace22")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4a141c-c768-4f7b-b49a-554f9c0766de")
 	)
 	(wire
 		(pts
@@ -3187,6 +4182,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 64.77) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f025de10-9b2d-4635-8aad-59d12e9b68b4")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f147dfd3-d417-4fe1-8766-c12228ce4a0d")
+	)
+	(wire
+		(pts
 			(xy 48.26 62.23) (xy 50.8 62.23)
 		)
 		(stroke
@@ -3197,6 +4212,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 67.31) (xy 116.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5976fe9-d497-4af5-99b3-786036f38425")
+	)
+	(wire
+		(pts
 			(xy 68.58 138.43) (xy 68.58 142.24)
 		)
 		(stroke
@@ -3204,6 +4229,36 @@
 			(type default)
 		)
 		(uuid "f61118ac-1316-4502-9acb-4ca23dc9bc3b")
+	)
+	(wire
+		(pts
+			(xy 104.14 30.48) (xy 104.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64bab0f-b898-499c-b816-b026f742c12a")
+	)
+	(wire
+		(pts
+			(xy 53.34 25.4) (xy 54.61 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7376a37-438d-440c-b1c8-59cd45ab6437")
+	)
+	(wire
+		(pts
+			(xy 134.62 152.4) (xy 134.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86dd22a-8271-4598-b7fd-180c6eeae080")
 	)
 	(polyline
 		(pts
@@ -3651,6 +4706,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05fc4c38-a692-4c00-8eb4-95d5fa75df41")
+		(property "Reference" "C65"
+			(at 57.1563 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 57.1563 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "524b27ca-ce24-41ff-9182-be66501657c7")
+		)
+		(pin "2"
+			(uuid "d43775fe-15b9-43ce-9f74-4af96dcbb60a")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 234.95 17.78 0)
 		(unit 1)
@@ -3862,7 +5003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b65585e-0ae7-4ec7-a37f-bfb61b462cb2")
-		(property "Reference" "C76"
+		(property "Reference" "C86"
 			(at 251.206 24.13 0)
 			(effects
 				(font
@@ -3916,7 +5057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 247.65 25.4 0)
 			(effects
 				(font
@@ -3961,7 +5102,95 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C76")
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 149.86 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bf05af7-2eb8-4f3a-b0ba-eca8857cc557")
+		(property "Reference" "C78"
+			(at 132.08 148.5835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 132.08 151.1235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 134.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3a7b564-b2d8-49d9-9b66-4eaea944e3ee")
+		)
+		(pin "1"
+			(uuid "d4f10f79-6d2f-49ec-bb69-5af3db6a771b")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -4109,7 +5338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fe644ee-2275-4808-8c77-ffba31219c7c")
-		(property "Reference" "C75"
+		(property "Reference" "C85"
 			(at 209.55 147.3199 0)
 			(effects
 				(font
@@ -4136,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
 			(at 205.74 148.59 0)
 			(effects
 				(font
@@ -4154,6 +5383,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 205.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a5a884-1163-4713-996e-b18f3e5669bb")
 		)
@@ -4163,7 +5410,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C75")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -4234,6 +5481,92 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 67.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "136a8dd4-646c-423a-87e2-bd6b00ee3783")
+		(property "Reference" "C77"
+			(at 113.0363 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 113.0363 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f6bad8c-4c40-4cb1-be83-24dbe18db9c4")
+		)
+		(pin "2"
+			(uuid "1dcbdb7b-8703-4002-bafb-a45f83c20b48")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -4316,7 +5649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a467d3-1e3f-4680-9d3d-2484f24bbcb6")
-		(property "Reference" "C79"
+		(property "Reference" "C89"
 			(at 265.43 23.241 0)
 			(effects
 				(font
@@ -4415,7 +5748,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C79")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -4553,74 +5886,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18b25fb8-0040-4a31-9050-5c7f93040959")
-		(property "Reference" "C59"
-			(at 44.45 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 44.45 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 48.26 61.2648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ac0468b-7d66-421f-accd-d9753971ed2a")
-		)
-		(pin "1"
-			(uuid "0286ed92-5504-4ebf-b7d8-6bfadf712744")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 146.05 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4629,7 +5894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cfb78ed-1444-480b-a471-3e2b39c8b9fb")
-		(property "Reference" "C71"
+		(property "Reference" "C80"
 			(at 149.606 181.61 0)
 			(effects
 				(font
@@ -4683,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 146.05 182.88 0)
 			(effects
 				(font
@@ -4728,7 +5993,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C71")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -4869,6 +6134,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 33.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26218ef0-4024-4502-941f-8f816823cad4")
+		(property "Reference" "C69"
+			(at 100.3363 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 100.3363 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 100.33 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2239cc78-5104-499f-946f-b85eea38f84b")
+		)
+		(pin "2"
+			(uuid "0567834e-698f-4e3f-b9ee-66092400aa50")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 119.38 71.12 0)
 		(unit 1)
@@ -4939,74 +6290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d39420-fe71-40a4-ada9-d784de088647")
-		(property "Reference" "C64"
-			(at 100.33 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 100.33 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 104.14 29.5148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8be9627d-14f2-42c5-8cd5-6d1fd21fbba7")
-		)
-		(pin "1"
-			(uuid "302ddd04-fe26-4cf9-9abd-865ca2a09ae0")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 247.65 59.69 0)
@@ -5068,6 +6351,92 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2deff342-ba17-45d1-a469-cf6a59fffd7f")
+		(property "Reference" "C66"
+			(at 57.1563 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 57.1563 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec26934-cc74-459d-b314-551e5d736a6b")
+		)
+		(pin "2"
+			(uuid "33923b4f-7297-4d03-9dc8-e84385a58018")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -5149,7 +6518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3210c897-ed1f-490c-a754-7d7deb2e3845")
-		(property "Reference" "C60"
+		(property "Reference" "C62"
 			(at 58.42 180.721 0)
 			(effects
 				(font
@@ -5248,7 +6617,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C60")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5462,7 +6831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372de298-5db9-4475-8290-92970d355f38")
-		(property "Reference" "C81"
+		(property "Reference" "C91"
 			(at 265.43 84.201 0)
 			(effects
 				(font
@@ -5561,7 +6930,179 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C81")
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a682ad2-03fc-4590-8e49-af11299a9e45")
+		(property "Reference" "C60"
+			(at 44.4563 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 44.4563 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "754951b2-9d0a-4d50-aaf3-25e97375a523")
+		)
+		(pin "2"
+			(uuid "e2a31a0b-7255-4143-8e7a-07fefee39ddb")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d235a27-4606-4011-90df-b5c021320bb5")
+		(property "Reference" "C63"
+			(at 57.1563 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 57.1563 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e37c2e8a-4cf7-4a97-8e4c-9fdd9f7198f9")
+		)
+		(pin "2"
+			(uuid "dcadfc26-7fcc-4d33-8062-061f4ce2ca0c")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -5630,6 +7171,92 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d88f130-5044-4425-b7c9-6fbca3925295")
+		(property "Reference" "C70"
+			(at 100.3363 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 100.3363 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d910a44f-96a5-412a-91db-32346754c194")
+		)
+		(pin "2"
+			(uuid "75d82a60-592f-43c9-b043-ba06b80e10f0")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -6104,76 +7731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 137.16 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53c18b77-8441-4616-ab77-23c465d1ab8a")
-		(property "Reference" "C70"
-			(at 140.97 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200nC"
-			(at 140.97 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 138.1252 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c7894c7-8a53-4a9d-8a26-448b25652c88")
-		)
-		(pin "2"
-			(uuid "348d2c36-ffcc-49d6-afb8-632628877b71")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 119.38 40.64 180)
 		(unit 1)
@@ -6369,6 +7926,180 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae2f7bc-2a8b-4c81-94eb-15d0af3fac6d")
+		(property "Reference" "C74"
+			(at 113.0363 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 113.0363 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4b764e-2121-4134-a47d-287fec6b72b8")
+		)
+		(pin "2"
+			(uuid "07a04662-238a-4a93-bf0f-3695e27a94d8")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 190.5 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fd7cc07-6d97-4ec7-9cc1-e26e169c46ec")
+		(property "Reference" "C83"
+			(at 187.96 151.1235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nC"
+			(at 187.96 153.6635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88214af9-5844-4493-b1d8-dfa679994212")
+		)
+		(pin "1"
+			(uuid "6b41c0da-c39f-4486-89a1-bfc033c113f8")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -6704,74 +8435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 100.33 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "632c1bd1-fee4-4360-a187-a9a30651b3d5")
-		(property "Reference" "C65"
-			(at 100.33 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 100.33 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 104.14 63.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07fb42f1-ba86-41d5-9925-4ab0ece1ed6a")
-		)
-		(pin "1"
-			(uuid "a419e165-f096-440a-87c7-6737a876e65c")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 63.5 38.1 180)
 		(unit 1)
@@ -6915,7 +8578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6482a4a5-a729-4d88-9274-0cae7e0cfabe")
-		(property "Reference" "C66"
+		(property "Reference" "C72"
 			(at 110.49 180.721 0)
 			(effects
 				(font
@@ -7014,7 +8677,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C66")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -7028,10 +8691,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "686e123a-aaf0-4be3-bf66-66b1b4bd281c")
 		(property "Reference" "R37"
-			(at 109.22 69.8499 0)
+			(at 107.696 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +8702,7 @@
 			)
 		)
 		(property "Value" "5kR"
-			(at 109.22 72.3899 0)
+			(at 107.696 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,6 +9152,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6feff73f-3080-4df1-ba25-415b64ab94a8")
+		(property "Reference" "C76"
+			(at 113.0363 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 113.0363 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a50416ff-ece3-48a4-8071-d5feebbca24b")
+		)
+		(pin "2"
+			(uuid "924ad38e-d120-431d-b7f6-7a7a4c8c5017")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+2V5")
 		(at 39.37 146.05 180)
 		(unit 1)
@@ -7550,6 +9298,92 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 33.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76b616a0-f588-43da-8f96-1b5120e6b08b")
+		(property "Reference" "C75"
+			(at 113.0363 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 113.0363 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1a4e777-c55f-4c45-a51f-f0856211f85b")
+		)
+		(pin "2"
+			(uuid "9ad6426f-9ba2-4af2-9d7f-1ead169d8080")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -7766,10 +9600,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f984fd2-e882-4ed9-bb74-69db8acb0d09")
 		(property "Reference" "R36"
-			(at 109.22 35.5599 0)
+			(at 107.696 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +9611,7 @@
 			)
 		)
 		(property "Value" "5kR"
-			(at 109.22 38.0999 0)
+			(at 107.696 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,144 +9859,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8394d9b0-6af7-444b-8a58-3489e3b2d47c")
-		(property "Reference" "C68"
-			(at 113.03 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 113.03 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 116.84 29.5148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7525b83-bad3-418c-a6e6-8b2d783e920d")
-		)
-		(pin "1"
-			(uuid "3cf01f8b-321a-4440-ba6f-9b35f4c9b5df")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 193.04 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86568ff3-39d1-4ea4-8d85-58d30845a120")
-		(property "Reference" "C74"
-			(at 196.85 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200nC"
-			(at 196.85 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 194.0052 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8cb959f-cae4-4c54-b7b2-905dedd61278")
-		)
-		(pin "2"
-			(uuid "7af4e5be-5380-47af-b568-6c2ff9c47ac2")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
 		(at 247.65 21.59 0)
 		(unit 1)
@@ -8364,6 +10059,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 195.58 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1f86af-a2ca-4fd0-af2d-443b6748a3b3")
+		(property "Reference" "C84"
+			(at 198.12 151.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 198.12 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 195.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0b56e96-2086-401f-93c1-260e64e68a57")
+		)
+		(pin "1"
+			(uuid "4a09266a-716c-467b-b4e8-a71840c741f0")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 63.5 68.58 0)
 		(unit 1)
@@ -8443,7 +10226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "938510e3-3611-4dc3-aa8c-065757e3526c")
-		(property "Reference" "C72"
+		(property "Reference" "C81"
 			(at 153.67 144.7799 0)
 			(effects
 				(font
@@ -8470,7 +10253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
 			(at 149.86 146.05 0)
 			(effects
 				(font
@@ -8488,6 +10271,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e037d26-e308-47e2-b2ce-4def3f6e10c5")
 		)
@@ -8497,7 +10298,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C72")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -8976,7 +10777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14fef0a-c0e9-4fe3-b1de-16d703133142")
-		(property "Reference" "C77"
+		(property "Reference" "C87"
 			(at 251.206 54.61 0)
 			(effects
 				(font
@@ -9030,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 247.65 55.88 0)
 			(effects
 				(font
@@ -9075,7 +10876,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C77")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -9148,25 +10949,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 44.45 27.94 90)
+		(lib_id "Device:C_Small")
+		(at 100.33 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af3e65b5-729d-4bc9-ac37-8e51ed341b4e")
-		(property "Reference" "C58"
-			(at 44.45 20.32 90)
+		(uuid "af8a3df3-87dc-4f50-9c32-dcc9733168c4")
+		(property "Reference" "C68"
+			(at 100.3363 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200nC"
-			(at 44.45 22.86 90)
+		(property "Value" "100nC"
+			(at 100.3363 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +10975,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 48.26 26.9748 0)
+			(at 100.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,8 +10983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 27.94 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 100.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,8 +10992,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 27.94 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9200,16 +11001,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "657ababe-41e3-4620-9809-2a8f8cb5b3f7")
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 100.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 100.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e33c1a6d-dd4b-41c7-8c90-1e5576fe8790")
+			(uuid "9518e5b8-d71c-4121-9e21-44c4ab918a04")
+		)
+		(pin "2"
+			(uuid "5719ea57-3b73-49de-8687-f2e537323652")
 		)
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C58")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -9487,7 +11306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b854540c-e9e9-4572-be1a-b57822be8e75")
-		(property "Reference" "C78"
+		(property "Reference" "C88"
 			(at 251.206 85.09 0)
 			(effects
 				(font
@@ -9541,7 +11360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 247.65 86.36 0)
 			(effects
 				(font
@@ -9586,7 +11405,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C78")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -10053,6 +11872,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 30.48 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4e2d210-d1b6-4c65-90ea-94066b26de3d")
+		(property "Reference" "C59"
+			(at 44.4563 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 44.4563 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9260005-0cf4-4636-b347-6c91ba15d304")
+		)
+		(pin "2"
+			(uuid "f9e60223-f8a6-408e-838c-0e71de883129")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4e8f309-6446-4a1c-afa7-e824c16b394b")
+		(property "Reference" "C79"
+			(at 142.24 148.5962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nC"
+			(at 142.24 151.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "616a06ea-5244-4ce3-9602-2f3e6984cab2")
+		)
+		(pin "1"
+			(uuid "52e2c0be-49ef-4e6c-b8fc-73805c0052d7")
+		)
+		(instances
+			(project ""
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 138.43 33.02 0)
 		(unit 2)
@@ -10192,7 +12185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6b6b481-c4da-45f5-927f-bda9cdeba01b")
-		(property "Reference" "C80"
+		(property "Reference" "C90"
 			(at 265.43 53.721 0)
 			(effects
 				(font
@@ -10291,7 +12284,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C80")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -10307,7 +12300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73c3097-a743-48a5-bf76-2e8b4099a23e")
-		(property "Reference" "C63"
+		(property "Reference" "C67"
 			(at 96.266 181.61 0)
 			(effects
 				(font
@@ -10361,7 +12354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 92.71 182.88 0)
 			(effects
 				(font
@@ -10406,7 +12399,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C63")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -10621,10 +12614,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb785ab1-8332-44fb-b082-311294106951")
 		(property "Reference" "R32"
-			(at 53.34 67.3099 0)
+			(at 52.07 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +12625,7 @@
 			)
 		)
 		(property "Value" "5kR"
-			(at 53.34 69.8499 0)
+			(at 52.07 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10684,25 +12676,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 64.77 90)
+		(lib_id "Device:C_Small")
+		(at 44.45 64.77 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdce50e0-ac7d-4052-927d-d391b3074903")
-		(property "Reference" "C69"
-			(at 113.03 57.15 90)
+		(uuid "cd6058e8-edaa-4a74-afea-54aeaa3b30ff")
+		(property "Reference" "C61"
+			(at 44.4563 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200nC"
-			(at 113.03 59.69 90)
+		(property "Value" "100nC"
+			(at 44.4563 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +12702,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 116.84 63.8048 0)
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,8 +12710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 64.77 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,8 +12719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 64.77 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,16 +12728,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "abf2a56a-5ecb-4ac5-b2f4-8b0a95d06522")
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "40aca672-c903-4fc1-9fdb-b644b061492c")
+			(uuid "e3b7aef5-1f52-4384-afd7-9e786b9363eb")
+		)
+		(pin "2"
+			(uuid "f8b36662-eec5-4742-8e19-0e3c0faaf1ee")
 		)
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C69")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -10894,7 +12904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b9551c-a43f-48ca-b3f4-f4fe685fe7ad")
-		(property "Reference" "C73"
+		(property "Reference" "C82"
 			(at 163.83 180.721 0)
 			(effects
 				(font
@@ -10993,7 +13003,93 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C73")
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 67.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7e3c873-b0f5-4b35-b38a-581e2b1afcd2")
+		(property "Reference" "C71"
+			(at 100.3363 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 100.3363 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6b80aa8-3603-4b2b-86ee-e456cbe131ae")
+		)
+		(pin "2"
+			(uuid "2125a95f-e3e1-43e3-8b30-480646b2f9c9")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -12279,7 +14375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f600138b-09f5-4c77-80ac-0a53c3ea6585")
-		(property "Reference" "C67"
+		(property "Reference" "C73"
 			(at 110.49 111.76 90)
 			(effects
 				(font
@@ -12295,7 +14391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 114.3 118.4148 0)
 			(effects
 				(font
@@ -12304,7 +14400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201249_Murata-Electronics-GRM31A5C3A101JW01D_C162451.pdf"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -12314,6 +14410,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31A5C3A101JW01D"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -12331,75 +14445,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f608b33a-57b2-477d-96e6-b49947e85508")
-		(property "Reference" "C62"
-			(at 57.15 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 57.15 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 60.96 61.2648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ca5b4a2-33d2-4d01-b6e9-5e3115417a51")
-		)
-		(pin "1"
-			(uuid "b5c8d811-5c3f-4e30-9d1f-f443be187db7")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C62")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -12413,10 +14459,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6965ee0-dea2-48c7-a0c9-b5541feaaa01")
 		(property "Reference" "R31"
-			(at 53.34 33.0199 0)
+			(at 51.816 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +14470,7 @@
 			)
 		)
 		(property "Value" "5kR"
-			(at 53.34 35.5599 0)
+			(at 51.816 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,7 +14652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 40.64 182.88 0)
 			(effects
 				(font
@@ -12726,6 +14771,178 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 44.45 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f95f70e7-001f-4750-9eb8-b2bb98bbf320")
+		(property "Reference" "C58"
+			(at 44.4563 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 44.4563 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6c1feb-8c8c-409b-9d83-da80ff95e654")
+		)
+		(pin "2"
+			(uuid "797201bd-aaa6-4623-aeb7-fd223ab255e1")
+		)
+		(instances
+			(project ""
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 30.48 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9dcfe99-d261-47d7-9987-e00a08cec8b2")
+		(property "Reference" "C64"
+			(at 57.1563 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nC"
+			(at 57.1563 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201313_Murata-Electronics-GRM31C5C1H104JA01L_C97946.pdf"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31C5C1H104JA01L"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffe28dda-110e-4c8b-ba69-b253e6454881")
+		)
+		(pin "2"
+			(uuid "1be24091-6d19-43e9-b581-8572b2ba5063")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 54.61 179.07 0)
 		(unit 1)
@@ -12786,74 +15003,6 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fba085f6-7b97-4afa-ae0f-1b657e3b40e5")
-		(property "Reference" "C61"
-			(at 57.15 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200nC"
-			(at 57.15 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 60.96 26.9748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bd7141f-03b8-49fa-9b70-d87d6acb0493")
-		)
-		(pin "1"
-			(uuid "5cd1ec57-5b38-4711-b919-ea8e9f4ef6a1")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/082c031e-4798-490a-9f2a-a34bacae9069"
-					(reference "C61")
 					(unit 1)
 				)
 			)

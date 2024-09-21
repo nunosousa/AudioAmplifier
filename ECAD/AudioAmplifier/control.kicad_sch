@@ -3494,7 +3494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2f4655-07a7-440a-82fd-b92e58b00eb8")
-		(property "Reference" "C118"
+		(property "Reference" "C128"
 			(at 237.49 88.8999 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "C118")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e39726-86fb-4771-b85a-d9cefd502762")
-		(property "Reference" "C116"
+		(property "Reference" "C126"
 			(at 119.38 85.0899 0)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "C116")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -4153,7 +4153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd7bc1d-7ba7-4d76-95da-4578709ee606")
-		(property "Reference" "C117"
+		(property "Reference" "C127"
 			(at 119.38 129.5399 0)
 			(effects
 				(font
@@ -4207,7 +4207,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "C117")
+					(reference "C127")
 					(unit 1)
 				)
 			)
