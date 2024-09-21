@@ -2104,12 +2104,6 @@
 		)
 	)
 	(junction
-		(at 163.83 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00967836-71cc-47b2-a8a5-5b4b7315e909")
-	)
-	(junction
 		(at 109.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2158,34 +2152,30 @@
 		(uuid "a18f1ceb-6c1b-4d55-8405-f1ed5180b6d8")
 	)
 	(junction
+		(at 139.7 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49788c7-e6a6-4081-a041-c8ab208ad0af")
+	)
+	(junction
+		(at 139.7 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e8df5f-a82c-4859-9d61-4688792060f8")
+	)
+	(junction
 		(at 90.17 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebaaf6cf-7650-4e4e-9efc-fce632c3e5ef")
 	)
-	(junction
-		(at 121.92 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe8fdf5e-afb6-40e6-b00e-a5515f1b613b")
-	)
 	(no_connect
-		(at 95.25 81.28)
+		(at 85.09 81.28)
 		(uuid "4e7254e5-f4df-4353-a093-1183253b9f0c")
 	)
 	(no_connect
-		(at 95.25 125.73)
+		(at 85.09 125.73)
 		(uuid "52c14d79-8998-4aab-bde2-adf74115fd2f")
-	)
-	(wire
-		(pts
-			(xy 162.56 121.92) (xy 163.83 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1186e397-f89e-47e4-afb2-ef11edae217e")
 	)
 	(wire
 		(pts
@@ -2216,6 +2206,16 @@
 			(type default)
 		)
 		(uuid "2fdefcea-ac3a-4f85-a541-353baff8594d")
+	)
+	(wire
+		(pts
+			(xy 139.7 119.38) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f658df-ba63-4c80-bf18-63195662149d")
 	)
 	(wire
 		(pts
@@ -2269,17 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 123.19 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ab1541-3fb2-40f0-af5b-29bdb9a5a79d")
-	)
-	(wire
-		(pts
-			(xy 115.57 124.46) (xy 121.92 124.46)
+			(xy 115.57 124.46) (xy 123.19 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2319,6 +2309,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 121.92) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f683cdc-1d22-4c69-a0fe-d312f875e40a")
+	)
+	(wire
+		(pts
 			(xy 109.22 77.47) (xy 107.95 77.47)
 		)
 		(stroke
@@ -2329,13 +2329,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 147.32 124.46)
+			(xy 139.7 124.46) (xy 140.97 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dc840e0-1503-4b88-b611-222521e5faf2")
+		(uuid "67a45aa8-a28b-4134-9f49-088aa5713c33")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685311a2-3e29-47e1-b677-7c0b9e139e10")
 	)
 	(wire
 		(pts
@@ -2346,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "6e10daa4-1901-455c-9c23-0b8b0f70b267")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b5ada5-aad5-48da-999d-ca04b3a16f63")
 	)
 	(wire
 		(pts
@@ -2399,16 +2419,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 124.46) (xy 121.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91fe4a2b-6de6-427a-b339-1b6e8c4e2a7f")
-	)
-	(wire
-		(pts
 			(xy 99.06 121.92) (xy 99.06 124.46)
 		)
 		(stroke
@@ -2416,16 +2426,6 @@
 			(type default)
 		)
 		(uuid "a011e872-8a5e-41ff-a9d8-d759f0c5d038")
-	)
-	(wire
-		(pts
-			(xy 163.83 121.92) (xy 163.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0590f59-fc0c-4aed-a8d0-cbea2452e252")
 	)
 	(wire
 		(pts
@@ -2439,13 +2439,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 123.19 121.92)
+			(xy 139.7 82.55) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ade706c5-c3f4-4b4f-8f25-8c7a3de7a5ff")
+		(uuid "b0b8654d-533b-4c76-a8bb-3ba2d3235108")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2a9c2d-0331-4257-b3f7-156ef2eb1d12")
 	)
 	(wire
 		(pts
@@ -2469,16 +2479,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 119.38) (xy 165.1 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c357ea31-909c-44ca-abb3-db3d43978ba2")
-	)
-	(wire
-		(pts
 			(xy 99.06 127) (xy 100.33 127)
 		)
 		(stroke
@@ -2489,23 +2489,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 124.46) (xy 163.83 124.46)
+			(xy 140.97 119.38) (xy 139.7 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4e43b7a-97c9-4b97-9b8e-0a7505e3ade6")
-	)
-	(wire
-		(pts
-			(xy 121.92 121.92) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a0a778-c6fa-4875-b780-9c57d925119c")
+		(uuid "c54b77dc-0459-4ce1-a094-f3461d7b3b61")
 	)
 	(wire
 		(pts
@@ -2516,6 +2506,16 @@
 			(type default)
 		)
 		(uuid "c6b9d5bb-78df-448c-aa8d-77f8d5965b62")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9369e16-5373-4580-8ba8-5ba78abd9eba")
 	)
 	(wire
 		(pts
@@ -2549,13 +2549,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 124.46) (xy 163.83 121.92)
+			(xy 139.7 121.92) (xy 139.7 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e63c77fb-c31d-41e3-a2e3-ce900b50c23a")
+		(uuid "e6324e3f-8e06-4602-b06e-6779b428e1b4")
 	)
 	(wire
 		(pts
@@ -2619,7 +2619,7 @@
 	)
 	(hierarchical_label "MUTE"
 		(shape output)
-		(at 138.43 80.01 0)
+		(at 156.21 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2631,7 +2631,7 @@
 	)
 	(hierarchical_label "~{FAULTZ}"
 		(shape input)
-		(at 147.32 119.38 180)
+		(at 123.19 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2643,7 +2643,7 @@
 	)
 	(hierarchical_label "PWR_ON"
 		(shape output)
-		(at 180.34 121.92 0)
+		(at 156.21 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2671,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "S1A-13-F"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -2688,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Diodes-Incorporated-S1A-13-F_C150735.pdf"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -2724,6 +2724,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "S1A-13-F"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40f11514-2dc9-4021-9ec1-8806db7c2395")
 		)
@@ -2741,7 +2759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 91.44 0)
+		(at 87.63 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2749,8 +2767,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07812acb-7a51-4dae-ba44-c7303865322e")
-		(property "Reference" "#PWR0173"
-			(at 92.71 97.79 0)
+		(property "Reference" "#PWR0181"
+			(at 87.63 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 96.52 0)
+			(at 87.63 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 91.44 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 91.44 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 91.44 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2817,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0173")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -2877,7 +2895,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 213.36 77.47 0)
+		(at 186.69 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2885,8 +2903,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1432a373-aec6-4966-a0ba-6b740a38f5b0")
-		(property "Reference" "#PWR0177"
-			(at 213.36 81.28 0)
+		(property "Reference" "#PWR0185"
+			(at 186.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2913,7 @@
 			)
 		)
 		(property "Value" "PVCC"
-			(at 213.36 72.39 0)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 77.47 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 77.47 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 213.36 77.47 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2953,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0177")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:HEF4093B")
-		(at 130.81 124.46 0)
+		(at 130.81 121.92 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3022,7 +3040,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a26bdca-e6df-4d47-8af7-fc9a7916a7e4")
 		(property "Reference" "U15"
-			(at 130.8017 115.57 0)
+			(at 130.8017 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3048,7 @@
 			)
 		)
 		(property "Value" "HEF4093B"
-			(at 130.8017 118.11 0)
+			(at 130.8017 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 130.81 124.46 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 130.81 124.46 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 130.81 124.46 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3083,7 @@
 			)
 		)
 		(property "MPN" "HEF4093BT,653"
-			(at 130.81 124.46 0)
+			(at 130.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 135.89 0)
+		(at 87.63 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3202,8 +3220,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29693874-4115-44f8-99e9-143904e68299")
-		(property "Reference" "#PWR0174"
-			(at 92.71 142.24 0)
+		(property "Reference" "#PWR0182"
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 140.97 0)
+			(at 87.63 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 135.89 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 135.89 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 135.89 0)
+			(at 87.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3270,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0174")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3278,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:HEF4093B")
-		(at 172.72 121.92 0)
+		(at 148.59 80.01 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3269,7 +3287,7 @@
 		(fields_autoplaced yes)
 		(uuid "3029488a-2a04-4a3c-92a7-912efe361875")
 		(property "Reference" "U15"
-			(at 172.7117 113.03 0)
+			(at 148.5817 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3295,7 @@
 			)
 		)
 		(property "Value" "HEF4093B"
-			(at 172.7117 115.57 0)
+			(at 148.5817 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3303,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 172.72 121.92 0)
+			(at 148.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3312,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 172.72 121.92 0)
+			(at 148.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3321,7 @@
 			)
 		)
 		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 172.72 121.92 0)
+			(at 148.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3330,7 @@
 			)
 		)
 		(property "MPN" "HEF4093BT,653"
-			(at 172.72 121.92 0)
+			(at 148.59 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3391,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:HEF4093B")
-		(at 154.94 121.92 0)
+		(at 148.59 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3382,7 +3400,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f11d3b3-e0d8-41c3-8c0c-2389c3c0849a")
 		(property "Reference" "U15"
-			(at 154.9317 113.03 0)
+			(at 148.5817 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3408,7 @@
 			)
 		)
 		(property "Value" "HEF4093B"
-			(at 154.9317 115.57 0)
+			(at 148.5817 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 154.94 121.92 0)
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 154.94 121.92 0)
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3434,7 @@
 			)
 		)
 		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 154.94 121.92 0)
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3443,7 @@
 			)
 		)
 		(property "MPN" "HEF4093BT,653"
-			(at 154.94 121.92 0)
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3504,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 90.17 0)
+		(at 207.01 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3495,7 +3513,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b2f4655-07a7-440a-82fd-b92e58b00eb8")
 		(property "Reference" "C128"
-			(at 237.49 88.8999 0)
+			(at 210.82 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3522,7 @@
 			)
 		)
 		(property "Value" "100nC"
-			(at 237.49 91.4399 0)
+			(at 210.82 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3531,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 234.6452 93.98 0)
+			(at 207.9752 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 90.17 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3549,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 233.68 90.17 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 102.87 0)
+		(at 186.69 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3564,8 +3582,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb41abd-1e44-457c-a296-d7f469dc8e88")
-		(property "Reference" "#PWR0178"
-			(at 213.36 109.22 0)
+		(property "Reference" "#PWR0186"
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 107.95 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 102.87 0)
+			(at 186.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 102.87 0)
+			(at 186.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 102.87 0)
+			(at 186.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3632,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0178")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3753,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:HEF4093B")
-		(at 213.36 90.17 0)
+		(at 186.69 100.33 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3744,7 +3762,7 @@
 		(fields_autoplaced yes)
 		(uuid "7182591c-1e67-4dbc-85ba-79469bfeff29")
 		(property "Reference" "U15"
-			(at 219.71 88.8999 0)
+			(at 193.04 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3771,7 @@
 			)
 		)
 		(property "Value" "HEF4093B"
-			(at 219.71 91.4399 0)
+			(at 193.04 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3780,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 213.36 90.17 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3789,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
-			(at 213.36 90.17 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3798,7 @@
 			)
 		)
 		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
-			(at 213.36 90.17 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3807,7 @@
 			)
 		)
 		(property "MPN" "HEF4093BT,653"
-			(at 213.36 90.17 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3868,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 92.71 86.36 270)
+		(at 87.63 86.36 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3859,7 +3877,7 @@
 		(dnp no)
 		(uuid "7dfc5bb1-e58a-41fd-9361-529a557cc6de")
 		(property "Reference" "SW2"
-			(at 87.63 85.0899 90)
+			(at 82.55 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3886,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 87.63 87.6299 90)
+			(at 82.55 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 86.36 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 86.36 0)
+			(at 80.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3913,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 92.71 86.36 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83301625-c458-4c1c-9877-4088d15f5387")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0180"
 			(at 90.17 116.84 0)
 			(effects
 				(font
@@ -4051,7 +4069,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0172")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4093,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "S1A-13-F"
 			(at 104.14 73.66 0)
 			(effects
 				(font
@@ -4083,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -4092,7 +4110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Diodes-Incorporated-S1A-13-F_C150735.pdf"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -4120,6 +4138,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S1A-13-F"
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -4223,7 +4259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2ecb23-43e6-4dbc-a4c1-30e8617cd3cb")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0179"
 			(at 90.17 72.39 0)
 			(effects
 				(font
@@ -4273,7 +4309,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0171")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -4281,7 +4317,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 92.71 130.81 270)
+		(at 87.63 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4290,7 +4326,7 @@
 		(dnp no)
 		(uuid "b8d63e04-cb71-4b21-b8c9-20c282fc6ba6")
 		(property "Reference" "SW3"
-			(at 87.63 129.5399 90)
+			(at 82.55 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4335,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 87.63 132.0799 90)
+			(at 82.55 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 130.81 0)
+			(at 87.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 130.81 0)
+			(at 80.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4362,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 92.71 130.81 0)
+			(at 87.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf56ccb3-fdd2-45f6-9ff2-80b86fb8d06c")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0183"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4412,7 +4448,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0175")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e4aef6-6443-45f8-8228-3af9e096678d")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0184"
 			(at 115.57 140.97 0)
 			(effects
 				(font
@@ -4478,7 +4514,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0176")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4522,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 233.68 86.36 0)
+		(at 207.01 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4494,8 +4530,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73b7510-cbfa-47e3-be15-7348897ee483")
-		(property "Reference" "#PWR0179"
-			(at 233.68 90.17 0)
+		(property "Reference" "#PWR0187"
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4540,7 @@
 			)
 		)
 		(property "Value" "PVCC"
-			(at 233.68 81.28 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 86.36 0)
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 86.36 0)
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 233.68 86.36 0)
+			(at 207.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4580,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0179")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -4620,7 +4656,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 93.98 0)
+		(at 207.01 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4628,8 +4664,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9fcea88-32db-4857-923b-95462b5fa78a")
-		(property "Reference" "#PWR0180"
-			(at 233.68 100.33 0)
+		(property "Reference" "#PWR0188"
+			(at 207.01 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 99.06 0)
+			(at 207.01 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 93.98 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 93.98 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 93.98 0)
+			(at 207.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4714,7 @@
 		(instances
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/fd3409d6-bc50-40e4-a8a2-54e8c0ee90b0"
-					(reference "#PWR0180")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
