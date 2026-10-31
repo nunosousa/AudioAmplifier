@@ -319,6 +319,30 @@ mute is required.
 - [ ] Run KiCad ERC; resolve errors and document intentional exceptions.
 - [ ] Generate the KiCad netlist and confirm ADC, DAC, supply, clock, reset,
       control-bus, and mute nets.
+- [ ] Before powering the DSP, verify the ADC input path against the datasheet:
+      18 kohm, 1% external resistors at ADC0/ADC1 and ADC_RES at 48 kHz;
+      confirm the external ADC_RES resistor is actually connected and the
+      three resistors meet the specified matching/tolerance guidance.
+- [ ] Check the polarity and DC ratings of the source-side and buffer-output
+      coupling capacitors. Confirm the follower output is AC-coupled before
+      each ADC resistor and that no +4.5 V DC path reaches an ADC pin.
+- [ ] With power amplifiers disconnected and the audio/control rails current
+      limited, verify analog supplies, V/2 bias, op-amp input/output common
+      modes, and ADC pin DC common mode before applying a signal.
+- [ ] Apply a known 1 kHz sine at nominal 0.5 Vrms, then verify both channels'
+      ADC input levels and channel mapping. Increase toward the specified
+      2.0 Vrms maximum only after confirming the analog stage remains within
+      its input/output limits; confirm ADC clipping is absent at the intended
+      maximum and document the actual margin.
+- [ ] Test representative source impedances at the design endpoints (50 ohm
+      and 2.5 kohm), and verify input loading, channel balance, low-frequency
+      response, RF-filter behavior, and recovery after signal removal.
+- [ ] If testing the specified +1 V source DC offset, first verify all
+      component/op-amp ratings and use the source-side coupling capacitor;
+      measure the ADC-side DC common mode and ensure the offset does not pass
+      through to the ADC.
+- [ ] Keep the power amplifiers disconnected until ADC scaling, clipping,
+      mute/startup sequencing, and output-stage levels have been verified.
 - [ ] Verify the SigmaStudio design has the same ADC/DAC channel mapping and
       startup parameter values as the schematic.
 - [ ] Test input clipping margin and output levels at minimum/nominal/maximum
@@ -332,8 +356,14 @@ mute is required.
 - The parent hierarchy currently carries `IN_LEFT` and `IN_RIGHT` into the DSP
   sheet from the reduced preamp, and carries six proposed differential outputs
   toward the stereo and mono TPA3116D2 sheets.
-- The DSP symbol is placed, but the DSP sheet has no wires or power symbols;
-  its hierarchical labels are not connected to the chip pins.
+- The DSP sheet now has 18 kohm series resistors on the two ADC inputs and
+  partial wiring to the ADAU1701. The required external ADC_RES resistor is
+  still absent, resistor tolerance/matching is not recorded, and the DSP
+  power, clock, reset, boot, and other required pin circuitry remain
+  incomplete. The schematic is not ready to power or fabricate.
+- The preamplifier sheet now AC-couples the two buffered outputs before they
+  enter the DSP sheet. Verify the output-coupling capacitor polarity and
+  confirm the ADC pins remain at their datasheet-specified common mode.
 - The owner-reported SigmaStudio chain includes bass and treble filters, a
   shared adjustable crossover cutoff, and separate stereo/subwoofer volume
   blocks. The intended control behavior is one shared master volume plus a

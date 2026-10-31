@@ -58,10 +58,11 @@ pin-by-pin connection checklist, proposed channel mapping, and bring-up checks.
 ### DSP schematic and analog interfaces
 
 [`dsp.kicad_sch`](../ECAD/AudioAmplifier/dsp.kicad_sch) is not a complete
-circuit. The ADAU1701 symbol is not wired to the sheet's audio labels or to
-power, clock, reset, boot/configuration, or required external components.
-Complete and check the actual pin-level circuit before considering the
-top-level DSP labels electrically implemented.
+circuit. The ADC input paths now have 18 kohm series resistors and partial
+pin wiring, but the external ADC_RES resistor and tolerance/matching details
+are still missing. Power, clock, reset, boot/configuration, and other required
+external circuitry are also incomplete. Complete and check the actual pin-level
+circuit before considering the DSP electrically implemented.
 
 The top-level interface proposes three differential outputs, while the
 ADAU1701 provides four DAC outputs. Determine the output-channel mapping and
