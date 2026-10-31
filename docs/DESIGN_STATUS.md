@@ -43,13 +43,12 @@ directory is also not in the current top-level hierarchy.
   against the latest SigmaStudio project and hardware interface.
 - The project contains a custom KiCad symbol library for amplifier devices.
 
-The current front-panel proposal uses five rotary encoders (master, bass,
-treble, sub level, crossover) and an RGB LED panel with selectable VU,
-spectrogram, or blank playback views plus temporary contextual parameter
-readouts. The master control also acts as mute. An ARM MCU is intended to read
-the controls and update the ADAU1701; RP2040 and STM32G0 are candidates. A
-spectrogram's audio-data path is still an architecture question. See the
-[front-panel concept](./FRONT_PANEL.md).
+The current front-panel proposal uses five labeled push-turn controls (master,
+bass, treble, sub level, crossover), a compact seven-segment value display,
+and separate status LEDs. An MCU is intended to read the controls, drive the
+display, and update the ADAU1701. The exact MCU and display driver remain open.
+The simplified display does not require an audio-data path from the DSP. See
+the [front-panel concept](./FRONT_PANEL.md).
 
 See the [ADAU1701 integration plan](./ADAU1701_INTEGRATION.md) for a package
 pin-by-pin connection checklist, proposed channel mapping, and bring-up checks.
@@ -72,12 +71,12 @@ will provide the required level, polarity, or common-mode behavior.
 
 ### DSP controls and program
 
-The proposed interface needs an ARM MCU, but the
+The proposed interface needs an MCU, but the
 [`mcu.kicad_sch`](../ECAD/AudioAmplifier/mcu.kicad_sch) sheet is still empty.
-RP2040 and STM32G0 are under consideration, with a J-Link EDU available for
+STM32G0 and RP2040 remain candidates, with a J-Link EDU available for
 development/debug. Select an exact MCU/package, define the DSP control-port
-wiring, display interface, audio-data path if spectrogram is retained, and
-user-input circuits, then add hardware and firmware. See the
+wiring, seven-segment display interface, and user-input circuits, then add
+hardware and firmware. See the
 [front-panel concept](./FRONT_PANEL.md).
 
 The reported SigmaStudio processing chain is a starting point, not verified
@@ -112,10 +111,10 @@ and supply before finalizing the circuit or PCB:
 | ADC interface | ADAU1701 ADC bias/common-mode, input impedance, filtering, and clipping margin |
 | Output interface | DAC channel assignment, output level, differential-driver topology, filtering, and amplifier input compatibility |
 | DSP behavior | Crossover frequency and response, channel summing, EQ range, boost/headroom policy, and volume range |
-| User controls | Five rotary encoders and RGB panel views (VU/spectrogram/off) with temporary adjustment context are proposed; matrix, mode selection, and MCU remain open |
+| User controls | Five labeled push-turn controls, a seven-segment value display, and separate status LEDs are proposed; press behavior, display details, and MCU remain open |
 | Volume behavior | One shared master volume for all outputs, plus a separate subwoofer level trim |
 | Startup and faults | DSP boot/configuration method, amplifier mute/enable sequencing, fault response, and pop suppression |
-| MCU | ARM MCU intended; RP2040 and STM32G0 are candidates, with exact part and firmware still open |
+| MCU | MCU intended; RP2040 and STM32G0 remain candidates, with exact part and firmware still open |
 | Power | Input supply range/current, analog/DSP rails, decoupling, grounding, and separation from Class-D switching currents |
 | Amplifier use | Speaker impedance, target output power, thermal limits, heatsinking, and protection behavior |
 

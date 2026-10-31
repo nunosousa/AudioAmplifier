@@ -163,13 +163,12 @@ choices, and datasheet-verified component values.
   datasheet-compliant state.
 - The current UI proposal uses an ARM MCU to read five rotary encoders and
   update master volume, bass, treble, sub trim, and crossover parameters. An
-  RGB panel may show VU, spectrogram, or blank playback views and contextual
-  parameter readouts. RP2040 and STM32G0 are MCU candidates. The spectrogram
-  requires a defined audio-data path; a control-port parameter interface alone
-  should not be assumed to provide audio-rate samples. Compare candidates
-  against the matrix refresh, audio-data, parameter-control, and GPIO needs.
-  A J-Link EDU is available; reserve SWD access, including reset as
-  appropriate, and verify target-voltage and probe requirements.
+  seven-segment display shows the adjusted value during press-and-turn
+  interaction, with separate status LEDs. RP2040 and STM32G0 remain MCU
+  candidates, but the simplified display does not need an audio-data path from
+  the DSP. Compare candidates against display driving, parameter control, and
+  GPIO needs. A J-Link EDU is available; reserve SWD access, including reset
+  as appropriate, and verify target-voltage and probe requirements.
 - Specify control-bus wiring, pull-ups/logic voltage, address straps, reset
   ownership, DSP parameter-update mechanism, and relationship to amplifier
   mute and power control.
@@ -221,8 +220,8 @@ mute is required.
   power per channel.
 - Crossover frequency and response, subwoofer summing rule, EQ range/boost,
   and master-volume range.
-- Front-panel implementation details (encoder type, display format/driver,
-  parameter ranges, startup defaults, and saved-setting policy).
+- Front-panel implementation details (press-and-turn behavior, display
+  format/driver, parameter ranges, startup defaults, and saved-setting policy).
 - Whether the design needs selectable inputs, status indication, fault
   reporting, or firmware-updatable DSP parameters.
 
