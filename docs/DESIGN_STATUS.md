@@ -107,8 +107,8 @@ and supply before finalizing the circuit or PCB:
 
 | Topic | Decision / verification needed |
 | --- | --- |
-| Input range | Minimum, nominal, and maximum input voltage; source impedance; connector; protection requirements |
-| ADC interface | ADAU1701 ADC bias/common-mode, input impedance, filtering, and clipping margin |
+| Input range | Pair of unbalanced RCA line inputs; expected source impedance 50 ohm to 2.5 kohm. Levels: 0.5 Vrms nominal, 0.2 Vrms minimum, 5.65 Vpp maximum, with 0 to +1 V superimposed DC. Confirm source-specific impedance/level (especially SCART adapters), input protection, and whether maximum AC and DC occur together. |
+| ADC interface | At the selected 48 kHz rate, ADAU1701 ADCs are current inputs with about 1.5 V pin common mode; 18 kohm external ADC_RES and 18 kohm external input resistors set nominal 2.0 Vrms full scale. Confirm the AC-coupled interface from the +4.5 V-biased buffer and test clipping/tolerance margin before wiring ADC0/ADC1. |
 | Output interface | DAC channel assignment, output level, differential-driver topology, filtering, and amplifier input compatibility |
 | DSP behavior | Crossover frequency and response, channel summing, EQ range, boost/headroom policy, and volume range |
 | User controls | Five labeled push-turn controls, a seven-segment value display, and separate status LEDs are proposed; press behavior, display details, and MCU remain open |
@@ -118,15 +118,20 @@ and supply before finalizing the circuit or PCB:
 | Power | Input supply range/current, analog/DSP rails, decoupling, grounding, and separation from Class-D switching currents |
 | Amplifier use | Speaker impedance, target output power, thermal limits, heatsinking, and protection behavior |
 
-The older preamp schematic contains an input note describing nominal 0.5 Vrms,
-minimum 0.2 Vrms, maximum 5.65 Vpp, and a possible DC component up to +1 V.
-Treat these as inherited notes, not approved requirements; confirm the source
-specification and check worst-case voltage at the ADAU1701 ADC.
+The input levels above are the current project specification. The preamp
+schematic implements the proposed conditioning network, but the stated maximum
+signal and DC offset must be interpreted together and checked against the
+source, component, op-amp, and ADAU1701 ADC limits. In particular, the
+schematic's +4.5 V bias would put the unity-buffer output near +4.5 V DC; the
+ADC common-mode compatibility and full-scale level are blocking checks before
+connecting it. See the input-stage review in the
+[ADAU1701 integration plan](./ADAU1701_INTEGRATION.md#3-stereo-adc-input-conditioning).
 
 ## Suggested completion sequence
 
-1. Agree on the input range, supply, speaker loads/output target, DSP behavior,
-   and user-control approach.
+1. Confirm the input source/connector and source impedance, interpret the
+   combined maximum AC/DC input condition, and settle the supply, speaker
+   loads/output target, DSP behavior, and user-control approach.
 2. Finish the input conditioning and ADAU1701 schematic, including power,
    clock, boot/configuration, reset, ADC and DAC circuitry, and output drivers.
 3. Wire the parent hierarchy consistently; run ERC and resolve or document

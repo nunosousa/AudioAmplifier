@@ -82,7 +82,7 @@ not prescribe a final strap, rail, or component value.
 | ---: | --- | --- | --- |
 | 1 | AGND | Connect to the analog ground reference per the vendor layout guidance. | Open |
 | 2 | ADC0 | Condition and connect one line-input channel; verify common-mode, range, and anti-alias filtering. | Open |
-| 3 | ADC_RES | Fit the exact reference/resistor connection specified by the datasheet. | Open |
+| 3 | ADC_RES | Use the datasheet-specified 18 kohm, 1% external resistor for the selected 48 kHz sample rate. | Open |
 | 4 | ADC1 | Condition and connect the other line-input channel; verify common-mode, range, and anti-alias filtering. | Open |
 | 5 | `~{RESET}` | Define reset state and release timing; choose pull-up/reset supervision as needed. | Open |
 | 6 | SELFBOOT | Strap for the selected startup method; document whether external EEPROM self-boot is used. | Open |
@@ -180,16 +180,103 @@ parameter interface.
 
 - Preserve left/right channel identity from the input connector through the
   preamp to ADC0/ADC1 and into the SigmaStudio project.
-- Define input protection, impedance, AC/DC coupling, bias/reference, and
-  filtering from the intended source and the ADAU1701 ADC circuit
-  recommendations.
-- Check the worst-case instantaneous input—including the source's DC offset,
-  maximum level, component tolerance, and any preamp gain—against the ADC
-  limits. Keep normal input level well below clipping.
-- Document expected levels at the connector, preamp output, and ADC pin.
-
-The previous preamp note (0.2 Vrms minimum, 0.5 Vrms nominal, 5.65 Vpp maximum,
-and up to +1 V DC component) is inherited, not an accepted specification.
+- The ADAU1701 ADC inputs are current inputs, not conventional voltage inputs.
+  At 48 kHz, the datasheet specifies 100 uA rms full scale with an external
+  18 kohm ADC_RES resistor (20 kohm including the internal 2 kohm). The ADC
+  input pins sit at approximately 1.5 V common mode.
+- At 48 kHz, choose each ADC0/ADC1 external series resistor from the desired
+  full-scale input voltage:
+  `R_input,total = V_input,FS(rms) * 10 kohm`, and
+  `R_input,external = R_input,total - 2 kohm` (the internal input resistance).
+  The selected target is 2.0 Vrms full scale, so use 18 kohm external series
+  resistors for ADC0 and ADC1. Keep ADC_RES at 18 kohm external for 48 kHz.
+  Use 1% resistors and verify the datasheet's recommended matching relationship.
+  This nominally maps 0.5 Vrms to 25% full scale (about -12 dBFS) and 0.2 Vrms
+  to 10% full scale (about -20 dBFS), before the small source-side loading
+  loss.
+- Current input specification: a pair of unbalanced RCA line inputs, expected
+  source impedance 50 ohm to 2.5 kohm, 0.5 Vrms nominal, 0.2 Vrms minimum,
+  5.65 Vpp maximum, with a superimposed DC component from 0 V to +1 V. The
+  impedance range is a reasonable broad design target, but verify the actual
+  source and any SCART-to-RCA adapter documentation: SCART is a connector
+  standard, not a guarantee of identical audio output impedance or level from
+  every device.
+- The proposed signal path in the preamp schematic is a 100 ohm series resistor
+  and 1 nF shunt capacitor for first-order RF attenuation, followed by a
+  220 kohm source-side drain resistor, 22 uF series coupling capacitor, and
+  100 kohm bias resistor to +4.5 V (V/2). The conditioned signal is buffered
+  by a unity-gain voltage follower before the ADAU1701 ADC.
+- The 100 ohm series resistor and 1 nF shunt capacitor form the input RF
+  low-pass. Including the 50 ohm to 2.5 kohm source impedance and the 220 kohm
+  drain resistor, the estimated corner is approximately 1.06 MHz down to
+  61.9 kHz, respectively. These estimates assume a low-impedance ground at
+  the shunt capacitor and nominal component values. The filter attenuates RF
+  above its corner; it is not a brick-wall filter and does not replace good
+  connector, grounding, and layout practice.
+- With the 22 uF coupling capacitor acting as a short at audio frequencies,
+  the source sees approximately 220 kohm in parallel with the 100 kohm bias
+  path (about 68.8 kohm), assuming the +4.5 V bias node is AC-stiff. A 2.5 kohm
+  source would therefore cause roughly 3.6% level loss (about 0.32 dB) before
+  other loading and tolerance effects. This is generally modest, but include
+  the loading in gain/headroom calculations.
+- With the source unplugged and ideal low-impedance ground and V/2 references,
+  the 22 uF capacitor sees about 220 kohm + 100 kohm. This gives an approximate
+  7.0 second time constant (about 0.023 Hz corner). The drain resistor helps
+  prevent the source-side input node from floating, but this relatively long
+  discharge time does not guarantee click-free hot-plugging. Source impedance
+  changes the time constant while connected.
+- The owner confirms that 5.65 Vpp means a maximum sine-wave input and that
+  the +1 V DC offset may coexist with that signal. It is 2.0 Vrms and 2.825 V
+  AC peak; with +1 V DC, the RCA source ranges from -1.825 V to +3.825 V.
+  The source-side 22 uF capacitor blocks this DC component. The selected
+  2.0 Vrms ADC full-scale target leaves no intentional headroom for a
+  2.0 Vrms sine at the buffer output. Do not rely on the small and
+  source-impedance-dependent passive input loss as headroom; account for
+  source level tolerance and resistor tolerance, and verify clipping with the
+  worst-case input.
+- RCA inputs are user-accessible and hot-plugged. Decide the ESD and fault
+  model (connector contact discharge, cable discharge, accidental DC/overload,
+  and power-off conditions). Place a low-leakage, suitably low-capacitance
+  protection device close to each RCA center pin, with a short return to the
+  intended chassis/ESD return. Coordinate any signal-to-rail clamps with the
+  100 ohm series resistor and ensure clamps cannot back-power unpowered analog
+  rails. The 100 ohm resistor and 220 kohm drain are not, by themselves,
+  robust ESD protection. Keep protection leakage and capacitance low enough to
+  avoid bias error, RF-filter changes, or audible distortion.
+- Ensure input protection does not clamp the normal audio waveform. A simple
+  diode clamp from the RCA center pin to ground would conduct on the permitted
+  negative audio swing and distort it. At the connector, choose a protection
+  device whose stand-off/clamping behavior tolerates the defined normal
+  envelope, or place any tighter clamp after the coupling capacitor at a
+  correctly biased node. Verify protection against both the continuous
+  operating range and the selected ESD/overload test levels.
+- Treat the RCA shield as the audio return. Plan its connection to analog
+  ground and chassis so cable/shield and ESD currents do not flow through
+  sensitive DSP/op-amp return paths; finalize the chassis-grounding strategy
+  with the enclosure and power-supply grounding plan.
+- Verify the polarized coupling capacitor's positive terminal faces the
+  +4.5 V bias side, with suitable voltage rating and leakage. Confirm that
+  +4.5 V is sufficiently low-noise and low-impedance for both channel bias
+  resistors, and verify the unity-gain follower configuration and supplies.
+- **Critical ADC interface check:** biasing the follower input to +4.5 V
+  means its output will also sit near +4.5 V DC. Do not connect that output
+  directly to an ADAU1701 ADC pin: the ADC input common mode is about +1.5 V.
+  A candidate interface is to AC-couple the follower output, then feed the ADC
+  through the correctly sized 1% voltage-to-current series resistor; the ADC
+  pin's internal common mode establishes its DC operating point. Verify this
+  arrangement, coupling-capacitor polarity/value, current limits, and resistor
+  matching against the current datasheet and an analog simulation before
+  committing the circuit. Alternatively, redesign the buffer bias so its
+  output common mode is compatible with the ADC input.
+- Measure or establish the actual source impedance and output level for the
+  intended RCA sources and SCART adapter. Check
+  source loading, protection, component tolerances, op-amp output swing, and
+  the ADAU1701 input-current full scale and clipping behavior at minimum,
+  nominal, and maximum input. Record expected AC/DC levels at the connector,
+  buffer output, and ADC pins.
+- Keep amplifier mute active during power-up and DSP initialization; do not
+  rely on the 220 kohm drain resistor alone to suppress connection or startup
+  thumps.
 
 ### 4. Three DAC output-driver channels
 
@@ -214,8 +301,9 @@ mute is required.
 
 ## Requirements to settle before final values
 
-- Source type, connector, source impedance, minimum/nominal/maximum input level,
-  and whether input DC offset is possible.
+- Exact RCA source/SCART-adapter behavior and connector/chassis grounding;
+  confirm whether the specified maximum AC level and +1 V DC offset can occur
+  simultaneously and establish absolute peak limits.
 - Required supply input, available power, speaker impedance, and target output
   power per channel.
 - Crossover frequency and response, subwoofer summing rule, EQ range/boost,
