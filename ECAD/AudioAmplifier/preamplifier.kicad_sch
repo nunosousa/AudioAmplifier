@@ -2248,7 +2248,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 59.69 270)
+		(at 175.26 59.69 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2256,10 +2257,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e5c06da-bc4e-4fe4-ab71-653d535f5620")
 		(property "Reference" "C98"
-			(at 176.149 52.07 90)
+			(at 174.371 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2269,7 +2269,7 @@
 			)
 		)
 		(property "Value" "22uC"
-			(at 176.149 54.61 90)
+			(at 174.371 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 171.45 60.6552 0)
+			(at 179.07 60.6552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2813,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 124.46 270)
+		(at 175.26 124.46 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2821,10 +2822,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55c82004-e9b6-4eee-803f-eeec782b81e1")
 		(property "Reference" "C99"
-			(at 176.149 116.84 90)
+			(at 174.371 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2834,7 +2834,7 @@
 			)
 		)
 		(property "Value" "22uC"
-			(at 176.149 119.38 90)
+			(at 174.371 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
-			(at 171.45 125.4252 0)
+			(at 179.07 125.4252 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

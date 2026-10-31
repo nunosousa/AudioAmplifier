@@ -704,7 +704,7 @@
         "uuid": "25850e95-ec38-4f44-abc7-84315032ad0c"
       }
     ],
-    "used_designators": "U16,C98-99,R57,R88-89",
+    "used_designators": "U16,C98-99,R57,R88-90,#PWR189",
     "variants": []
   },
   "sheets": [
