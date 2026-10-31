@@ -1,83 +1,182 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title description">
-  <title id="title">AudioAmplifier 2.1 front-panel concept</title>
-  <desc id="description">Five rotary encoders labeled Master, Bass, Treble, Sub Level, and Crossover. A shared four-digit display is identified by five parameter LEDs. Power, DSP Ready, Mute, and Fault status indicators are at upper right.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="650" viewBox="0 0 1360 650" role="img" aria-labelledby="title description">
+  <title id="title">AudioAmplifier RGB matrix front-panel concept</title>
+  <desc id="description">Retro amplifier front panel with five rotary controls and an RGB LED panel. The main panel shows a spectrogram. Insets show VU meter, blank, and contextual knob-adjustment display modes. The proposed MCU direction is RP2040.</desc>
   <defs>
     <linearGradient id="face" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#333b48"/>
-      <stop offset="1" stop-color="#171c24"/>
+      <stop offset="0" stop-color="#343c43"/>
+      <stop offset="1" stop-color="#171b1e"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8c59a"/>
+      <stop offset=".5" stop-color="#9f895e"/>
+      <stop offset="1" stop-color="#62543b"/>
     </linearGradient>
     <radialGradient id="knob" cx="35%" cy="28%" r="75%">
-      <stop offset="0" stop-color="#758293"/>
-      <stop offset="0.55" stop-color="#46515f"/>
-      <stop offset="1" stop-color="#252c36"/>
+      <stop offset="0" stop-color="#858276"/>
+      <stop offset=".55" stop-color="#4f504d"/>
+      <stop offset="1" stop-color="#242725"/>
     </radialGradient>
+    <pattern id="pixels" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect x="1.5" y="1.5" width="8" height="8" rx="1.1" fill="#222b27" stroke="#303b34" stroke-width=".55"/>
+    </pattern>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
-      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".35"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect width="1000" height="470" fill="#eef1f4"/>
-  <text x="500" y="34" text-anchor="middle" fill="#26313d" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">AUDIOAMPLIFIER  ·  2.1 FRONT PANEL CONCEPT</text>
-  <rect x="34" y="58" width="932" height="372" rx="22" fill="url(#face)" stroke="#596574" stroke-width="2" filter="url(#shadow)"/>
-  <text x="70" y="96" fill="#dbe4ed" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">STEREO  /  SUBWOOFER AMPLIFIER</text>
+  <rect width="1360" height="650" fill="#e9e5dc"/>
+  <text x="680" y="38" text-anchor="middle" fill="#343a3b" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">2.1 AMPLIFIER · RGB MATRIX FRONT-PANEL STUDY</text>
 
-  <g font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing=".7">
-    <circle cx="676" cy="90" r="5" fill="#5ed59a"/><text x="676" y="110" fill="#bac5d1">POWER</text>
-    <circle cx="754" cy="90" r="5" fill="#5ed59a"/><text x="754" y="110" fill="#bac5d1">DSP READY</text>
-    <circle cx="840" cy="90" r="5" fill="#8793a1"/><text x="840" y="110" fill="#bac5d1">MUTE</text>
-    <circle cx="918" cy="90" r="5" fill="#8793a1"/><text x="918" y="110" fill="#bac5d1">FAULT</text>
-  </g>
-
-  <rect x="350" y="126" width="300" height="118" rx="10" fill="#101914" stroke="#718071" stroke-width="2"/>
-  <rect x="361" y="137" width="278" height="96" rx="5" fill="#17231c"/>
-  <text x="492" y="185" text-anchor="middle" fill="#8ef0ad" font-family="monospace" font-size="49" font-weight="700" letter-spacing="8">-12</text>
-  <text x="602" y="183" text-anchor="middle" fill="#8ef0ad" font-family="Arial, sans-serif" font-size="15" font-weight="700">dB</text>
-  <text x="500" y="219" text-anchor="middle" fill="#9ab4a1" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.5">VALUE OF LAST-ADJUSTED CONTROL</text>
-
-  <g font-family="Arial, sans-serif" font-size="11" text-anchor="middle">
-    <g transform="translate(378 264)"><circle r="5" fill="#79dfff"/><text y="19" fill="#d4dee8">MASTER</text></g>
-    <g transform="translate(432 264)"><circle r="5" fill="#52606d"/><text y="19" fill="#d4dee8">BASS</text></g>
-    <g transform="translate(486 264)"><circle r="5" fill="#52606d"/><text y="19" fill="#d4dee8">TREBLE</text></g>
-    <g transform="translate(540 264)"><circle r="5" fill="#52606d"/><text y="19" fill="#d4dee8">SUB</text></g>
-    <g transform="translate(600 264)"><circle r="5" fill="#52606d"/><text y="19" fill="#d4dee8">CROSSOVER</text></g>
+  <rect x="30" y="66" width="906" height="520" rx="18" fill="url(#face)" stroke="#756b56" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="39" y="75" width="888" height="502" rx="13" fill="none" stroke="#c3b38d" stroke-opacity=".62"/>
+  <text x="68" y="110" fill="#d5c59d" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.4">STEREO  /  SUBWOOFER AMPLIFIER</text>
+  <path d="M68 125 H898" stroke="#74694f" stroke-width="1"/>
+  <g font-family="Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing=".8">
+    <circle cx="681" cy="104" r="5" fill="#8bd28c" filter="url(#glow)"/><text x="681" y="121" fill="#b9b29f">POWER</text>
+    <circle cx="757" cy="104" r="5" fill="#8bd28c" filter="url(#glow)"/><text x="757" y="121" fill="#b9b29f">DSP READY</text>
+    <circle cx="836" cy="104" r="5" fill="#777b72"/><text x="836" y="121" fill="#b9b29f">MUTE</text>
+    <circle cx="900" cy="104" r="5" fill="#777b72"/><text x="900" y="121" fill="#b9b29f">FAULT</text>
   </g>
 
-  <g transform="translate(115 326)" font-family="Arial, sans-serif" text-anchor="middle">
-    <circle r="47" fill="#202731" stroke="#536070" stroke-width="2"/>
-    <circle r="37" fill="url(#knob)" stroke="#8995a2" stroke-width="1.5"/>
-    <path d="M0,-33 L0,-20" stroke="#e9f1f8" stroke-width="4" stroke-linecap="round"/>
-    <circle cy="4" r="10" fill="#11171e" stroke="#718090"/>
-    <path d="M-5,4 h10 M0,-1 v10" stroke="#d4dce4" stroke-width="1.5"/>
-    <text y="69" fill="#f3f6f9" font-size="13" font-weight="700" letter-spacing="1">MASTER</text>
-    <text y="87" fill="#aebac7" font-size="10">PUSH: MUTE</text>
+  <rect x="88" y="150" width="790" height="260" rx="13" fill="#101512" stroke="url(#brass)" stroke-width="3"/>
+  <rect x="101" y="163" width="764" height="234" rx="6" fill="#080d0b" stroke="#4d594c"/>
+  <rect x="120" y="178" width="728" height="204" fill="url(#pixels)"/>
+  <g opacity=".95" filter="url(#glow)">
+    <g fill="#24ad59">
+      <rect x="145" y="346" width="20" height="20"/><rect x="169" y="334" width="20" height="32"/><rect x="193" y="346" width="20" height="20"/>
+      <rect x="217" y="322" width="20" height="44"/><rect x="241" y="334" width="20" height="32"/>
+      <rect x="289" y="346" width="20" height="20"/><rect x="313" y="334" width="20" height="32"/><rect x="337" y="322" width="20" height="44"/>
+      <rect x="361" y="334" width="20" height="32"/><rect x="385" y="346" width="20" height="20"/>
+      <rect x="457" y="346" width="20" height="20"/><rect x="481" y="334" width="20" height="32"/><rect x="505" y="346" width="20" height="20"/>
+      <rect x="577" y="346" width="20" height="20"/><rect x="601" y="334" width="20" height="32"/>
+      <rect x="673" y="346" width="20" height="20"/><rect x="697" y="334" width="20" height="32"/><rect x="721" y="346" width="20" height="20"/>
+    </g>
+    <g fill="#36d6a0">
+      <rect x="169" y="310" width="20" height="20"/><rect x="193" y="298" width="20" height="44"/><rect x="217" y="298" width="20" height="20"/>
+      <rect x="241" y="310" width="20" height="20"/><rect x="265" y="322" width="20" height="20"/>
+      <rect x="313" y="298" width="20" height="32"/><rect x="337" y="286" width="20" height="32"/><rect x="361" y="310" width="20" height="20"/>
+      <rect x="385" y="322" width="20" height="20"/><rect x="409" y="334" width="20" height="20"/>
+      <rect x="481" y="298" width="20" height="32"/><rect x="505" y="286" width="20" height="44"/><rect x="529" y="310" width="20" height="20"/>
+      <rect x="601" y="298" width="20" height="32"/><rect x="625" y="310" width="20" height="20"/>
+      <rect x="697" y="298" width="20" height="32"/><rect x="721" y="286" width="20" height="44"/><rect x="745" y="310" width="20" height="20"/>
+    </g>
+    <g fill="#b4db39">
+      <rect x="193" y="274" width="20" height="20"/><rect x="217" y="250" width="20" height="44"/><rect x="241" y="274" width="20" height="20"/>
+      <rect x="337" y="262" width="20" height="20"/><rect x="361" y="238" width="20" height="44"/><rect x="385" y="274" width="20" height="20"/>
+      <rect x="505" y="262" width="20" height="20"/><rect x="529" y="226" width="20" height="56"/><rect x="553" y="250" width="20" height="20"/>
+      <rect x="625" y="274" width="20" height="20"/><rect x="721" y="250" width="20" height="44"/>
+    </g>
+    <g fill="#f3a72d">
+      <rect x="217" y="226" width="20" height="20"/><rect x="361" y="214" width="20" height="20"/>
+      <rect x="529" y="202" width="20" height="20"/><rect x="553" y="226" width="20" height="20"/>
+      <rect x="721" y="226" width="20" height="20"/>
+    </g>
+    <g fill="#ed4939">
+      <rect x="529" y="178" width="20" height="20"/><rect x="721" y="202" width="20" height="20"/>
+    </g>
+    <g fill="#3b67d4">
+      <rect x="145" y="298" width="20" height="20"/><rect x="265" y="286" width="20" height="20"/>
+      <rect x="433" y="310" width="20" height="20"/><rect x="577" y="274" width="20" height="20"/>
+      <rect x="649" y="322" width="20" height="20"/><rect x="769" y="286" width="20" height="20"/>
+    </g>
   </g>
-  <g transform="translate(307 326)" font-family="Arial, sans-serif" text-anchor="middle">
-    <circle r="47" fill="#202731" stroke="#536070" stroke-width="2"/>
-    <circle r="37" fill="url(#knob)" stroke="#8995a2" stroke-width="1.5"/>
-    <path d="M0,-33 L0,-20" stroke="#e9f1f8" stroke-width="4" stroke-linecap="round"/>
-    <text y="69" fill="#f3f6f9" font-size="13" font-weight="700" letter-spacing="1">BASS</text>
-    <text y="87" fill="#aebac7" font-size="10">TONE</text>
+  <g fill="#d4d0bd" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">
+    <text x="123" y="191">FREQUENCY ↑</text><text x="738" y="191">TIME →</text>
   </g>
-  <g transform="translate(500 326)" font-family="Arial, sans-serif" text-anchor="middle">
-    <circle r="47" fill="#202731" stroke="#536070" stroke-width="2"/>
-    <circle r="37" fill="url(#knob)" stroke="#8995a2" stroke-width="1.5"/>
-    <path d="M0,-33 L0,-20" stroke="#e9f1f8" stroke-width="4" stroke-linecap="round"/>
-    <text y="69" fill="#f3f6f9" font-size="13" font-weight="700" letter-spacing="1">TREBLE</text>
-    <text y="87" fill="#aebac7" font-size="10">TONE</text>
-  </g>
-  <g transform="translate(693 326)" font-family="Arial, sans-serif" text-anchor="middle">
-    <circle r="47" fill="#202731" stroke="#536070" stroke-width="2"/>
-    <circle r="37" fill="url(#knob)" stroke="#8995a2" stroke-width="1.5"/>
-    <path d="M0,-33 L0,-20" stroke="#e9f1f8" stroke-width="4" stroke-linecap="round"/>
-    <text y="69" fill="#f3f6f9" font-size="13" font-weight="700" letter-spacing="1">SUB LEVEL</text>
-    <text y="87" fill="#aebac7" font-size="10">TRIM</text>
-  </g>
-  <g transform="translate(885 326)" font-family="Arial, sans-serif" text-anchor="middle">
-    <circle r="47" fill="#202731" stroke="#536070" stroke-width="2"/>
-    <circle r="37" fill="url(#knob)" stroke="#8995a2" stroke-width="1.5"/>
-    <path d="M0,-33 L0,-20" stroke="#e9f1f8" stroke-width="4" stroke-linecap="round"/>
-    <text y="69" fill="#f3f6f9" font-size="13" font-weight="700" letter-spacing="1">CROSSOVER</text>
-    <text y="87" fill="#aebac7" font-size="10">FREQUENCY</text>
+  <text x="483" y="432" text-anchor="middle" fill="#c6bd9f" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">SPECTROGRAM · NORMAL PLAYBACK VIEW</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(116 500)">
+      <circle r="39" fill="#202523" stroke="#8c7c59" stroke-width="2"/><circle r="31" fill="url(#knob)" stroke="#aaa083" stroke-width="1.5"/>
+      <path d="M0 -28 V-18" stroke="#e8dcc0" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cy="3" r="8" fill="#171b18" stroke="#948765"/><path d="M-4 3 H4 M0 -1 V7" stroke="#d7ccae" stroke-width="1.2"/>
+      <text y="54" fill="#eee7d4" font-size="11" font-weight="700" letter-spacing=".8">MASTER</text><text y="69" fill="#b1aa96" font-size="8">PUSH: MUTE</text>
+    </g>
+    <g transform="translate(292 500)">
+      <circle r="39" fill="#202523" stroke="#8c7c59" stroke-width="2"/><circle r="31" fill="url(#knob)" stroke="#aaa083" stroke-width="1.5"/>
+      <path d="M0 -28 V-18" stroke="#e8dcc0" stroke-width="3.5" stroke-linecap="round"/>
+      <text y="54" fill="#eee7d4" font-size="11" font-weight="700" letter-spacing=".8">BASS</text><text y="69" fill="#b1aa96" font-size="8">TONE</text>
+    </g>
+    <g transform="translate(468 500)">
+      <circle r="39" fill="#202523" stroke="#8c7c59" stroke-width="2"/><circle r="31" fill="url(#knob)" stroke="#aaa083" stroke-width="1.5"/>
+      <path d="M0 -28 V-18" stroke="#e8dcc0" stroke-width="3.5" stroke-linecap="round"/>
+      <text y="54" fill="#eee7d4" font-size="11" font-weight="700" letter-spacing=".8">TREBLE</text><text y="69" fill="#b1aa96" font-size="8">TONE</text>
+    </g>
+    <g transform="translate(644 500)">
+      <circle r="39" fill="#202523" stroke="#8c7c59" stroke-width="2"/><circle r="31" fill="url(#knob)" stroke="#aaa083" stroke-width="1.5"/>
+      <path d="M0 -28 V-18" stroke="#e8dcc0" stroke-width="3.5" stroke-linecap="round"/>
+      <text y="54" fill="#eee7d4" font-size="10" font-weight="700" letter-spacing=".6">SUB LEVEL</text><text y="69" fill="#b1aa96" font-size="8">TRIM</text>
+    </g>
+    <g transform="translate(820 500)">
+      <circle r="39" fill="#202523" stroke="#8c7c59" stroke-width="2"/><circle r="31" fill="url(#knob)" stroke="#aaa083" stroke-width="1.5"/>
+      <path d="M0 -28 V-18" stroke="#e8dcc0" stroke-width="3.5" stroke-linecap="round"/>
+      <text y="54" fill="#eee7d4" font-size="9" font-weight="700" letter-spacing=".4">CROSSOVER</text><text y="69" fill="#b1aa96" font-size="8">FREQUENCY</text>
+    </g>
   </g>
 
-  <text x="500" y="418" text-anchor="middle" fill="#7f8c99" font-family="Arial, sans-serif" font-size="11">CONCEPT ONLY · NOT TO SCALE · DISPLAY UNITS AND VALUE RANGES TBD</text>
+  <rect x="962" y="66" width="368" height="520" rx="18" fill="#f8f6f0" stroke="#b3a98f" stroke-width="2"/>
+  <text x="1146" y="99" text-anchor="middle" fill="#3c4442" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">SAME RGB PANEL · DISPLAY STATES</text>
+  <path d="M986 113 H1306" stroke="#c9c0ad"/>
+
+  <text x="1000" y="139" fill="#59645d" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">VU MODE</text>
+  <rect x="986" y="147" width="320" height="72" rx="6" fill="#101713"/>
+  <rect x="1000" y="158" width="292" height="48" fill="url(#pixels)"/>
+  <g filter="url(#glow)">
+    <g fill="#36d36e"><rect x="1024" y="182" width="8" height="8"/><rect x="1036" y="182" width="8" height="8"/><rect x="1024" y="170" width="8" height="8"/><rect x="1036" y="170" width="8" height="8"/><rect x="1060" y="182" width="8" height="8"/><rect x="1072" y="182" width="8" height="8"/><rect x="1060" y="170" width="8" height="8"/></g>
+    <g fill="#e9b847"><rect x="1024" y="158" width="8" height="8"/><rect x="1036" y="158" width="8" height="8"/><rect x="1072" y="170" width="8" height="8"/></g>
+    <g fill="#37d8a1"><rect x="1120" y="182" width="8" height="8"/><rect x="1132" y="182" width="8" height="8"/><rect x="1120" y="170" width="8" height="8"/></g>
+    <g fill="#38c96e"><rect x="1216" y="182" width="8" height="8"/><rect x="1228" y="182" width="8" height="8"/><rect x="1216" y="170" width="8" height="8"/><rect x="1228" y="170" width="8" height="8"/><rect x="1216" y="158" width="8" height="8"/></g>
+  </g>
+  <g fill="#c5c6b8" font-family="Arial, sans-serif" font-size="8" font-weight="700"><text x="1024" y="201">L</text><text x="1120" y="201">R</text><text x="1216" y="201">SUB</text></g>
+
+  <text x="1000" y="244" fill="#59645d" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">SPECTROGRAM MODE</text>
+  <rect x="986" y="252" width="320" height="72" rx="6" fill="#101713"/>
+  <rect x="1000" y="263" width="292" height="48" fill="url(#pixels)"/>
+  <g filter="url(#glow)">
+    <g fill="#2958d0"><rect x="1024" y="287" width="8" height="8"/><rect x="1050" y="275" width="8" height="8"/><rect x="1088" y="287" width="8" height="8"/><rect x="1140" y="275" width="8" height="8"/><rect x="1180" y="287" width="8" height="8"/><rect x="1230" y="275" width="8" height="8"/></g>
+    <g fill="#35d69c"><rect x="1036" y="275" width="8" height="20"/><rect x="1062" y="263" width="8" height="32"/><rect x="1098" y="275" width="8" height="20"/><rect x="1150" y="263" width="8" height="32"/><rect x="1192" y="275" width="8" height="20"/><rect x="1242" y="263" width="8" height="32"/></g>
+    <g fill="#f0c23d"><rect x="1062" y="263" width="8" height="8"/><rect x="1150" y="263" width="8" height="8"/><rect x="1242" y="263" width="8" height="8"/></g>
+  </g>
+
+  <text x="1000" y="349" fill="#59645d" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">IDLE MODE</text>
+  <rect x="986" y="357" width="320" height="48" rx="6" fill="#101713"/>
+  <rect x="1000" y="363" width="292" height="36" fill="url(#pixels)" opacity=".5"/>
+  <text x="1146" y="386" text-anchor="middle" fill="#849084" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">MATRIX OFF</text>
+
+  <text x="1000" y="430" fill="#59645d" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">TURN A CONTROL · CONTEXT READOUT</text>
+  <rect x="986" y="438" width="320" height="72" rx="6" fill="#101713"/>
+  <rect x="1000" y="449" width="292" height="48" fill="url(#pixels)"/>
+  <g transform="translate(1020 455)" fill="#67e59c" filter="url(#glow)">
+    <g>
+      <rect x="0" y="0" width="8" height="8"/><rect x="8" y="0" width="8" height="8"/><rect x="16" y="0" width="8" height="8"/>
+      <rect x="0" y="8" width="8" height="8"/><rect x="16" y="8" width="8" height="8"/>
+      <rect x="0" y="16" width="8" height="8"/><rect x="8" y="16" width="8" height="8"/><rect x="16" y="16" width="8" height="8"/>
+      <rect x="0" y="24" width="8" height="8"/><rect x="16" y="24" width="8" height="8"/>
+      <rect x="0" y="32" width="8" height="8"/><rect x="8" y="32" width="8" height="8"/><rect x="16" y="32" width="8" height="8"/>
+    </g>
+    <g transform="translate(30 0)">
+      <rect x="8" y="0" width="8" height="8"/><rect x="0" y="8" width="8" height="8"/><rect x="16" y="8" width="8" height="8"/>
+      <rect x="0" y="16" width="8" height="8"/><rect x="8" y="16" width="8" height="8"/><rect x="16" y="16" width="8" height="8"/>
+      <rect x="0" y="24" width="8" height="8"/><rect x="16" y="24" width="8" height="8"/><rect x="0" y="32" width="8" height="8"/><rect x="16" y="32" width="8" height="8"/>
+    </g>
+    <g transform="translate(66 0)">
+      <rect x="8" y="0" width="8" height="8"/><rect x="16" y="0" width="8" height="8"/><rect x="0" y="8" width="8" height="8"/>
+      <rect x="8" y="16" width="8" height="8"/><rect x="16" y="24" width="8" height="8"/><rect x="0" y="32" width="8" height="8"/><rect x="8" y="32" width="8" height="8"/>
+    </g>
+    <g transform="translate(108 0)">
+      <rect x="0" y="16" width="8" height="8"/><rect x="8" y="16" width="8" height="8"/><rect x="16" y="16" width="8" height="8"/>
+    </g>
+    <g transform="translate(140 0)">
+      <rect x="8" y="0" width="8" height="8"/><rect x="16" y="0" width="8" height="8"/><rect x="0" y="8" width="8" height="8"/>
+      <rect x="8" y="16" width="8" height="8"/><rect x="16" y="16" width="8" height="8"/><rect x="16" y="24" width="8" height="8"/><rect x="8" y="32" width="8" height="8"/>
+    </g>
+  </g>
+  <text x="1244" y="480" text-anchor="end" fill="#67e59c" font-family="monospace" font-size="14" font-weight="700">+6 dB</text>
+
+  <text x="1146" y="540" text-anchor="middle" fill="#766746" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">VIEW SELECTION / MATRIX SIZE TBD</text>
+  <text x="1146" y="558" text-anchor="middle" fill="#687068" font-family="Arial, sans-serif" font-size="9">Audio feed needed for spectrogram; not yet designed.</text>
+  <text x="680" y="620" text-anchor="middle" fill="#777568" font-family="Arial, sans-serif" font-size="11" letter-spacing="1">CONCEPT ONLY · RGB MATRIX · VU / SPECTROGRAM / OFF · KNOB ADJUSTMENT TEMPORARILY OVERRIDES VIEW</text>
 </svg>

@@ -163,11 +163,13 @@ choices, and datasheet-verified component values.
   datasheet-compliant state.
 - The current UI proposal uses an ARM MCU to read five rotary encoders and
   update master volume, bass, treble, sub trim, and crossover parameters. An
-  STM32G0 is the current MCU candidate family; choose the exact part and
-  package after checking I/O count, timers, nonvolatile settings, display
-  interface, availability, and programmer/debug support. A J-Link EDU is
-  available; reserve SWD access, including reset as appropriate, and verify
-  target-voltage and probe requirements.
+  RGB panel may show VU, spectrogram, or blank playback views and contextual
+  parameter readouts. RP2040 and STM32G0 are MCU candidates. The spectrogram
+  requires a defined audio-data path; a control-port parameter interface alone
+  should not be assumed to provide audio-rate samples. Compare candidates
+  against the matrix refresh, audio-data, parameter-control, and GPIO needs.
+  A J-Link EDU is available; reserve SWD access, including reset as
+  appropriate, and verify target-voltage and probe requirements.
 - Specify control-bus wiring, pull-ups/logic voltage, address straps, reset
   ownership, DSP parameter-update mechanism, and relationship to amplifier
   mute and power control.

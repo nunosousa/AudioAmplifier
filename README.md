@@ -24,11 +24,11 @@ Stereo line inputs
 
 The preamp is intended to provide input conditioning only. User-adjustable
 volume, bass, treble, and crossover functions are intended to run in the DSP.
-The current front-panel concept uses five rotary encoders, one shared
-four-digit 7-segment display, and parameter/status LEDs. An ARM MCU (with an
-STM32G0 as the current candidate) would read the controls and update the DSP.
-This is a revisable UI concept, not a finalized hardware specification; see the
-[front-panel mockup](docs/FRONT_PANEL.md).
+The current front-panel concept uses five rotary encoders and an RGB LED panel
+for VU, spectrogram, or blank playback views, with contextual parameter
+readouts during adjustment. An ARM MCU would read the controls and update the
+DSP; RP2040 is a candidate for the richer display, but its audio-data path for
+a spectrogram is not yet designed. See the revisable [front-panel concept](docs/FRONT_PANEL.md).
 
 ## Open the design
 
