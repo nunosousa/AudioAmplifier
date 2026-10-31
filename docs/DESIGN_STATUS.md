@@ -36,8 +36,21 @@ directory is also not in the current top-level hierarchy.
   design. Its intended remaining role is input conditioning; that function
   still needs to be checked against the DSP ADC requirements.
 - The existing stereo and mono power-amplifier sheets use TPA3116D2 devices.
-- A SigmaStudio project and generated ADAU1701 program files are present.
+- The SigmaStudio project has an initial DSP signal chain: bass and treble
+  adjustment, an adjustable 2.1 crossover, and separate stereo/subwoofer
+  output volume controls. See the [DSP processing notes](./ADAU1701_INTEGRATION.md#current-sigmastudio-processing).
+- Generated ADAU1701 program files are present, but have not yet been verified
+  against the latest SigmaStudio project and hardware interface.
 - The project contains a custom KiCad symbol library for amplifier devices.
+
+The current front-panel proposal uses five rotary encoders (master, bass,
+treble, sub level, crossover), a shared four-digit 7-segment display, and
+parameter/status LEDs. The master control also acts as mute. An ARM MCU is
+intended to read the controls and update the ADAU1701; STM32G0 is the current
+candidate family, not a finalized part. See the [front-panel concept](./FRONT_PANEL.md).
+
+See the [ADAU1701 integration plan](./ADAU1701_INTEGRATION.md) for a package
+pin-by-pin connection checklist, proposed channel mapping, and bring-up checks.
 
 ## Blocking gaps
 
@@ -57,18 +70,19 @@ will provide the required level, polarity, or common-mode behavior.
 
 ### DSP controls and program
 
-[`mcu.kicad_sch`](../ECAD/AudioAmplifier/mcu.kicad_sch) is currently an empty
-sheet. Decide whether an MCU is required for user controls, DSP parameter
-updates, startup/mute sequencing, or fault handling. If so, define its
-interface and add its hardware and firmware; otherwise remove the placeholder
-from the hierarchy.
+The proposed interface needs an ARM MCU, but the
+[`mcu.kicad_sch`](../ECAD/AudioAmplifier/mcu.kicad_sch) sheet is still empty.
+The current candidate is STM32G0, with a J-Link EDU available for development.
+Select an exact MCU/package, define the DSP control-port wiring and user-input
+circuits, then add hardware and firmware. See the [front-panel concept](./FRONT_PANEL.md).
 
-The SigmaStudio project is a starting point, not verified evidence of the
-current DSP design. Its committed compiler report describes a 48 kHz build
-using 232 of 1024 instructions, 124 of 2048 data-RAM units, and 752 of 1024
-parameter-RAM units. Verify that project’s routing, filters, gain, and
-parameter controls against the current requirements, then regenerate and
-identify the corresponding program artifacts together.
+The reported SigmaStudio processing chain is a starting point, not verified
+evidence that the committed program artifacts match the current project. Its
+committed compiler report describes a 48 kHz build using 232 of 1024
+instructions, 124 of 2048 data-RAM units, and 752 of 1024 parameter-RAM units.
+Verify the project routing, filter response, gain, parameter limits, and
+artifact freshness, then regenerate and identify the corresponding program
+artifacts together.
 
 ### PCB, simulation, and exports
 
@@ -94,8 +108,10 @@ and supply before finalizing the circuit or PCB:
 | ADC interface | ADAU1701 ADC bias/common-mode, input impedance, filtering, and clipping margin |
 | Output interface | DAC channel assignment, output level, differential-driver topology, filtering, and amplifier input compatibility |
 | DSP behavior | Crossover frequency and response, channel summing, EQ range, boost/headroom policy, and volume range |
-| User controls | Physical/UI interface and how parameters are communicated to and retained by the DSP |
+| User controls | Five rotary encoders and a shared 7-segment display with parameter/status LEDs are proposed; exact MCU and implementation remain open |
+| Volume behavior | One shared master volume for all outputs, plus a separate subwoofer level trim |
 | Startup and faults | DSP boot/configuration method, amplifier mute/enable sequencing, fault response, and pop suppression |
+| MCU | ARM MCU intended; STM32G0 is the current candidate family, with exact part and firmware still open |
 | Power | Input supply range/current, analog/DSP rails, decoupling, grounding, and separation from Class-D switching currents |
 | Amplifier use | Speaker impedance, target output power, thermal limits, heatsinking, and protection behavior |
 

@@ -24,8 +24,11 @@ Stereo line inputs
 
 The preamp is intended to provide input conditioning only. User-adjustable
 volume, bass, treble, and crossover functions are intended to run in the DSP.
-The exact DSP control interface and analog input/output circuits are not yet
-finalized.
+The current front-panel concept uses five rotary encoders, one shared
+four-digit 7-segment display, and parameter/status LEDs. An ARM MCU (with an
+STM32G0 as the current candidate) would read the controls and update the DSP.
+This is a revisable UI concept, not a finalized hardware specification; see the
+[front-panel mockup](docs/FRONT_PANEL.md).
 
 ## Open the design
 
@@ -69,3 +72,5 @@ latest schematic.
 
 See [docs/DESIGN_STATUS.md](docs/DESIGN_STATUS.md) for known gaps, open
 engineering decisions, and a suggested completion sequence.
+For a pin-by-pin checklist of the DSP hardware to complete, see
+[docs/ADAU1701_INTEGRATION.md](docs/ADAU1701_INTEGRATION.md).
