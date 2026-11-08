@@ -1,102 +1,85 @@
-# Front-panel concept
+# Front panel and display UI
 
-**Status:** simplified, revisable UI proposal. Exact display module, parameter
-ranges, MCU, and control gestures are not finalized.
+**Status:** interaction and display specification. The control electronics,
+display controller, DSP protocol, and final enclosure layout remain to be
+implemented.
 
-![Compact amplifier front panel with five labeled push-turn controls, individual LED segments forming a numeric value, and system-status LEDs](front-panel.svg)
-
-## Concept
-
-Keep the interface direct and compact:
-
-- Five dedicated knobs, each labeled with its function and unit.
-- Press and turn a knob to adjust its setting; the numeric display shows that
-  setting's current value while it is being adjusted.
-- A small set of separate LEDs indicates system state.
-
-The concept intentionally drops the RGB matrix, VU/spectrogram views, and
-display-mode selection. As a result, the user interface does not require an
-audio sample or spectrum-data path from the DSP to the MCU. The SVG shows an
-illustrative `-6.0` value; the units are conveyed by the label on the active
-knob, not repeated on the display.
+The amplifier uses a 2.4-inch, 320 × 240 colour display controlled by an
+RP2350. It is an instrumentation display, not a menu system: the physical
+control being used determines the display context, and the display returns to
+the selected playback visualisation after a short idle timeout.
 
 ## Controls
 
-Use five labeled rotary controls with push switches:
-
-| Knob label | Function | Unit shown on knob |
+| Control | Action | Result |
 | --- | --- | --- |
-| `MASTER [dB]` | Shared level for left, right, and subwoofer outputs | dB attenuation |
-| `BASS [dB]` | Low-frequency EQ adjustment | Signed dB relative to neutral |
-| `TREBLE [dB]` | High-frequency EQ adjustment | Signed dB relative to neutral |
-| `SUB LEVEL [dB]` | Additional trim on top of shared master volume | Signed dB relative to neutral |
-| `CROSSOVER [Hz]` | Shared stereo high-pass / subwoofer low-pass cutoff | Hz |
+| Main rotary encoder with push switch | Rotate | Adjusts master volume by default, or the parameter selected by an adjustment button |
+| `BASS` | Press | Assigns the encoder to bass and opens the tone screen |
+| `TREBLE` | Press | Assigns the encoder to treble and opens the tone screen |
+| `SUB` | Press | Assigns the encoder to subwoofer trim and opens the sub-level screen |
+| `XOVER` | Press | Assigns the encoder to crossover frequency and opens the crossover screen |
+| `DISPLAY` | Press | Cycles spectrum, stereo VU, and stealth playback modes; the selection persists across power cycles |
+| `DISPLAY` | Long press | May toggle reduced display brightness |
+| `MUTE` | Press | Toggles mute immediately, regardless of the current display context |
 
-The proposed interaction is press-and-turn, with the value visible during
-adjustment. Confirm whether the press must be held while turning or whether a
-press selects the control and a subsequent turn adjusts it. Define any
-single-press action—such as master mute—so it cannot conflict with adjustment.
+An adjustment-button press takes effect immediately; there is no confirmation
+or navigation step. The encoder always reverts to master-volume control after
+2.5 seconds without adjustment input. Its first movement after that timeout
+therefore changes volume.
 
-## Numeric display
+## Display states
 
-Use individual LED segments arranged into seven-segment digit characters.
-Only the adjusted quantity is shown; the active knob label already identifies
-the parameter and its unit. The concept shows `-6.0` without a unit suffix.
-Choose enough digit positions and decimal-point placement to support every
-parameter range, including negative EQ/sub-trim values, master attenuation,
-and crossover frequency.
+### Playback visualisations
 
-The active control is identified by the knob the user is pressing and turning;
-the numeric value is the feedback. Keep the display otherwise blank or
-dimmed, rather than adding a permanent menu or additional mode. Decide whether
-the value disappears immediately on release or remains briefly for
-confirmation.
+- **Spectrum:** 24–32 logarithmically spaced bands from approximately 20 Hz to
+  20 kHz, segmented bars, peak hold, and cyan/green/yellow/orange level colour.
+- **Stereo VU:** independent left and right analogue-style meters with a dB
+  scale and peak indication.
+- **Stealth:** mostly static status and master-volume information; no
+  continuously animated visualisation.
 
-The master value applies to all outputs. Sub level remains an additional
-subwoofer trim. Set display precision and encoder step size together so each
-detent produces clear, useful feedback.
+### Adjustment screens
 
-## Status indicators and startup
+| Context | Main content |
+| --- | --- |
+| Volume | Large dB value, segmented attenuation bar, and mute indication |
+| Bass or treble | Shared logarithmic tone-response graph, with the active value highlighted |
+| Sub level | Large signed dB value and a centred segmented bar relative to 0 dB |
+| Crossover | Main high-pass and subwoofer low-pass response graph with the selected frequency marked |
 
-Use a few independent LEDs for essential state:
+Every screen maintains a compact header (amplifier identity, DSP state, and
+master volume) and a footer (`B`, `T`, `SUB`, `X`) showing the current settings.
+The UI displays the values acknowledged by the DSP, rather than treating local
+encoder state as authoritative.
 
-- **POWER:** control supply is present.
-- **DSP READY:** DSP startup/configuration is complete and parameter
-  communication is available.
-- **MUTE:** audio is intentionally muted.
-- **FAULT:** optional; include only if amplifier fault signals or another
-  protection condition are actually monitored.
+## Visual language and layout
 
-On power-up, keep the amplifier muted, initialize the MCU and DSP, load
-validated defaults or saved settings, then indicate DSP Ready and unmute with
-a controlled ramp. Define mute and recovery behavior for any detected faults.
-Smooth gain and filter coefficient changes to avoid zipper noise, clicks,
-unstable coefficients, and transient clipping.
+The design follows the attached retro-terminal reference: near-black navy
+background, one-pixel cyan or pale-blue panel borders, bitmap-style monospace
+text, segmented indicators, and fine graph gridlines. Green denotes normal
+levels; yellow indicates active values or high level; orange is reserved for
+peaks, warnings, and clipping. Text is light grey/white. Use integer-aligned
+geometry and bitmap fonts; avoid gradients, shadows, glossy effects, and
+nonessential animation.
 
-## MCU and hardware implications
+For the 320 × 240 target, reserve a 20-pixel header, a 24-pixel footer, and
+6-pixel outer margins. The resulting 320 × 190 content region supports a
+single full-width panel with a 1-pixel border. Renderer-specific layout
+constants are defined in `firmware/mcu/src/ui/screen_layout.hpp`.
 
-The simplified interface needs GPIO or encoder inputs for five controls,
-push-switch handling, the DSP control interface, a small seven-segment display
-driver, and a few status LEDs. It no longer needs RGB matrix refresh or an
-audio stream/FFT path. This makes a low-cost MCU more plausible; choose the
-exact part after checking its available interfaces, GPIO count, display-driver
-choice, and firmware/debug support.
+## Electrical and firmware implications
 
-An STM32G0 remains a candidate; an RP2040 is still usable but is not required
-by the display workload alone. A J-Link EDU is available. Reserve SWD access
-and confirm target-voltage and probe requirements for the selected board.
+Reserve GPIO for the encoder's A/B channels and push switch, six panel buttons
+(`BASS`, `TREBLE`, `SUB`, `XOVER`, `DISPLAY`, `MUTE`), display control, DSP
+communication, and SWD. Audio-level and spectrum data must be exposed by the
+DSP when animated playback modes are enabled. The UI still remains usable with
+stealth mode while such telemetry is unavailable.
 
-Use a suitable display driver or multiplexing circuit for the individual
-segment LEDs. Check logic compatibility, LED current and brightness,
-decoupling, and switching-noise coupling into the analog audio path. Select
-display color and brightness for legibility in the console rack.
+The display module's controller, interface, refresh method, supply/current
+requirements, and mounting dimensions need confirmation before the MCU sheet
+and enclosure are finalized. Keep display and fast digital signals separated
+from sensitive analogue audio paths.
 
-## Not finalized
-
-- Exact display digit count, module type, driver, color, and brightness.
-- Display formatting, decimal precision, parameter ranges, and encoder steps.
-- Press-and-turn semantics, release behavior, and whether a press has a
-  separate action such as mute.
-- Exact MCU, display-driver circuit, and DSP control/boot interface.
-- Defaults, saved-setting policy, startup sequence, and mute/fault recovery.
-- Which amplifier fault signals are monitored.
+The prior five-control, seven-segment concept is retained only as a historical
+reference at `docs/archive/front-panel-seven-segment.svg`; it is not the active
+front-panel design.

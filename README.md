@@ -24,10 +24,11 @@ Stereo line inputs
 
 The preamp is intended to provide input conditioning only. User-adjustable
 volume, bass, treble, and crossover functions are intended to run in the DSP.
-The current front-panel concept uses five labeled push-turn controls, a compact
-seven-segment value display, and separate status LEDs. An MCU would read the
-controls, drive the display, and update the DSP. See the revisable
-[front-panel concept](docs/FRONT_PANEL.md).
+The current front-panel concept uses an RP2350, a 2.4-inch 320 × 240 colour
+display, one main encoder, and dedicated parameter/display/mute buttons. The
+display is a context-sensitive instrumentation UI, not a menu system; see the
+[front-panel specification](docs/FRONT_PANEL.md) and
+[UI firmware architecture](docs/UI_FIRMWARE_ARCHITECTURE.md).
 
 ## Open the design
 

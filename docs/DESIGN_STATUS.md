@@ -41,12 +41,12 @@ under the main project directory is also not in the current top-level hierarchy.
   against the latest SigmaStudio project and hardware interface.
 - The project contains a custom KiCad symbol library for amplifier devices.
 
-The current front-panel proposal uses five labeled push-turn controls (master,
-bass, treble, sub level, crossover), a compact seven-segment value display,
-and separate status LEDs. An MCU is intended to read the controls, drive the
-display, and update the ADAU1701. The exact MCU and display driver remain open.
-The simplified display does not require an audio-data path from the DSP. See
-the [front-panel concept](./FRONT_PANEL.md).
+The current front-panel proposal uses an RP2350, a 2.4-inch 320 × 240 colour
+display, one main rotary encoder, dedicated BASS/TREBLE/SUB/XOVER/DISPLAY/MUTE
+buttons, and a context-sensitive instrumentation UI. Animated spectrum and VU
+modes require suitable DSP telemetry. See the
+[front-panel specification](./FRONT_PANEL.md) and
+[UI firmware architecture](./UI_FIRMWARE_ARCHITECTURE.md).
 
 See the [ADAU1701 integration plan](./ADAU1701_INTEGRATION.md) for a package
 pin-by-pin connection checklist, proposed channel mapping, and bring-up checks.
@@ -70,13 +70,11 @@ will provide the required level, polarity, or common-mode behavior.
 
 ### DSP controls and program
 
-The proposed interface needs an MCU, but the
-[`mcu.kicad_sch`](../electronics/audio-amplifier/mcu.kicad_sch) sheet is still empty.
-STM32G0 and RP2040 remain candidates, with a J-Link EDU available for
-development/debug. Select an exact MCU/package, define the DSP control-port
-wiring, seven-segment display interface, and user-input circuits, then add
-hardware and firmware. See the
-[front-panel concept](./FRONT_PANEL.md).
+The interface uses an RP2350, but the
+[`mcu.kicad_sch`](../electronics/audio-amplifier/mcu.kicad_sch) sheet is still
+empty. Select its exact package, define display/control-port wiring, encoder
+and button circuits, DSP telemetry transport, and SWD access, then add the
+hardware and firmware. See the [front-panel specification](./FRONT_PANEL.md).
 
 The reported SigmaStudio processing chain is a starting point, not verified
 evidence that the committed program artifacts match the current project. Its
@@ -110,10 +108,10 @@ and supply before finalizing the circuit or PCB:
 | ADC interface | At the selected 48 kHz rate, ADAU1701 ADCs are current inputs with about 1.5 V pin common mode; 18 kohm external ADC_RES and 18 kohm external input resistors set nominal 2.0 Vrms full scale. Confirm the AC-coupled interface from the +4.5 V-biased buffer and test clipping/tolerance margin before wiring ADC0/ADC1. |
 | Output interface | DAC channel assignment, output level, differential-driver topology, filtering, and amplifier input compatibility |
 | DSP behavior | Crossover frequency and response, channel summing, EQ range, boost/headroom policy, and volume range |
-| User controls | Five labeled push-turn controls, a seven-segment value display, and separate status LEDs are proposed; press behavior, display details, and MCU remain open |
+| User controls | One main encoder; BASS, TREBLE, SUB, XOVER, DISPLAY, and MUTE buttons; and a 320 × 240 colour display are specified. Confirm display module/controller, electrical interface, and enclosure layout. |
 | Volume behavior | One shared master volume for all outputs, plus a separate subwoofer level trim |
 | Startup and faults | DSP boot/configuration method, amplifier mute/enable sequencing, fault response, and pop suppression |
-| MCU | MCU intended; RP2040 and STM32G0 remain candidates, with exact part and firmware still open |
+| MCU | RP2350 specified; confirm exact package, board architecture, debug access, power, and DSP/display interfaces |
 | Power | Input supply range/current, analog/DSP rails, decoupling, grounding, and separation from Class-D switching currents |
 | Amplifier use | Speaker impedance, target output power, thermal limits, heatsinking, and protection behavior |
 

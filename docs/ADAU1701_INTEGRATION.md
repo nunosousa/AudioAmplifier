@@ -161,14 +161,12 @@ choices, and datasheet-verified component values.
 - Define the roles of the multifunction pins before assigning GPIOs or serial
   audio ports. Give every unused input or multifunction pin a documented,
   datasheet-compliant state.
-- The current UI proposal uses an ARM MCU to read five rotary encoders and
-  update master volume, bass, treble, sub trim, and crossover parameters. An
-  seven-segment display shows the adjusted value during press-and-turn
-  interaction, with separate status LEDs. RP2040 and STM32G0 remain MCU
-  candidates, but the simplified display does not need an audio-data path from
-  the DSP. Compare candidates against display driving, parameter control, and
-  GPIO needs. A J-Link EDU is available; reserve SWD access, including reset
-  as appropriate, and verify target-voltage and probe requirements.
+- The current UI proposal uses an RP2350 with a 320 × 240 colour display, one
+  rotary encoder, and dedicated parameter buttons to update master volume,
+  bass, treble, sub trim, and crossover values. Spectrum and VU views require
+  DSP level/spectrum telemetry in addition to parameter control. Define the
+  display, parameter-control, telemetry, GPIO, and SWD interfaces; reserve
+  debug access and verify target-voltage and probe requirements.
 - Specify control-bus wiring, pull-ups/logic voltage, address straps, reset
   ownership, DSP parameter-update mechanism, and relationship to amplifier
   mute and power control.
@@ -308,8 +306,9 @@ mute is required.
   power per channel.
 - Crossover frequency and response, subwoofer summing rule, EQ range/boost,
   and master-volume range.
-- Front-panel implementation details (press-and-turn behavior, display
-  format/driver, parameter ranges, startup defaults, and saved-setting policy).
+- Front-panel electrical details (display controller/interface, encoder/button
+  circuits, parameter ranges, startup defaults, saved-setting policy, and DSP
+  level/spectrum telemetry).
 - Whether the design needs selectable inputs, status indication, fault
   reporting, or firmware-updatable DSP parameters.
 
