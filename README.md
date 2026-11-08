@@ -55,7 +55,6 @@ latest schematic.
 | `stereo_amp.kicad_sch`, `mono_amp.kicad_sch` | TPA3116D2 power-amplifier stages |
 | `power.kicad_sch`, `control.kicad_sch` | Power and amplifier mute/control circuits |
 | `crossover.kicad_sch` | Standalone analog crossover design retained as a reference; not in the current top-level hierarchy |
-| `headphone_amp.kicad_sch` | Retained sheet not in the current top-level hierarchy |
 | `dsp/` | ADAU1701 SigmaStudio project, compiler outputs, and generated program data |
 | `simulation/` | Filter-design spreadsheet and LTspice files |
 | [`electronics/datasheets/`](electronics/datasheets/) | Component reference material |

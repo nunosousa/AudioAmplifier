@@ -52,6 +52,16 @@ master volume) and a footer (`B`, `T`, `SUB`, `X`) showing the current settings.
 The UI displays the values acknowledged by the DSP, rather than treating local
 encoder state as authoritative.
 
+## Visual reference
+
+![Retro DSP interface reference showing spectrum, VU, volume, tone, sub-level, and crossover views](reference/retro-dsp-ui-reference.png)
+
+This user-provided image records the intended visual direction for future UI
+work: pixel-style typography, cyan instrumentation frames, segmented meters,
+and graph-led adjustment views. It is reference material rather than a final
+screen layout, parameter specification, or firmware asset; final screens must
+remain legible within the 320 × 240 display target.
+
 ## Visual language and layout
 
 The design follows the attached retro-terminal reference: near-black navy

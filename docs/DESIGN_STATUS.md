@@ -21,8 +21,7 @@ path is:
 The standalone analog crossover is no longer the target implementation.
 [`crossover.kicad_sch`](../electronics/audio-amplifier/crossover.kicad_sch) is retained
 in the repository as a reference, but is not part of the current
-`AudioAmplifier.kicad_sch` sheet hierarchy. The older `headphone_amp.kicad_sch`
-under the main project directory is also not in the current top-level hierarchy.
+`AudioAmplifier.kicad_sch` sheet hierarchy.
 
 ## What is present
 
