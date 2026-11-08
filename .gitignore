@@ -17,6 +17,9 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# Local editor history (contains a nested Git repository)
+.history/
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -27,3 +30,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Firmware build output
+firmware/**/build/
+firmware/**/out/
+firmware/**/.pio/

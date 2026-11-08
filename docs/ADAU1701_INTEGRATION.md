@@ -5,7 +5,7 @@ main 2.1 amplifier. It is not a finished schematic or a substitute for the
 current Analog Devices datasheet and SigmaStudio documentation.
 
 The package pin names/numbers below are transcribed from the embedded KiCad
-symbol in [`dsp.kicad_sch`](../ECAD/AudioAmplifier/dsp.kicad_sch). Confirm every
+symbol in [`dsp.kicad_sch`](../electronics/audio-amplifier/dsp.kicad_sch). Confirm every
 pin function, electrical limit, recommended connection, component value, and
 layout rule against the official
 [ADAU1701 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1701.pdf)

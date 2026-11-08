@@ -19,12 +19,10 @@ path is:
    the stereo and mono TPA3116D2 amplifier stages.
 
 The standalone analog crossover is no longer the target implementation.
-[`crossover.kicad_sch`](../ECAD/AudioAmplifier/crossover.kicad_sch) is retained
+[`crossover.kicad_sch`](../electronics/audio-amplifier/crossover.kicad_sch) is retained
 in the repository as a reference, but is not part of the current
-`AudioAmplifier.kicad_sch` sheet hierarchy. The separate
-[`ECAD/HeadphoneAmplifier/`](../ECAD/HeadphoneAmplifier/) project is outside
-the current scope. The older `headphone_amp.kicad_sch` under the main project
-directory is also not in the current top-level hierarchy.
+`AudioAmplifier.kicad_sch` sheet hierarchy. The older `headphone_amp.kicad_sch`
+under the main project directory is also not in the current top-level hierarchy.
 
 ## What is present
 
@@ -57,7 +55,7 @@ pin-by-pin connection checklist, proposed channel mapping, and bring-up checks.
 
 ### DSP schematic and analog interfaces
 
-[`dsp.kicad_sch`](../ECAD/AudioAmplifier/dsp.kicad_sch) is not a complete
+[`dsp.kicad_sch`](../electronics/audio-amplifier/dsp.kicad_sch) is not a complete
 circuit. The ADC input paths now have 18 kohm series resistors and partial
 pin wiring, but the external ADC_RES resistor and tolerance/matching details
 are still missing. Power, clock, reset, boot/configuration, and other required
@@ -73,7 +71,7 @@ will provide the required level, polarity, or common-mode behavior.
 ### DSP controls and program
 
 The proposed interface needs an MCU, but the
-[`mcu.kicad_sch`](../ECAD/AudioAmplifier/mcu.kicad_sch) sheet is still empty.
+[`mcu.kicad_sch`](../electronics/audio-amplifier/mcu.kicad_sch) sheet is still empty.
 STM32G0 and RP2040 remain candidates, with a J-Link EDU available for
 development/debug. Select an exact MCU/package, define the DSP control-port
 wiring, seven-segment display interface, and user-input circuits, then add
@@ -90,14 +88,14 @@ artifacts together.
 
 ### PCB, simulation, and exports
 
-- [`AudioAmplifier.kicad_pcb`](../ECAD/AudioAmplifier/AudioAmplifier.kicad_pcb)
+- [`AudioAmplifier.kicad_pcb`](../electronics/audio-amplifier/AudioAmplifier.kicad_pcb)
   currently has no placed footprints. Rebuild the board from the updated
   schematic; no previous placement or routing should be assumed to remain.
-- [`Audio_path.asc`](../ECAD/AudioAmplifier/Circuit%20simulation/LTspice/Audio_path.asc)
+- [`Audio_path.asc`](../electronics/audio-amplifier/simulation/LTspice/Audio_path.asc)
   is only an LTspice header. Create a simulation that exercises the relevant
   input conditioning, DSP/output-stage assumptions, and amplifier input
   interfaces where models permit.
-- [`AudioAmplifier.pdf`](../ECAD/AudioAmplifier/AudioAmplifier.pdf) predates
+- [`AudioAmplifier.pdf`](../electronics/audio-amplifier/AudioAmplifier.pdf) predates
   the latest schematic. Regenerate it after the schematic stabilizes.
 - KiCad ERC and PCB DRC have not been run on the current design.
 
@@ -150,11 +148,11 @@ connecting it. See the input-stage review in the
 
 ## Editing and validation notes
 
-- Open [`AudioAmplifier.kicad_pro`](../ECAD/AudioAmplifier/AudioAmplifier.kicad_pro)
+- Open [`AudioAmplifier.kicad_pro`](../electronics/audio-amplifier/AudioAmplifier.kicad_pro)
   with KiCad 10 or a compatible version. The current files use KiCad 10 file
   formats.
 - Keep custom symbols in
-  [`Amplifier_Audio_custom.kicad_sym`](../ECAD/AudioAmplifier/Amplifier_Audio_custom.kicad_sym)
+  [`Amplifier_Audio_custom.kicad_sym`](../electronics/audio-amplifier/Amplifier_Audio_custom.kicad_sym)
   and preserve the project-local library reference in `sym-lib-table`.
 - Treat SigmaStudio-generated program/export files as outputs of the
   corresponding `.dspproj`; regenerate them after DSP changes rather than

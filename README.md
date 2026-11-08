@@ -31,15 +31,15 @@ controls, drive the display, and update the DSP. See the revisable
 
 ## Open the design
 
-Open [`ECAD/AudioAmplifier/AudioAmplifier.kicad_pro`](ECAD/AudioAmplifier/AudioAmplifier.kicad_pro)
+Open [`electronics/audio-amplifier/AudioAmplifier.kicad_pro`](electronics/audio-amplifier/AudioAmplifier.kicad_pro)
 in **KiCad 10 or a compatible version**. The project includes a project-local
 symbol library table; its custom amplifier symbols are in
-[`Amplifier_Audio_custom.kicad_sym`](ECAD/AudioAmplifier/Amplifier_Audio_custom.kicad_sym).
+[`Amplifier_Audio_custom.kicad_sym`](electronics/audio-amplifier/Amplifier_Audio_custom.kicad_sym).
 
 The SigmaStudio project and its generated artifacts are in
-[`ECAD/AudioAmplifier/SigmaStudio/`](ECAD/AudioAmplifier/SigmaStudio/). The
+[`electronics/audio-amplifier/dsp/`](electronics/audio-amplifier/dsp/). The
 LTspice audio-path file is in
-[`ECAD/AudioAmplifier/Circuit simulation/LTspice/`](ECAD/AudioAmplifier/Circuit%20simulation/LTspice/).
+[`electronics/audio-amplifier/simulation/LTspice/`](electronics/audio-amplifier/simulation/LTspice/).
 Neither folder currently provides a verified end-to-end validation of the
 latest schematic.
 
@@ -47,7 +47,7 @@ latest schematic.
 
 | Path | Contents |
 | --- | --- |
-| [`ECAD/AudioAmplifier/`](ECAD/AudioAmplifier/) | Main 2.1 KiCad project |
+| [`electronics/audio-amplifier/`](electronics/audio-amplifier/) | Main 2.1 KiCad project |
 | `AudioAmplifier.kicad_sch` | Top-level sheet hierarchy and signal interfaces |
 | `dsp.kicad_sch` | ADAU1701 symbol and proposed DSP I/O sheet |
 | `preamplifier.kicad_sch` | Analog input-stage design, intended to be reduced to input conditioning |
@@ -55,9 +55,11 @@ latest schematic.
 | `power.kicad_sch`, `control.kicad_sch` | Power and amplifier mute/control circuits |
 | `crossover.kicad_sch` | Standalone analog crossover design retained as a reference; not in the current top-level hierarchy |
 | `headphone_amp.kicad_sch` | Retained sheet not in the current top-level hierarchy |
-| `SigmaStudio/` | ADAU1701 project, compiler outputs, and generated program data |
-| `Circuit simulation/` | Filter-design spreadsheet and LTspice files |
-| [`ECAD/HeadphoneAmplifier/`](ECAD/HeadphoneAmplifier/) | Separate headphone-amplifier project, outside the current 2.1 development scope |
+| `dsp/` | ADAU1701 SigmaStudio project, compiler outputs, and generated program data |
+| `simulation/` | Filter-design spreadsheet and LTspice files |
+| [`electronics/datasheets/`](electronics/datasheets/) | Component reference material |
+| [`mechanical/enclosure/`](mechanical/enclosure/) | Enclosure CAD source, exchange exports, and drawings |
+| [`firmware/`](firmware/) | MCU firmware, shared code, and development tools |
 
 ## Current validation
 
