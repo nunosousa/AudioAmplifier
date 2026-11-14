@@ -153,26 +153,55 @@ choices, and datasheet-verified component values.
 
 ### 2. Clock, reset, boot, and control
 
-- Select either a crystal/resonator or external master-clock source and define
-  its frequency and startup behavior. Configure both PLL mode pins accordingly.
+- The target is fixed-rate 48 kHz audio, with a proposed external 12.288 MHz
+  oscillator supplying ADAU1701 MCLK (256 × Fs). Select the oscillator and
+  verify its electrical requirements, startup behavior, jitter, and layout
+  against the datasheet; configure both PLL mode pins accordingly.
+- The proposed I²S topology makes the ADAU1701 serial output the clock master,
+  generating 3.072 MHz BCLK and 48 kHz LRCLK for two 32-bit slots. Loop these
+  clocks back to the ADAU1701 serial input clock pins and connect them to the
+  RP2350 as inputs. Configure the RP2350 as a data transmitter/clock slave;
+  it must not generate a separate BCLK/LRCLK domain. Verify the ADAU1701
+  multifunction-pin modes, serial-port configuration, divider values, and
+  64-BCLK stereo framing against the datasheet and SigmaStudio setup before
+  committing the circuit.
+- Provisional pin mapping: MP10 / OUTPUT_LRCLK to RP2350 GPIO11 and MP4 /
+  INPUT_LRCLK; MP11 / OUTPUT_BCLK to GPIO10 and MP5 / INPUT_BCLK; RP2350
+  GPIO12 data output to MP0 / SDATA_IN0. These assignments must be checked
+  against the ADAU1701 pin multiplexing, selected RP2350 package, and PCB.
 - Choose and document the boot path: for example, self-boot from an external
   EEPROM or program/configure the DSP from a controller. Check that the selected
   strap states and pin multiplexing support the chosen path.
 - Define the roles of the multifunction pins before assigning GPIOs or serial
   audio ports. Give every unused input or multifunction pin a documented,
   datasheet-compliant state.
+<<<<<<< HEAD
 - The current UI proposal uses an RP2350 with a 320 × 240 colour display, one
   rotary encoder, and dedicated parameter buttons to update master volume,
   bass, treble, sub trim, and crossover values. Spectrum and VU views require
   DSP level/spectrum telemetry in addition to parameter control. Define the
   display, parameter-control, telemetry, GPIO, and SWD interfaces; reserve
   debug access and verify target-voltage and probe requirements.
+=======
+- The RP2350 is the proposed controller and USB Audio sink. The proposed
+  front panel has five rotary controls for master volume, bass, treble, sub
+  trim, and crossover, plus a seven-segment display and status LEDs. Confirm
+  the exact package, GPIO allocation, USB/device stack, and debug access.
+  Proposed audio GPIOs are GPIO10 BCLK input, GPIO11 LRCLK input, and GPIO12
+  DATA output; verify pin availability against the selected package and PCB.
+- Implementing the RP2350 I²S transmitter is planned with PIO synchronized to
+  the external BCLK/LRCLK and DMA-fed buffering. Verify the one-bit I²S delay,
+  channel order, sampling edge, setup/hold margin, and underrun behavior.
+  Firmware must not rely on CPU intervention for individual audio bits.
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
 - Specify control-bus wiring, pull-ups/logic voltage, address straps, reset
   ownership, DSP parameter-update mechanism, and relationship to amplifier
   mute and power control.
 
-**Still needed:** boot method, exact MCU, master-clock source, and confirmed
-parameter interface.
+**Still needed:** boot method, exact RP2350 package, selected oscillator,
+verified serial clock/multiplexer configuration, and confirmed parameter
+interface. The RP2350 USB Audio Class 1.0 asynchronous-sink implementation and
+host-feedback mechanism must also be proven on the selected USB stack.
 
 ### 3. Stereo ADC input conditioning
 
@@ -368,7 +397,7 @@ mute is required.
   blocks. The intended control behavior is one shared master volume plus a
   subwoofer trim. Verify that the actual SigmaStudio graph implements that
   behavior, and check the generated files together before hardware bring-up.
-- The parent `MCU` sheet is empty. The controller need is therefore an
-  architecture decision, not an implemented feature.
+- The parent `MCU` sheet is empty. The RP2350 is the proposed controller, but
+  no controller hardware or firmware is implemented yet.
 - The current PCB is empty and needs to be rebuilt after the DSP sheet and its
   analog interface are complete.

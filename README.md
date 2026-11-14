@@ -13,22 +13,31 @@ Class-D power-amplifier stages.
 ## Intended signal path
 
 ```text
-Stereo line inputs
-    → analog input conditioning
-    → ADAU1701 ADCs
-    → DSP volume, bass/treble EQ, and 2.1 crossover
+Stereo analog line input ─┐
+                          ├→ ADAU1701 DSP → volume, EQ, and 2.1 crossover
+USB audio → RP2350 I²S ───┘
     → three DAC channels and output conditioning
     → stereo and mono TPA3116D2 stages
     → left, right, and subwoofer outputs
 ```
 
-The preamp is intended to provide input conditioning only. User-adjustable
+The two selectable inputs are intended to share the same DSP chain. The
+preamp is intended to provide analog input conditioning only. User-adjustable
 volume, bass, treble, and crossover functions are intended to run in the DSP.
+<<<<<<< HEAD
 The current front-panel concept uses an RP2350, a 2.4-inch 320 × 240 colour
 display, one main encoder, and dedicated parameter/display/mute buttons. The
 display is a context-sensitive instrumentation UI, not a menu system; see the
 [front-panel specification](docs/FRONT_PANEL.md) and
 [UI firmware architecture](docs/UI_FIRMWARE_ARCHITECTURE.md).
+=======
+The current front-panel concept uses five labeled push-turn controls, a compact
+seven-segment value display, and separate status LEDs. The proposed RP2350
+controller reads the controls, drives the display, updates the DSP, and
+receives USB audio. See the
+[system architecture](docs/SYSTEM_ARCHITECTURE.md) and revisable
+[front-panel concept](docs/FRONT_PANEL.md).
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
 
 ## Open the design
 
@@ -55,11 +64,19 @@ latest schematic.
 | `stereo_amp.kicad_sch`, `mono_amp.kicad_sch` | TPA3116D2 power-amplifier stages |
 | `power.kicad_sch`, `control.kicad_sch` | Power and amplifier mute/control circuits |
 | `crossover.kicad_sch` | Standalone analog crossover design retained as a reference; not in the current top-level hierarchy |
+<<<<<<< HEAD
 | `dsp/` | ADAU1701 SigmaStudio project, compiler outputs, and generated program data |
 | `simulation/` | Filter-design spreadsheet and LTspice files |
 | [`electronics/datasheets/`](electronics/datasheets/) | Component reference material |
 | [`mechanical/enclosure/`](mechanical/enclosure/) | Enclosure CAD source, exchange exports, and drawings |
 | [`firmware/`](firmware/) | MCU firmware, shared code, and development tools |
+=======
+| `headphone_amp.kicad_sch` | Retained sheet not in the current top-level hierarchy |
+| `SigmaStudio/` | ADAU1701 project, compiler outputs, and generated program data |
+| `Circuit simulation/` | Filter-design spreadsheet and LTspice files |
+| [`docs/SYSTEM_ARCHITECTURE.md`](docs/SYSTEM_ARCHITECTURE.md) | Proposed system-level audio, clock, USB, and control architecture |
+| [`ECAD/HeadphoneAmplifier/`](ECAD/HeadphoneAmplifier/) | Separate headphone-amplifier project, outside the current 2.1 development scope |
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
 
 ## Current validation
 

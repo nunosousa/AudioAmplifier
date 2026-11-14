@@ -1,8 +1,13 @@
 # Front panel and display UI
 
+<<<<<<< HEAD
 **Status:** interaction and display specification. The control electronics,
 display controller, DSP protocol, and final enclosure layout remain to be
 implemented.
+=======
+**Status:** simplified, revisable UI proposal. Exact display module, parameter
+ranges, RP2350 package, and control gestures are not finalized.
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
 
 The amplifier uses a 2.4-inch, 320 × 240 colour display controlled by an
 RP2350. It is an instrumentation display, not a menu system: the physical
@@ -62,6 +67,7 @@ and graph-led adjustment views. It is reference material rather than a final
 screen layout, parameter specification, or firmware asset; final screens must
 remain legible within the 320 × 240 display target.
 
+<<<<<<< HEAD
 ## Visual language and layout
 
 The design follows the attached retro-terminal reference: near-black navy
@@ -71,6 +77,15 @@ levels; yellow indicates active values or high level; orange is reserved for
 peaks, warnings, and clipping. Text is light grey/white. Use integer-aligned
 geometry and bitmap fonts; avoid gradients, shadows, glossy effects, and
 nonessential animation.
+=======
+The proposed controller is an RP2350, which also handles USB audio and I²S
+transmission for the system architecture. The interface needs GPIO or encoder
+inputs for five controls, push-switch handling, the DSP control interface, a
+small seven-segment display driver, and a few status LEDs. It does not need
+RGB matrix refresh or an audio stream/FFT path from the DSP. Confirm the exact
+RP2350 package, GPIO allocation, display-driver choice, and firmware/debug
+support; reserve debug access and verify target-voltage and probe requirements.
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
 
 For the 320 × 240 target, reserve a 20-pixel header, a 24-pixel footer, and
 6-pixel outer margins. The resulting 320 × 190 content region supports a
@@ -79,6 +94,7 @@ constants are defined in `firmware/mcu/src/ui/screen_layout.hpp`.
 
 ## Electrical and firmware implications
 
+<<<<<<< HEAD
 Reserve GPIO for the encoder's A/B channels and push switch, six panel buttons
 (`BASS`, `TREBLE`, `SUB`, `XOVER`, `DISPLAY`, `MUTE`), display control, DSP
 communication, and SWD. Audio-level and spectrum data must be exposed by the
@@ -93,3 +109,12 @@ from sensitive analogue audio paths.
 The prior five-control, seven-segment concept is retained only as a historical
 reference at `docs/archive/front-panel-seven-segment.svg`; it is not the active
 front-panel design.
+=======
+- Exact display digit count, module type, driver, color, and brightness.
+- Display formatting, decimal precision, parameter ranges, and encoder steps.
+- Press-and-turn semantics, release behavior, and whether a press has a
+  separate action such as mute.
+- Exact RP2350 package, display-driver circuit, and DSP control/boot interface.
+- Defaults, saved-setting policy, startup sequence, and mute/fault recovery.
+- Which amplifier fault signals are monitored.
+>>>>>>> 4c9065f (Refine documentation for system architecture, design status, and front panel; clarify input paths and controller details)
