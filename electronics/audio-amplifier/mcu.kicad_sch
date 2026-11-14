@@ -6222,6 +6222,94 @@
 		)
 		(uuid "f29001d6-00c1-4746-9603-cab7197fb9a6")
 	)
+	(hierarchical_label "DSP_INPUT_BCLK"
+		(shape output)
+		(at 154.94 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03171c8c-5f96-4c2e-98ff-7bf9f9ef962b")
+	)
+	(hierarchical_label "COUT"
+		(shape input)
+		(at 134.62 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12ea1763-d9cc-4957-86d6-bbfd000c13d4")
+	)
+	(hierarchical_label "DSP_SDATA_IN"
+		(shape output)
+		(at 154.94 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b82da19-f1e3-4c3f-a234-0ec7bf7d24c1")
+	)
+	(hierarchical_label "CCLK"
+		(shape output)
+		(at 134.62 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f1cffa2-2098-453a-bc2d-3897b1236ef8")
+	)
+	(hierarchical_label "CLATCH"
+		(shape output)
+		(at 134.62 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4642ab45-a046-46e1-adfc-e677552af2e0")
+	)
+	(hierarchical_label "DSP_INPUT_LRCLK"
+		(shape output)
+		(at 154.94 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48fdc401-e902-4502-8298-e20bbdd943e9")
+	)
+	(hierarchical_label "~{DSP_RESET}"
+		(shape output)
+		(at 134.62 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4b6f758-9222-4774-ac9d-5be38db9bc92")
+	)
+	(hierarchical_label "CDATA"
+		(shape output)
+		(at 134.62 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffdd65a2-36cf-4bc1-a06d-00e29bca07ab")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 172.72 29.21 0)

@@ -884,6 +884,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 138.43) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065ef67d-f174-499b-8b30-174e83cef41f")
+	)
+	(wire
+		(pts
 			(xy 173.99 66.04) (xy 173.99 93.98)
 		)
 		(stroke
@@ -944,6 +954,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 138.43) (xy 50.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f631c2-9f07-4963-a302-5b9e8ce7debb")
+	)
+	(wire
+		(pts
 			(xy 162.56 134.62) (xy 187.96 134.62)
 		)
 		(stroke
@@ -954,16 +974,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 135.89) (xy 71.12 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d43809-b558-4429-afa9-41b2ca657c48")
-	)
-	(wire
-		(pts
 			(xy 223.52 101.6) (xy 233.68 101.6)
 		)
 		(stroke
@@ -971,6 +981,16 @@
 			(type default)
 		)
 		(uuid "3c6eb201-c258-46a9-8557-c883c51fd47f")
+	)
+	(wire
+		(pts
+			(xy 52.07 133.35) (xy 52.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d79402c-6333-4860-8d7e-65239a2931a4")
 	)
 	(wire
 		(pts
@@ -1034,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 130.81) (xy 123.19 130.81)
+			(xy 101.6 134.62) (xy 123.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1084,16 +1104,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 71.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a31e482-2bf8-48f2-b7af-c4af9117e29b")
-	)
-	(wire
-		(pts
 			(xy 104.14 66.04) (xy 110.49 66.04)
 		)
 		(stroke
@@ -1111,6 +1121,16 @@
 			(type default)
 		)
 		(uuid "88f1b41e-ab08-4b20-85dc-4db83ae8a399")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8daaeed8-1d4c-4fa4-b5a1-674c6713d8dc")
 	)
 	(wire
 		(pts
@@ -1164,6 +1184,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14d8d85-e1cd-46bc-af9f-a800f93c61ec")
+	)
+	(wire
+		(pts
 			(xy 176.53 91.44) (xy 187.96 91.44)
 		)
 		(stroke
@@ -1171,6 +1201,16 @@
 			(type default)
 		)
 		(uuid "c3c39d3d-c89a-4e94-97d1-caefec526ae5")
+	)
+	(wire
+		(pts
+			(xy 52.07 133.35) (xy 50.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e6858a-63f3-4498-a662-68b96d44828c")
 	)
 	(wire
 		(pts
@@ -1194,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 135.89) (xy 123.19 135.89)
+			(xy 101.6 137.16) (xy 123.19 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 140.97 0)
+		(at 45.72 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1305,7 +1345,7 @@
 		(fields_autoplaced yes)
 		(uuid "05dbf002-0d5f-4cab-bc01-ac183bf0915a")
 		(property "Reference" "#PWR01"
-			(at 45.72 147.32 0)
+			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1316,7 +1356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 146.05 0)
+			(at 45.72 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1326,7 +1366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 140.97 0)
+			(at 45.72 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 140.97 0)
+			(at 45.72 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 140.97 0)
+			(at 45.72 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +1818,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_x2")
-		(at 45.72 133.35 0)
+		(at 45.72 135.89 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1789,7 +1829,7 @@
 		(dnp no)
 		(uuid "ce08a3b6-03f1-4aec-a432-bebba9f84777")
 		(property "Reference" "J1"
-			(at 41.91 132.3731 0)
+			(at 41.91 134.9131 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1800,7 +1840,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_x2"
-			(at 41.91 134.9131 0)
+			(at 41.91 137.4531 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 135.89 0)
+			(at 45.72 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 135.89 0)
+			(at 45.72 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1874,7 @@
 			)
 		)
 		(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 45.72 133.35 0)
+			(at 45.72 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1864,7 +1904,7 @@
 	)
 	(sheet
 		(at 123.19 95.25)
-		(size 39.37 46.99)
+		(size 39.37 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1890,7 +1930,7 @@
 			)
 		)
 		(property "Sheetfile" "dsp.kicad_sch"
-			(at 123.19 142.8246 0)
+			(at 123.19 141.5546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1901,7 +1941,7 @@
 			)
 		)
 		(pin "IN_LEFT" input
-			(at 123.19 130.81 180)
+			(at 123.19 134.62 180)
 			(uuid "67c734e3-e57f-477c-b5f1-1aabf5605e84")
 			(effects
 				(font
@@ -1911,7 +1951,7 @@
 			)
 		)
 		(pin "IN_RIGHT" input
-			(at 123.19 135.89 180)
+			(at 123.19 137.16 180)
 			(uuid "4e58f40c-15ac-4e7d-9e96-c64ad4b5c799")
 			(effects
 				(font
@@ -1978,6 +2018,86 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CCLK" input
+			(at 123.19 106.68 180)
+			(uuid "0e8b0156-b748-4d75-9ccd-0d6b6fa29f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CDATA" input
+			(at 123.19 109.22 180)
+			(uuid "a7a8b7a3-84a9-4830-ad1f-76269f02baf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLATCH" input
+			(at 123.19 111.76 180)
+			(uuid "56c78aad-8b06-4199-bff5-ebefc4846e01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COUT" output
+			(at 123.19 114.3 180)
+			(uuid "b87071b4-af7b-4b89-8bbc-a52dadc25ff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_BCLK" input
+			(at 123.19 97.79 180)
+			(uuid "ea0ca85a-ab02-4382-ba99-7b97f41823da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_LRCLK" input
+			(at 123.19 100.33 180)
+			(uuid "8cbefa67-5aec-48ce-8853-c7ab2f74b523")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDATA_IN0" input
+			(at 123.19 102.87 180)
+			(uuid "c3957442-a87c-4aa2-8fa8-b0b3d8bb128b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 123.19 118.11 180)
+			(uuid "eca34077-6c57-41fa-9cf9-fdea7c83d9c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2155,8 +2275,8 @@
 		)
 	)
 	(sheet
-		(at 55.88 96.52)
-		(size 39.37 19.05)
+		(at 71.12 95.25)
+		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2171,7 +2291,7 @@
 		)
 		(uuid "839c4c72-2f98-40be-9f87-4bc0ff3ce3da")
 		(property "Sheetname" "MCU"
-			(at 55.88 95.8084 0)
+			(at 71.12 94.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2182,7 +2302,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 55.88 116.1546 0)
+			(at 71.12 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2190,6 +2310,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CCLK" output
+			(at 101.6 106.68 0)
+			(uuid "36d05375-60ee-42dd-8faf-26c006bfcddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CDATA" output
+			(at 101.6 109.22 0)
+			(uuid "dae410f5-aac7-4405-9a89-d43180b5b2ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLATCH" output
+			(at 101.6 111.76 0)
+			(uuid "4ded3d4e-7c07-4f53-8ec5-061bc00c0183")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COUT" input
+			(at 101.6 114.3 0)
+			(uuid "5d1dfe6e-abcf-40e4-807c-551df7733e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSP_INPUT_BCLK" output
+			(at 101.6 97.79 0)
+			(uuid "42027d13-70a5-4bc0-9d75-a4f4b03e4816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSP_INPUT_LRCLK" output
+			(at 101.6 100.33 0)
+			(uuid "3fe9185a-f802-45ea-b37d-7dd4fa6f3d81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSP_SDATA_IN" output
+			(at 101.6 102.87 0)
+			(uuid "fb81f916-4c75-4959-abe3-e5b5c2656836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DSP_RESET}" output
+			(at 101.6 118.11 0)
+			(uuid "509b7dcf-41dd-47cb-b2d4-a40b6e4f2b93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2257,8 +2457,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 128.27)
-		(size 30.48 10.16)
+		(at 71.12 132.08)
+		(size 30.48 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2273,7 +2473,7 @@
 		)
 		(uuid "a3a68b06-6108-4351-8cba-e2508a966dd5")
 		(property "Sheetname" "Preamplifier"
-			(at 71.12 127.5584 0)
+			(at 71.12 131.3684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2284,7 +2484,7 @@
 			)
 		)
 		(property "Sheetfile" "preamplifier.kicad_sch"
-			(at 71.12 139.0146 0)
+			(at 71.12 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2295,7 +2495,7 @@
 			)
 		)
 		(pin "IN_LEFT" input
-			(at 71.12 130.81 180)
+			(at 71.12 134.62 180)
 			(uuid "683658cc-9ff2-44e0-a87f-5fa464251ba8")
 			(effects
 				(font
@@ -2305,7 +2505,7 @@
 			)
 		)
 		(pin "IN_RIGHT" input
-			(at 71.12 135.89 180)
+			(at 71.12 137.16 180)
 			(uuid "821f37c4-36e6-4193-8835-97518822d7b2")
 			(effects
 				(font
@@ -2315,7 +2515,7 @@
 			)
 		)
 		(pin "OUT_LEFT" output
-			(at 101.6 130.81 0)
+			(at 101.6 134.62 0)
 			(uuid "9a4e0bee-72de-44c6-9c2c-467637dac8db")
 			(effects
 				(font
@@ -2325,7 +2525,7 @@
 			)
 		)
 		(pin "OUT_RIGHT" output
-			(at 101.6 135.89 0)
+			(at 101.6 137.16 0)
 			(uuid "6638b59a-1c24-42d0-87c1-5f06dd624c47")
 			(effects
 				(font
