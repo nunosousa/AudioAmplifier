@@ -2266,7 +2266,7 @@
 				)
 			)
 		)
-		(property "Value" "22uC"
+		(property "Value" "47uC"
 			(at 174.371 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+		(property "Footprint" ""
 			(at 179.07 60.6552 0)
 			(hide yes)
 			(show_name no)
@@ -2287,7 +2287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+		(property "Datasheet" ""
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2309,7 +2309,7 @@
 				)
 			)
 		)
-		(property "MPN" "UWX1C220MCL1GB"
+		(property "MPN" ""
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2320,7 +2320,7 @@
 				)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 175.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Value" "22uC"
+		(property "Value" "47uC"
 			(at 174.371 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+		(property "Footprint" ""
 			(at 179.07 125.4252 0)
 			(hide yes)
 			(show_name no)
@@ -2851,7 +2851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+		(property "Datasheet" ""
 			(at 175.26 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2873,7 +2873,7 @@
 				)
 			)
 		)
-		(property "MPN" "UWX1C220MCL1GB"
+		(property "MPN" ""
 			(at 175.26 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2884,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Status" "OK"
+		(property "Status" ""
 			(at 175.26 124.46 0)
 			(hide yes)
 			(show_name no)
