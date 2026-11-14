@@ -1669,7 +1669,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_RaspberryPi:RP2040"
+		(symbol "MCU_RaspberryPi:RP2350A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1686,7 +1686,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RP2040"
+			(property "Value" "RP2350A"
 				(at 17.526 44.704 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1697,7 +1697,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1708,7 +1708,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
+			(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1719,7 +1719,7 @@
 					)
 				)
 			)
-			(property "Description" "A microcontroller by Raspberry Pi, Dual ARM Cortex-M0+, 133MHz, no flash, 264KB SRAM, 8 PIO state machines, VQFN-56"
+			(property "Description" "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, no flash, 520KB SRAM, 12 PIO state machines, VQFN-60"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1741,7 +1741,7 @@
 					)
 				)
 			)
-			(property private "KLC_S4.2_VREG_VOUT" "Should be placed next to DVDD."
+			(property private "KLC_S4.2_VREG_LX" "Should be placed next to DVDD."
 				(at 0 -2.54 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RPi Pico USB QSPI I2C UART SC0914"
+			(property "ki_keywords" "RPi Pico USB QSPI I2C UART ADC SC1509"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1763,7 +1763,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*QFN*7x7mm?P0.4mm?EP3.2x3.2mm*"
+			(property "ki_fp_filters" "*QFN*7x7mm?P0.4mm?EP3.4x3.4mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1774,7 +1774,7 @@
 					)
 				)
 			)
-			(symbol "RP2040_0_1"
+			(symbol "RP2350A_0_1"
 				(rectangle
 					(start -21.59 41.91)
 					(end 21.59 -41.91)
@@ -1787,7 +1787,118 @@
 					)
 				)
 			)
-			(symbol "RP2040_1_1"
+			(symbol "RP2350A_1_0"
+				(pin power_in line
+					(at 12.7 45.72 270)
+					(length 3.81)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 45.72 270)
+					(length 3.81)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 45.72 270)
+					(length 3.81)
+					(name "VREG_AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -45.72 90)
+					(length 3.81)
+					(name "VREG_PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 45.72 270)
+					(length 3.81)
+					(name "USB_OTP_VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 45.72 270)
+					(length 3.81)
+					(name "QSPI_IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RP2350A_1_1"
 				(pin power_in line
 					(at -2.54 45.72 270)
 					(length 3.81)
@@ -1888,7 +1999,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1906,7 +2017,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1924,7 +2035,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1942,7 +2053,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1961,7 +2072,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1979,7 +2090,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,7 +2108,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2015,7 +2126,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2033,7 +2144,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2051,7 +2162,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2069,7 +2180,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2087,7 +2198,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2105,61 +2216,7 @@
 							)
 						)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 30.48 0)
-					(length 3.81)
-					(name "TESTEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 -15.24 0)
-					(length 3.81)
-					(name "XIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -25.4 0)
-					(length 3.81)
-					(name "XOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2178,6 +2235,42 @@
 							)
 						)
 					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -15.24 0)
+					(length 3.81)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -25.4 -25.4 0)
+					(length 3.81)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "22"
 						(effects
 							(font
@@ -2186,9 +2279,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 12.7 45.72 270)
 					(length 3.81)
+					(hide yes)
 					(name "DVDD"
 						(effects
 							(font
@@ -2312,6 +2406,25 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 45.72 270)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 25.4 -10.16 180)
 					(length 3.81)
@@ -2322,7 +2435,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2340,7 +2453,7 @@
 							)
 						)
 					)
-					(number "31"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2352,25 +2465,6 @@
 					(at 25.4 -15.24 180)
 					(length 3.81)
 					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 45.72 270)
-					(length 3.81)
-					(hide yes)
-					(name "IOVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2457,6 +2551,25 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 45.72 270)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 25.4 -30.48 180)
 					(length 3.81)
@@ -2467,7 +2580,7 @@
 							)
 						)
 					)
-					(number "38"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2485,7 +2598,7 @@
 							)
 						)
 					)
-					(number "39"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2503,7 +2616,7 @@
 							)
 						)
 					)
-					(number "40"
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2521,26 +2634,7 @@
 							)
 						)
 					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 45.72 270)
-					(length 3.81)
-					(hide yes)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
+					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2558,97 +2652,7 @@
 							)
 						)
 					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 45.72 270)
-					(length 3.81)
-					(name "VREG_VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 45.72 270)
-					(length 3.81)
-					(name "VREG_VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 15.24 0)
-					(length 3.81)
-					(name "USB_DM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 12.7 0)
-					(length 3.81)
-					(name "USB_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 45.72 270)
-					(length 3.81)
-					(name "USB_VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2667,6 +2671,42 @@
 							)
 						)
 					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 45.72 270)
+					(length 3.81)
+					(name "VREG_LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 45.72 270)
+					(length 3.81)
+					(name "VREG_VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "49"
 						(effects
 							(font
@@ -2676,10 +2716,9 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 45.72 270)
+					(at 7.62 45.72 270)
 					(length 3.81)
-					(hide yes)
-					(name "DVDD"
+					(name "VREG_FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2687,6 +2726,42 @@
 						)
 					)
 					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 15.24 0)
+					(length 3.81)
+					(name "USB_DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 12.7 0)
+					(length 3.81)
+					(name "USB_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2704,7 +2779,7 @@
 							)
 						)
 					)
-					(number "51"
+					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2722,7 +2797,7 @@
 							)
 						)
 					)
-					(number "52"
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2740,7 +2815,7 @@
 							)
 						)
 					)
-					(number "53"
+					(number "57"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2758,7 +2833,7 @@
 							)
 						)
 					)
-					(number "54"
+					(number "58"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2776,7 +2851,7 @@
 							)
 						)
 					)
-					(number "55"
+					(number "59"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2794,7 +2869,7 @@
 							)
 						)
 					)
-					(number "56"
+					(number "60"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2812,7 +2887,7 @@
 							)
 						)
 					)
-					(number "57"
+					(number "61"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11490,6 +11565,287 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_RaspberryPi:RP2350A")
+		(at 138.43 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e327807d-d957-4f7d-b4ac-870cda1606b7")
+		(property "Reference" "U3"
+			(at 140.5733 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2350A"
+			(at 140.5733 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, no flash, 520KB SRAM, 12 PIO state machines, VQFN-60"
+			(at 138.43 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.2_DVDD" "Not a standalone power converter; internal on-chip voltage regulator for digital core supply; DVDD is the digital core power supply, should be placed next to voltage regulator output."
+			(at 138.43 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.2_VREG_LX" "Should be placed next to DVDD."
+			(at 138.43 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "58"
+			(uuid "2fbbd072-1b01-46e5-933b-83162d3b5033")
+		)
+		(pin "60"
+			(uuid "9938c8ae-2081-4244-a171-ad2ef381f0df")
+		)
+		(pin "55"
+			(uuid "d6dc539e-843f-4542-a88c-c34a1356c20c")
+		)
+		(pin "61"
+			(uuid "2faccbde-fa1e-4872-b347-5e6c4a0657b3")
+		)
+		(pin "57"
+			(uuid "a9378934-7677-4491-a6ab-fcbfc833f1d8")
+		)
+		(pin "56"
+			(uuid "f590e287-44ff-4a71-b5c0-5dbd1acb9c7c")
+		)
+		(pin "59"
+			(uuid "7ec87c56-4c59-4f60-acd1-d1ead0062f29")
+		)
+		(pin "51"
+			(uuid "f76582c5-3726-43ea-8364-f39129d8a7bd")
+		)
+		(pin "52"
+			(uuid "703cc2d9-3c9b-459c-9153-e87bb0077081")
+		)
+		(pin "6"
+			(uuid "b4866c6f-d934-40b1-97e6-638aaef1b182")
+		)
+		(pin "47"
+			(uuid "fffe9b2d-a6aa-47e5-a3fe-dca0c5d1c363")
+		)
+		(pin "46"
+			(uuid "7a0b9938-dd21-4699-9cdb-13fd58aaecd8")
+		)
+		(pin "54"
+			(uuid "cba5c1cd-b2be-41cd-94d1-204898ef7af9")
+		)
+		(pin "39"
+			(uuid "1f0914a1-bf50-4286-82fb-0a61552b0060")
+		)
+		(pin "53"
+			(uuid "4940571e-1347-483e-b5d9-246c6cfea485")
+		)
+		(pin "9"
+			(uuid "7053fe99-98a0-445d-a876-50a6c9eee1fd")
+		)
+		(pin "19"
+			(uuid "9b1a6c2a-8de0-426b-8c1c-8c2d608cfed6")
+		)
+		(pin "22"
+			(uuid "09e5ae1f-859e-4a25-afe7-d7559467a3ce")
+		)
+		(pin "4"
+			(uuid "0a7877c3-1095-41ab-b541-53f1ae122642")
+		)
+		(pin "11"
+			(uuid "1d7a3707-4555-4e77-adb9-eff24768f7e3")
+		)
+		(pin "8"
+			(uuid "52a345ba-b8ed-44ba-8058-9f23bb1b94e2")
+		)
+		(pin "14"
+			(uuid "b10ee3ac-5c9d-4005-b4fa-0230b804feea")
+		)
+		(pin "18"
+			(uuid "2fb87b12-50f5-4d85-b741-f1646c6f2070")
+		)
+		(pin "1"
+			(uuid "98e34924-72fa-4c99-9d65-639f4cf41395")
+		)
+		(pin "28"
+			(uuid "b0513a54-20a6-4db8-bd9a-857a2c0b7f0b")
+		)
+		(pin "17"
+			(uuid "da5bd20c-a433-4530-a77f-5a84bb88ec90")
+		)
+		(pin "26"
+			(uuid "3587191d-0e6e-4fcd-8d04-6c67fe6efd99")
+		)
+		(pin "7"
+			(uuid "6d2925a2-1cf9-41d3-8ff3-425eb6c7392c")
+		)
+		(pin "12"
+			(uuid "7126e263-bb1f-45a5-818f-9b341c82f069")
+		)
+		(pin "2"
+			(uuid "d41d3af3-50c6-4e8c-b0f4-509cc349ac36")
+		)
+		(pin "3"
+			(uuid "886c4c59-7fcc-4951-8ed5-68a1551222ef")
+		)
+		(pin "29"
+			(uuid "376bad98-1521-4d6d-885c-6fea81ea382c")
+		)
+		(pin "5"
+			(uuid "a4615a8e-d0f9-461d-adf9-f8479ad48f88")
+		)
+		(pin "30"
+			(uuid "5c947c2e-511a-47cb-946f-848416409d6a")
+		)
+		(pin "27"
+			(uuid "4bba306e-ae29-406f-8b2b-f9d7d3f466fd")
+		)
+		(pin "23"
+			(uuid "8b33f502-0ff2-4319-8875-11579bcab79c")
+		)
+		(pin "21"
+			(uuid "ce974e76-86e3-4c98-b05d-09ee657d860f")
+		)
+		(pin "31"
+			(uuid "29c837fa-dc3e-4f4c-b320-b55b62036cf9")
+		)
+		(pin "16"
+			(uuid "87cf04e8-6ef9-42b3-a5e0-134758a81a9b")
+		)
+		(pin "15"
+			(uuid "3cd68784-d280-4129-9df2-99bfcc2eea9d")
+		)
+		(pin "13"
+			(uuid "81d086cf-4bb3-4e4b-9550-d4d25ec6d899")
+		)
+		(pin "33"
+			(uuid "5b3d3e94-95d4-427f-824b-75c1bad51c2d")
+		)
+		(pin "10"
+			(uuid "eeff33e4-88be-45b6-8458-98ef963fa00b")
+		)
+		(pin "25"
+			(uuid "33a56f4c-4a06-480c-914b-f1266fe6395a")
+		)
+		(pin "32"
+			(uuid "5682d081-364a-4923-9a4a-e79c9dd9dd38")
+		)
+		(pin "24"
+			(uuid "eb15610a-b490-4381-a434-c1950c5e6f20")
+		)
+		(pin "20"
+			(uuid "4d941165-3b2d-4245-9b01-ab0d340e9e41")
+		)
+		(pin "50"
+			(uuid "cd399796-156c-418e-9a0e-61b402654edc")
+		)
+		(pin "43"
+			(uuid "25e79dd1-2e74-4b43-b42b-d0c4057670fa")
+		)
+		(pin "42"
+			(uuid "948f47f1-7aed-4475-a0bf-cda41e92d29c")
+		)
+		(pin "40"
+			(uuid "282d6a6f-4a08-4480-8e4e-8803af59a65a")
+		)
+		(pin "41"
+			(uuid "b0aea27a-0023-4fa0-84ce-b1b38d650680")
+		)
+		(pin "37"
+			(uuid "c46edd4e-d265-4d34-bfa4-ad952df6559f")
+		)
+		(pin "48"
+			(uuid "d8e32725-b619-4866-b412-bb7fc67b9cf5")
+		)
+		(pin "35"
+			(uuid "ab48eccf-2c11-4ea5-bc2b-adb571f8adbb")
+		)
+		(pin "49"
+			(uuid "3e2501bc-dddc-41f9-86e6-d0676bc40bb5")
+		)
+		(pin "36"
+			(uuid "ebc5fbad-9ac3-4266-bd23-4500031b057c")
+		)
+		(pin "44"
+			(uuid "e3bebc02-c6f4-43cc-a0f9-443d8b4f5761")
+		)
+		(pin "38"
+			(uuid "e979bd83-4649-40ba-a3c4-dedc8f024b20")
+		)
+		(pin "34"
+			(uuid "6f2fd41e-a021-4407-b68b-ed2739121783")
+		)
+		(pin "45"
+			(uuid "d488326a-7776-4127-bc56-e4df7d13c720")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/839c4c72-2f98-40be-9f87-4bc0ff3ce3da"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 222.25 152.4 0)
 		(unit 1)
@@ -12115,275 +12471,6 @@
 			(project "AudioAmplifier"
 				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/839c4c72-2f98-40be-9f87-4bc0ff3ce3da"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_RaspberryPi:RP2040")
-		(at 138.43 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc5c59a3-c53c-4a82-9063-78c3f39bb539")
-		(property "Reference" "U3"
-			(at 140.5733 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RP2040"
-			(at 140.5733 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "A microcontroller by Raspberry Pi, Dual ARM Cortex-M0+, 133MHz, no flash, 264KB SRAM, 8 PIO state machines, VQFN-56"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RP2040"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "OK"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "46"
-			(uuid "56a128b1-a6cc-4dac-8832-a6bc0bb46c2c")
-		)
-		(pin "52"
-			(uuid "c0738ea1-9bd5-41a8-b617-e71db3808f0c")
-		)
-		(pin "23"
-			(uuid "cab5a54a-b5a9-4a25-96a3-cce6c39e76d2")
-		)
-		(pin "5"
-			(uuid "f3d40370-90ae-48e3-baf2-28ff1f33c61c")
-		)
-		(pin "9"
-			(uuid "28c9bfc7-7430-4d7e-8dd9-71b2de72f609")
-		)
-		(pin "13"
-			(uuid "31897289-6079-43d4-880f-b29d6875f355")
-		)
-		(pin "17"
-			(uuid "c538bece-b4ef-4744-ba2d-89016a74e06c")
-		)
-		(pin "28"
-			(uuid "df8148fb-3277-43e8-8dea-a91e7f5cee85")
-		)
-		(pin "27"
-			(uuid "ebea7437-bc1e-4f23-b06a-6e3531fb99b4")
-		)
-		(pin "37"
-			(uuid "10a95899-c66f-441f-86b9-88c0eaeec293")
-		)
-		(pin "36"
-			(uuid "b295dd2f-348c-480c-977e-42f4322c40a7")
-		)
-		(pin "35"
-			(uuid "42d25217-a2f3-4392-8eab-9ddb3afabeac")
-		)
-		(pin "21"
-			(uuid "dba1236b-c8cd-430e-94a1-e11af5f5b433")
-		)
-		(pin "10"
-			(uuid "948c97f4-7be0-48f0-8ca9-b7b0bea27120")
-		)
-		(pin "43"
-			(uuid "e0ba45b8-1a74-44c6-941c-ed01688ee5d4")
-		)
-		(pin "6"
-			(uuid "67880673-bc6e-4b78-86f0-a3a444b0e23c")
-		)
-		(pin "53"
-			(uuid "28f6e022-adf7-442a-aa95-838676d02504")
-		)
-		(pin "26"
-			(uuid "bdca04dd-8454-4cca-9d8d-84ef0ffdfcd2")
-		)
-		(pin "19"
-			(uuid "8cb3309f-52f4-45dc-a327-380cce54c23b")
-		)
-		(pin "15"
-			(uuid "5b4f507b-f32a-4084-80b4-331e6ffb71e0")
-		)
-		(pin "38"
-			(uuid "18bd1b74-b1d9-4d35-9292-014363e67a3c")
-		)
-		(pin "56"
-			(uuid "0764812a-d1fe-414c-a3c7-058efe261812")
-		)
-		(pin "11"
-			(uuid "0c443963-0e8f-4ebb-bdcc-a0398bd1d632")
-		)
-		(pin "25"
-			(uuid "080afab3-5a04-4645-91e2-e0680e38d913")
-		)
-		(pin "54"
-			(uuid "3b82ac4b-8ec1-4f3a-aca5-5562640f82c7")
-		)
-		(pin "45"
-			(uuid "719c0534-10cc-42e6-9064-b0f64ec89a02")
-		)
-		(pin "50"
-			(uuid "5c4303ed-a9a4-49fd-bc76-603369cceb06")
-		)
-		(pin "20"
-			(uuid "3a1a6931-6569-460a-8ac8-cfcd18b118f8")
-		)
-		(pin "3"
-			(uuid "4bee2a3f-c5d3-40aa-932b-76d7e503d18d")
-		)
-		(pin "47"
-			(uuid "394f6813-fda6-47d1-bebb-902668efbbd4")
-		)
-		(pin "34"
-			(uuid "640ba4be-870d-48bd-b24f-f2e122cf6e76")
-		)
-		(pin "41"
-			(uuid "b568e415-9da0-4e67-8f84-c38605465e08")
-		)
-		(pin "49"
-			(uuid "908bd3fa-912f-4f08-9ef8-6b4914bec44f")
-		)
-		(pin "2"
-			(uuid "212c4351-af0f-4340-84d2-fe5b93de2e3f")
-		)
-		(pin "32"
-			(uuid "694bf7ac-8fdb-4e80-8887-f6e45e590e3a")
-		)
-		(pin "7"
-			(uuid "2f089488-f8e0-4040-9959-9c46c6f1c11e")
-		)
-		(pin "16"
-			(uuid "282f6d4f-e8d5-48a9-b791-3c22ac9cc06f")
-		)
-		(pin "29"
-			(uuid "71a1f933-3821-4356-b509-3c284e3968a2")
-		)
-		(pin "24"
-			(uuid "5a5e0f76-75bc-4938-b16d-3181913deba9")
-		)
-		(pin "57"
-			(uuid "057a698d-29a3-43c3-810b-8ab0285a7b23")
-		)
-		(pin "51"
-			(uuid "5dfd6822-05d4-4335-80e3-ecea993fe384")
-		)
-		(pin "55"
-			(uuid "1445fcbd-596c-4264-9728-d7e5b1800f4d")
-		)
-		(pin "33"
-			(uuid "cbc69bec-a87e-47d2-aa44-9e19e042cd82")
-		)
-		(pin "42"
-			(uuid "6a932421-7fb9-4be4-8803-8f391ffa9901")
-		)
-		(pin "1"
-			(uuid "88735391-dd98-43e5-a092-a6c149c15af6")
-		)
-		(pin "22"
-			(uuid "00b308e8-c6a5-4e9b-8d32-e2da0b307685")
-		)
-		(pin "44"
-			(uuid "9888352f-c5c5-4a5a-a943-8b6ae872e8a2")
-		)
-		(pin "4"
-			(uuid "b6ec3fdb-4f57-477d-a2a4-195e598e6227")
-		)
-		(pin "48"
-			(uuid "ce7c4c3b-c3ed-4b02-aad1-d53a0f8f6463")
-		)
-		(pin "8"
-			(uuid "a7a80a07-85d6-4dde-8b72-d1931c2e7f80")
-		)
-		(pin "12"
-			(uuid "b3e0d324-a8ff-41a0-af2a-ff12c034d3f4")
-		)
-		(pin "14"
-			(uuid "58bbf12f-c7d2-4c5f-b7a3-00aa0507afc0")
-		)
-		(pin "18"
-			(uuid "8d1f6257-b0d0-4eb6-9369-afbca2e35640")
-		)
-		(pin "30"
-			(uuid "c10ece49-6563-449f-81f1-6c4f8a3b08f0")
-		)
-		(pin "31"
-			(uuid "de0b55a1-e5b0-47c5-b985-890ed810b841")
-		)
-		(pin "39"
-			(uuid "5cb084cb-dd06-4f98-8f6b-2528b108c2a5")
-		)
-		(pin "40"
-			(uuid "c6551de3-9c14-4bc8-9670-7dc1944111e1")
-		)
-		(instances
-			(project "AudioAmplifier"
-				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/839c4c72-2f98-40be-9f87-4bc0ff3ce3da"
-					(reference "U3")
 					(unit 1)
 				)
 			)
