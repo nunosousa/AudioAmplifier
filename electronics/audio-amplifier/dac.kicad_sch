@@ -1,0 +1,1622 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5dbf7ebd-3dc0-4581-be8b-c0749f655520")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Audio_custom:PCM1690"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -16.764 39.624 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PCM1690"
+				(at 21.59 39.624 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -47.244 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -50.038 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PCM1690 24-Bit, 192-kHz Sampling, Enhanced Multi-Level ΔΣ, Eight-Channel Audio Digital-to-Analog Converter"
+				(at 0 -52.832 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TQFP*10x10mm?P0.5mm?EP5.3*x5.3*mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCM1690_0_1"
+				(rectangle
+					(start -17.78 38.1)
+					(end 17.78 -38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PCM1690_1_1"
+				(pin power_in line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "VDD_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(name "AGND_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 40.64 270)
+					(length 2.54)
+					(name "AVCC_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -20.32 0)
+					(length 2.54)
+					(name "~{RESETB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 40.64 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -10.16 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -33.02 0)
+					(length 2.54)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -25.4 0)
+					(length 2.54)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -25.4 180)
+					(length 2.54)
+					(name "VOUT8+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -27.94 180)
+					(length 2.54)
+					(name "VOUT8-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -40.64 90)
+					(length 2.54)
+					(name "AGND_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "VOUT7+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 40.64 270)
+					(length 2.54)
+					(name "AVCC_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -20.32 180)
+					(length 2.54)
+					(name "VOUT7-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(name "VDD_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "VOUT6+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "VOUT6-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "VOUT5+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "VOUT5-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "VOUT4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "VOUT4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "VOUT3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 10.16 180)
+					(length 2.54)
+					(name "VOUT3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -15.24 0)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 20.32 180)
+					(length 2.54)
+					(name "VOUT2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 17.78 180)
+					(length 2.54)
+					(name "VOUT2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 27.94 180)
+					(length 2.54)
+					(name "VOUT1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 25.4 180)
+					(length 2.54)
+					(name "VOUT1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "DATA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 2.54)
+					(name "DATA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "DATA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "DATA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 20.32 0)
+					(length 2.54)
+					(name "DATA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 22.86 0)
+					(length 2.54)
+					(name "DATA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 25.4 0)
+					(length 2.54)
+					(name "DATA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 27.94 0)
+					(length 2.54)
+					(name "DATA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 30.48 0)
+					(length 2.54)
+					(name "DATA_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 40.64 270)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "AGND_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 40.64 270)
+					(length 2.54)
+					(hide yes)
+					(name "AVCC_{L}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "OUT_HIGH_P_LEFT"
+		(shape output)
+		(at 215.9 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e9ff972-6a1f-4e23-9154-861fa51df968")
+	)
+	(hierarchical_label "OUT_HIGH_N_RIGHT"
+		(shape output)
+		(at 219.71 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22091225-22b0-409a-a728-6a0d5f3b8d5c")
+	)
+	(hierarchical_label "OUT_HIGH_P_RIGHT"
+		(shape output)
+		(at 215.9 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48da3d4e-c574-4b84-b011-237e4d3fe2db")
+	)
+	(hierarchical_label "OUT_LOW_P"
+		(shape output)
+		(at 215.9 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c0e8b3a-07f4-4cda-9dde-671994793b9a")
+	)
+	(hierarchical_label "OUT_HIGH_N_LEFT"
+		(shape output)
+		(at 219.71 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d45eb8c-b592-4523-a4f3-d67847596104")
+	)
+	(hierarchical_label "OUT_LOW_N"
+		(shape output)
+		(at 219.71 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d82776-ca7d-482f-8e7e-6ebbc9fd98b7")
+	)
+	(symbol
+		(lib_id "Audio_custom:PCM1690")
+		(at 132.08 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a753df-8a98-4377-a517-73b7cd8fcf53")
+		(property "Reference" "U5"
+			(at 139.3033 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCM1690"
+			(at 139.3033 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 145.034 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 147.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PCM1690 24-Bit, 192-kHz Sampling, Enhanced Multi-Level ΔΣ, Eight-Channel Audio Digital-to-Analog Converter"
+			(at 132.08 150.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "53"
+			(uuid "bf8ae970-2be1-4be8-8346-63bc277c1d04")
+		)
+		(pin "55"
+			(uuid "c592294b-7254-4a32-9bf2-21a254a8b783")
+		)
+		(pin "59"
+			(uuid "ae9cfd49-3361-4096-977c-00eff4e06a1f")
+		)
+		(pin "57"
+			(uuid "f617a47a-ad38-414a-924a-c6c0d532a647")
+		)
+		(pin "58"
+			(uuid "3753fa31-a3bb-49f6-8685-0a60331f5c2c")
+		)
+		(pin "56"
+			(uuid "b2b6749c-61af-44bc-a524-3ce4fd1ca0a7")
+		)
+		(pin "60"
+			(uuid "c634b02a-5001-439f-8bc4-e0045015057d")
+		)
+		(pin "52"
+			(uuid "dd6f014f-612f-4448-82c1-88d209cdc561")
+		)
+		(pin "61"
+			(uuid "55caf675-a008-4c5e-b541-eac43cacce65")
+		)
+		(pin "54"
+			(uuid "0f82921b-a5b6-444d-ac29-8cc40f35dc70")
+		)
+		(pin "62"
+			(uuid "b6be3680-4ba0-4b08-a9af-d34cb2fb588e")
+		)
+		(pin "27"
+			(uuid "7e88f90b-98fd-47d5-b74a-b04419c2147a")
+		)
+		(pin "17"
+			(uuid "768c3ff7-d90e-4c7b-8699-8e8d53989a0d")
+		)
+		(pin "20"
+			(uuid "d4811e5d-313c-4321-a417-953fc38a3898")
+		)
+		(pin "1"
+			(uuid "b26166c3-69c3-4f7b-86ff-078ea1c6fece")
+		)
+		(pin "21"
+			(uuid "1ab36ff8-946b-4582-9b80-07f8ceaa660c")
+		)
+		(pin "29"
+			(uuid "61fe2775-3e18-460e-b6af-0db739f83ad5")
+		)
+		(pin "19"
+			(uuid "2eb6c866-c523-44d5-98b7-7b05ae5daf78")
+		)
+		(pin "28"
+			(uuid "3aea98c0-9a2c-44b4-aac3-622a0fb500c2")
+		)
+		(pin "8"
+			(uuid "c1728669-da23-4311-9d08-55837700c959")
+		)
+		(pin "63"
+			(uuid "79146dd2-08fe-40ab-b072-54e628ee49e9")
+		)
+		(pin "24"
+			(uuid "32b18d31-3705-4341-acaf-9cf327c53438")
+		)
+		(pin "23"
+			(uuid "9084ee9b-7ecb-4d02-8dc7-e6025c9ecdcd")
+		)
+		(pin "30"
+			(uuid "343d6c21-0f4c-46ff-a2b1-710107ca82cf")
+		)
+		(pin "18"
+			(uuid "46b646d7-a43f-4fb0-ac68-9f5205566521")
+		)
+		(pin "25"
+			(uuid "5c19b35a-bf96-4270-b077-973828cb37d6")
+		)
+		(pin "9"
+			(uuid "95ab7f3e-c60a-4231-aaf5-019a8e6c9504")
+		)
+		(pin "29"
+			(uuid "cfeb6895-ab4e-4536-b2aa-cc2d22c25667")
+		)
+		(pin "6"
+			(uuid "d0090fa6-43d1-4122-bd62-254b60b4493a")
+		)
+		(pin "16"
+			(uuid "a23d1fd2-65ef-4e36-9db6-5c01714fb539")
+		)
+		(pin "11"
+			(uuid "7d03b127-d398-469b-86d9-500b39ff3297")
+		)
+		(pin "64"
+			(uuid "38b0f63d-cdec-4ece-b933-f4bda04aa2f7")
+		)
+		(pin "65"
+			(uuid "1205dd80-3e86-47d9-a327-8188d7303a2b")
+		)
+		(pin "10"
+			(uuid "d3ca5d3e-6f70-445c-9dc1-f75fc8ea9e97")
+		)
+		(pin "22"
+			(uuid "d2b513f4-cc6e-42e5-aea2-3dd4a7b33513")
+		)
+		(pin "26"
+			(uuid "20eafdac-704e-48db-8cc2-85754b86db00")
+		)
+		(pin "7"
+			(uuid "17370096-2746-4ffc-b45c-3a6555952244")
+		)
+		(pin "37"
+			(uuid "149dc557-b263-47d3-a3c2-098ddad61eb1")
+		)
+		(pin "33"
+			(uuid "8f5e5c83-257c-4c30-bb2e-43ee4d738fa4")
+		)
+		(pin "39"
+			(uuid "27eb026a-31cb-406b-9615-11fee569980f")
+		)
+		(pin "31"
+			(uuid "c654adc3-3262-4148-ba6b-0686c77ded32")
+		)
+		(pin "51"
+			(uuid "9fb93a35-1226-429d-b228-c73d72115b21")
+		)
+		(pin "35"
+			(uuid "839f6e13-3cc5-4f69-b6d7-645577cd49ce")
+		)
+		(pin "34"
+			(uuid "9d3b3e92-4f96-4be0-adfc-5d5471de7add")
+		)
+		(pin "31"
+			(uuid "406dbd56-96f6-431d-9b17-a0fd6ddc1108")
+		)
+		(pin "44"
+			(uuid "1ec26ee3-cfb8-4b27-84f3-1ddc66872afb")
+		)
+		(pin "41"
+			(uuid "1ccce5bb-49a7-46be-926a-eae9678ed7d9")
+		)
+		(pin "32"
+			(uuid "5482042a-3fdf-4af8-b658-922d38fa52c9")
+		)
+		(pin "43"
+			(uuid "7e7aedc0-894c-4b22-8182-9499dfb21008")
+		)
+		(pin "38"
+			(uuid "8a9eae9a-57f7-4480-abab-ffecaa3e60cf")
+		)
+		(pin "40"
+			(uuid "8fa8592c-61cb-46e4-ad2c-7380639746a4")
+		)
+		(pin "36"
+			(uuid "a4d5c4ea-9d61-4fe0-a97f-0790ee590887")
+		)
+		(pin "30"
+			(uuid "fa222b43-e65d-40d6-bbb2-d51687979467")
+		)
+		(pin "39"
+			(uuid "4fdef666-85f9-4df7-892f-c81897eee97c")
+		)
+		(pin "50"
+			(uuid "a19e1112-e400-4368-bd55-02d95ceefac7")
+		)
+		(pin "49"
+			(uuid "24659002-146d-4da4-a2d1-9af19aaf3e07")
+		)
+		(pin "38"
+			(uuid "6ddcba71-0b51-40e8-b5eb-eec3bd6ac181")
+		)
+		(pin "48"
+			(uuid "5e52182f-0f88-4209-8893-53df688f84fc")
+		)
+		(pin "43"
+			(uuid "bd819142-e379-40b6-8cc4-b618b8af7809")
+		)
+		(pin "42"
+			(uuid "95d12214-bd03-4c34-937c-f7ee424cd3f0")
+		)
+		(pin "32"
+			(uuid "be99c57e-57a0-4f18-8778-7b1c92a3a476")
+		)
+		(pin "33"
+			(uuid "03e19a4d-bd8e-44ab-a6ec-3f7efc4e13ef")
+		)
+		(pin "41"
+			(uuid "baa7357b-7ff3-43a0-8894-3988aabbe533")
+		)
+		(pin "40"
+			(uuid "1f55ed4f-2b51-491f-a3c1-e49f9146c821")
+		)
+		(pin "42"
+			(uuid "7d38c77a-02e6-48e0-8c11-2c72b84ee283")
+		)
+		(instances
+			(project "AudioAmplifier"
+				(path "/25850e95-ec38-4f44-abc7-84315032ad0c/27eac696-60cf-40a7-a595-869a5da529c3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
